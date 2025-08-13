@@ -73,7 +73,10 @@ export class DoubleLinkedList<T> {
 	 * @returns {T | undefined} The value of the removed tail node, or `undefined` if the list is empty.
 	 */
 	public pop(): T | undefined {
-		if (!this.tail) return undefined;
+		if (!this.tail) {
+			return;
+		}
+
 		const value = this.tail.value;
 		if (this.head === this.tail) {
 			this.head = this.tail = null;
@@ -85,6 +88,7 @@ export class DoubleLinkedList<T> {
 		}
 
 		this.length--;
+
 		return value;
 	}
 

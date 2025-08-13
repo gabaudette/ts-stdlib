@@ -101,7 +101,9 @@ export class SingleLinkedList<T> {
 			if (!this.head) {
 				this.tail = null;
 			}
+
 			this.length--;
+
 			return true;
 		}
 
@@ -114,10 +116,13 @@ export class SingleLinkedList<T> {
 				}
 
 				this.length--;
+
 				return true;
 			}
+
 			current = current.next;
 		}
+
 		return false;
 	}
 
@@ -133,8 +138,10 @@ export class SingleLinkedList<T> {
 			if (current.value === value) {
 				return current;
 			}
+			
 			current = current.next;
 		}
+
 		return null;
 	}
 

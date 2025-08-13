@@ -60,4 +60,28 @@ describe("Stack", () => {
 		expect(s.size()).toBe(0);
 		expect(s.isEmpty?.()).toBe(true);
 	});
+
+	it("push throws error if stack size exceeds Number.MAX_SAFE_INTEGER", () => {
+		const s = new Stack<number>();
+		// Simulate stack size at MAX_SAFE_INTEGER by monkey-patching size()
+		const origSize = s.size;
+		s.size = () => Number.MAX_SAFE_INTEGER + 1;
+		expect(() => s.push(42)).toThrowError("Stack overflow");
+		// Restore original size method
+		s.size = origSize;
+	});
+
+	it("peek returns undefined when stack is empty", () => {
+		const s = new Stack<number>();
+		expect(s.peek()).toBeUndefined();
+	});
+
+	it("push adds elements to the top of the stack", () => {
+		const s = new Stack<number>();
+		s.push(5);
+		s.push(10);
+		expect(s.peek()).toBe(10);
+		s.push(20);
+		expect(s.peek()).toBe(20);
+	});
 });

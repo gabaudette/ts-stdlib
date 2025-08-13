@@ -1,14 +1,14 @@
-[**@ts-stdlib/algorithms v1.0.1**](../../../README.md)
+[**@ts-standard-library/algorithms v1.0.3**](../../../README.md)
 
 ***
 
-[@ts-stdlib/algorithms](../../../modules.md) / [sorting/distribution-sort](../README.md) / distributionSort
+[@ts-standard-library/algorithms](../../../modules.md) / [sorting/distribution-sort](../README.md) / distributionSort
 
 # Function: distributionSort()
 
 > **distributionSort**\<`T`\>(`arr`, `compareFn`, `keyFn`): `T`[]
 
-Defined in: [sorting/distribution-sort.ts:18](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/algorithms/src/sorting/distribution-sort.ts#L18)
+Defined in: [sorting/distribution-sort.ts:18](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/algorithms/src/sorting/distribution-sort.ts#L18)
 
 Sorts an array using a distribution sort algorithm, which divides the input into buckets
 based on a value extracted from each item, sorts each bucket, and then concatenates the results.

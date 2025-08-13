@@ -1,4 +1,4 @@
-**@ts-stdlib/data-structures v1.0.1**
+**@ts-standard-library/data-structures v1.0.3**
 
 ***
 
@@ -6,23 +6,9 @@
 
 A collection of TypeScript standard library utilities to enhance productivity and code quality.
 
-## Features
+## Data Structure module
 
-- Utility functions for common tasks
-- Type-safe helpers
-- Modular and easy to use
-- Tree shackable
-
-## Installation
-
-```bash
-npm install ts-stdlib
-```
-
-## Documentation
-- [Algorithms Documentation](https://github.com/gabaudette/ts-stdlib/blob/main/packages/algorithms/docs/README.md)
-- [Data Structures Documentation](https://github.com/gabaudette/ts-stdlib/blob/main/packages/data-structures/docs/README.md)
-- [String Documentation](https://github.com/gabaudette/ts-stdlib/blob/main/packages/string/docs/README.md)
+[For more information about the project](https://github.com/gabaudette/ts-stdlib/)
 
 ## Contributing
 

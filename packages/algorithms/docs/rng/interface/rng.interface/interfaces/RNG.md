@@ -1,12 +1,12 @@
-[**@ts-stdlib/algorithms v1.0.1**](../../../../README.md)
+[**@ts-standard-library/algorithms v1.0.3**](../../../../README.md)
 
 ***
 
-[@ts-stdlib/algorithms](../../../../modules.md) / [rng/interface/rng.interface](../README.md) / RNG
+[@ts-standard-library/algorithms](../../../../modules.md) / [rng/interface/rng.interface](../README.md) / RNG
 
 # Interface: RNG
 
-Defined in: [rng/interface/rng.interface.ts:1](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/algorithms/src/rng/interface/rng.interface.ts#L1)
+Defined in: [rng/interface/rng.interface.ts:1](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/algorithms/src/rng/interface/rng.interface.ts#L1)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: [rng/interface/rng.interface.ts:1](https://github.com/gabaudette/ts-
 
 > **randomInt**(): `number`
 
-Defined in: [rng/interface/rng.interface.ts:2](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/algorithms/src/rng/interface/rng.interface.ts#L2)
+Defined in: [rng/interface/rng.interface.ts:2](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/algorithms/src/rng/interface/rng.interface.ts#L2)
 
 #### Returns
 
@@ -26,7 +26,7 @@ Defined in: [rng/interface/rng.interface.ts:2](https://github.com/gabaudette/ts-
 
 > **random**(): `number`
 
-Defined in: [rng/interface/rng.interface.ts:3](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/algorithms/src/rng/interface/rng.interface.ts#L3)
+Defined in: [rng/interface/rng.interface.ts:3](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/algorithms/src/rng/interface/rng.interface.ts#L3)
 
 #### Returns
 

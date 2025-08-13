@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach } from "vitest";
+import { beforeEach, describe, it, expect } from "vitest";
 import { Xorshift } from "./xorshift";
 
 describe("Xorshift", () => {

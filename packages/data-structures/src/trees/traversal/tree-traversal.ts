@@ -22,6 +22,7 @@ export function preOrderTraversal<T>(
 		traverse(node.left);
 		traverse(node.right);
 	}
+
 	traverse(root);
 }
 
@@ -48,6 +49,7 @@ export function postOrderTraversal<T>(
 		traverse(node.right);
 		callback(node.value);
 	}
+
 	traverse(root);
 }
 
@@ -74,6 +76,7 @@ export function inOrderTraversal<T>(
 		callback(node.value);
 		traverse(node.right);
 	}
+	
 	traverse(root);
 }
 
@@ -102,6 +105,7 @@ export function reversePreOrderTraversal<T>(
 		callback(node.value);
 		traverse(node.left);
 	}
+
 	traverse(root);
 }
 
@@ -128,6 +132,7 @@ export function reversePostOrderTraversal<T>(
 		traverse(node.left);
 		callback(node.value);
 	}
+
 	traverse(root);
 }
 
@@ -155,6 +160,7 @@ export function reverseInOrderTraversal<T>(
 		callback(node.value);
 		traverse(node.left);
 	}
+
 	traverse(root);
 }
 

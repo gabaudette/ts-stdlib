@@ -106,8 +106,10 @@ export class BinaryTree<T> {
 		if (!node) {
 			return 0;
 		}
+		
 		const leftHeight = this.getHeight(node.left);
 		const rightHeight = this.getHeight(node.right);
+
 		return Math.max(leftHeight, rightHeight) + 1;
 	}
 

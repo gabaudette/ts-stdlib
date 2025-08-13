@@ -38,6 +38,7 @@ export class Xorshift implements RNG {
 		this.state ^= this.state << 13;
 		this.state ^= this.state >> 17;
 		this.state ^= this.state << 5;
+		
 		return this.state >>> 0;
 	}
 }

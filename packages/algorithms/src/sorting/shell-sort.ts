@@ -33,5 +33,6 @@ export function shellSort<T>(
 		}
 		gap = Math.floor(gap / 2);
 	}
+	
 	return array;
 }

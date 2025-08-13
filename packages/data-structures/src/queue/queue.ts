@@ -37,10 +37,12 @@ export class Queue<T> {
 	 * @throws {Error} If the queue exceeds the maximum safe integer length.
 	 */
 	public enqueue(item: T): T {
-		if (this.nodes.length >= Number.MAX_SAFE_INTEGER) {
+		if (this.size() >= Number.MAX_SAFE_INTEGER) {
 			throw new Error("Queue overflow");
 		}
+
 		this.nodes.push(item);
+
 		return item;
 	}
 

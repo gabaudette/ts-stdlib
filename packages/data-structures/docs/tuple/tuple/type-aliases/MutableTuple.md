@@ -1,14 +1,14 @@
-[**@ts-stdlib/data-structures v1.0.1**](../../../README.md)
+[**@ts-standard-library/data-structures v1.0.3**](../../../README.md)
 
 ***
 
-[@ts-stdlib/data-structures](../../../modules.md) / [tuple/tuple](../README.md) / MutableTuple
+[@ts-standard-library/data-structures](../../../modules.md) / [tuple/tuple](../README.md) / MutableTuple
 
 # Type Alias: MutableTuple\<T1, T2\>
 
 > **MutableTuple**\<`T1`, `T2`\> = \[`T1`, `T2`\]
 
-Defined in: [tuple/tuple.ts:117](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/tuple/tuple.ts#L117)
+Defined in: [tuple/tuple.ts:117](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/tuple/tuple.ts#L117)
 
 Represents a mutable tuple containing two elements of types `T1` and `T2`.
 

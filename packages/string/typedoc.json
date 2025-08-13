@@ -11,7 +11,7 @@
 	],
 	"tsconfig": "./tsconfig.json",
 	"out": "docs",
-	"name": "@ts-stdlib/string",
+	"name": "@ts-standard-library/string",
 	"includeVersion": true,
 	"exclude": ["**/*.test.ts"],
 	"excludeExternals": true,

@@ -55,7 +55,7 @@ export class Stack<T> {
 	 * @returns The top element of the stack, or `undefined` if the stack is empty.
 	 */
 	public peek(): T | undefined {
-		if (this.nodes.length === 0) {
+		if (this.size() === 0) {
 			return undefined;
 		}
 

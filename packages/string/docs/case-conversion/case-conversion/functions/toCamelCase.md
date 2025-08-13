@@ -1,14 +1,14 @@
-[**@ts-stdlib/string v1.0.1**](../../../README.md)
+[**@ts-standard-library/string v1.0.3**](../../../README.md)
 
 ***
 
-[@ts-stdlib/string](../../../modules.md) / [case-conversion/case-conversion](../README.md) / toCamelCase
+[@ts-standard-library/string](../../../modules.md) / [case-conversion/case-conversion](../README.md) / toCamelCase
 
 # Function: toCamelCase()
 
 > **toCamelCase**(`str`): `string`
 
-Defined in: [case-conversion/case-conversion.ts:116](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/string/src/case-conversion/case-conversion.ts#L116)
+Defined in: [case-conversion/case-conversion.ts:116](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/string/src/case-conversion/case-conversion.ts#L116)
 
 Converts a given string to camelCase format.
 

@@ -7,7 +7,6 @@ import type { RNG } from "./interface/rng.interface";
  * high performance, and high-quality randomness. This implementation provides methods
  * to generate 32-bit unsigned integers and floating-point numbers in the range [0, 1).
  *
- * @implements {RNG}
  *
  * @example
  * ```typescript
@@ -22,7 +21,7 @@ import type { RNG } from "./interface/rng.interface";
  *
  * @see https://en.wikipedia.org/wiki/Mersenne_Twister
  */
-export class MersenneTwister {
+export class MersenneTwister implements RNG {
 	private static readonly N = 624;
 	private static readonly M = 397;
 	private static readonly MATRIX_A = 0x9908b0df;
@@ -67,6 +66,7 @@ export class MersenneTwister {
 				this.mt[kk] =
 					this.mt[kk + MersenneTwister.M] ^ (y >>> 1) ^ mag01[y & 0x1];
 			}
+
 			for (; kk < MersenneTwister.N - 1; kk++) {
 				y =
 					(this.mt[kk] & MersenneTwister.UPPER_MASK) |
@@ -76,6 +76,7 @@ export class MersenneTwister {
 					(y >>> 1) ^
 					mag01[y & 0x1];
 			}
+
 			y =
 				(this.mt[MersenneTwister.N - 1] & MersenneTwister.UPPER_MASK) |
 				(this.mt[0] & MersenneTwister.LOWER_MASK);

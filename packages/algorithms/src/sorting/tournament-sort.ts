@@ -14,10 +14,14 @@ export function tournamentSort<T>(
 	array: T[],
 	compareFn: (a: T, b: T) => number,
 ): T[] {
-	if (array.length < 2) return array;
+	if (array.length < 2) {
+		return array;
+	}
 
 	const tournament = (start: number, end: number): T[] => {
-		if (start === end) return [array[start]];
+		if (start === end) {
+			return [array[start]];
+		}
 
 		const mid = Math.floor((start + end) / 2);
 		const left = tournament(start, mid);

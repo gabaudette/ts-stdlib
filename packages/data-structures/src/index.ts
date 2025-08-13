@@ -1,6 +1,3 @@
-// Arrays
-export * from "./arrays/functions/functions";
-
 // Stacks
 export * from "./stack/stack";
 export * from "./stack/bounded-stack";

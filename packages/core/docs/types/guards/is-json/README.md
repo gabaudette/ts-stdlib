@@ -1,0 +1,12 @@
+[**@ts-standard-library/core v0.0.1**](../../../README.md)
+
+***
+
+[@ts-standard-library/core](../../../modules.md) / types/guards/is-json
+
+# types/guards/is-json
+
+## Functions
+
+- [isJsonString](functions/isJsonString.md)
+- [isJsonObject](functions/isJsonObject.md)

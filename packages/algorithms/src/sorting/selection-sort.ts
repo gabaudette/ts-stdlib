@@ -14,7 +14,9 @@ export function selectionSort<T>(
 	array: T[],
 	compareFn: (a: T, b: T) => number,
 ): T[] {
-	if (array.length < 2) return array;
+	if (array.length < 2) {
+		return array;
+	}
 
 	for (let i = 0; i < array.length - 1; i++) {
 		let minIndex = i;
@@ -23,6 +25,7 @@ export function selectionSort<T>(
 				minIndex = j;
 			}
 		}
+
 		if (minIndex !== i) {
 			[array[i], array[minIndex]] = [array[minIndex], array[i]];
 		}

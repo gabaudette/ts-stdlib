@@ -20,7 +20,9 @@ export function quickSort<T>(
 	array: T[],
 	compareFn: (a: T, b: T) => number,
 ): T[] {
-	if (array.length < 2) return array;
+	if (array.length < 2) {
+		return array;
+	}
 
 	const partition = (low: number, high: number): number => {
 		const pivot = array[high];

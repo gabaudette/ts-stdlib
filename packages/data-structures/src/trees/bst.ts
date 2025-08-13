@@ -40,9 +40,11 @@ export class BST<T> {
 		if (a > b) {
 			return 1;
 		}
+
 		if (a < b) {
 			return -1;
 		}
+
 		return 0;
 	}
 
@@ -61,19 +63,36 @@ export class BST<T> {
 		} else if (cmp > 0) {
 			node.right = this._insert(node.right, value);
 		}
+
 		return node;
 	}
 
+	/**
+	 * Searches for a node with the specified value in the binary search tree.
+	 *
+	 * @param value - The value to search for in the tree.
+	 * @returns The node containing the specified value, or `null` if not found.
+	 */
 	public find(value: T): BSTNode<T> | null {
 		let node = this.root;
 		while (node) {
 			const cmp = this.compare(value, node.value);
-			if (cmp === 0) return node;
+			if (cmp === 0) {
+				return node;
+			}
+
 			node = cmp < 0 ? node.left : node.right;
 		}
+
 		return null;
 	}
 
+	/**
+	 * Deletes a node with the specified value from the binary search tree.
+	 * If the value does not exist in the tree, the tree remains unchanged.
+	 *
+	 * @param value - The value to delete from the tree.
+	 */
 	public delete(value: T): void {
 		this.root = this._delete(this.root, value);
 	}
@@ -105,16 +124,42 @@ export class BST<T> {
 			node.value = minLargerNode.value;
 			node.right = this._delete(node.right, minLargerNode.value);
 		}
+
 		return node;
 	}
 
+	/**
+	 * Returns the root node of the binary search tree.
+	 *
+	 * @returns The root node of the tree if it exists, otherwise `null`.
+	 */
 	public getRoot(): BSTNode<T> | null {
 		return this.root;
 	}
 
+	/**
+	 * Removes all nodes from the binary search tree, resetting it to an empty state.
+	 *
+	 * @remarks
+	 * After calling this method, the tree will contain no elements and its root will be set to `null`.
+	 *
+	 * @example
+	 * ```typescript
+	 * bst.clear();
+	 * ```
+	 */
 	public clear(): void {
 		this.root = null;
 	}
+
+	/**
+	 * Calculates the height of the binary search tree.
+	 *
+	 * The height is defined as the number of nodes along the longest path
+	 * from the root node down to the farthest leaf node. An empty tree has a height of 0.
+	 *
+	 * @returns {number} The height of the tree.
+	 */
 	public getHeight(): number {
 		const getHeight = (node: BSTNode<T> | null): number => {
 			if (!node) {
@@ -124,6 +169,7 @@ export class BST<T> {
 			const rightHeight = getHeight(node.right);
 			return Math.max(leftHeight, rightHeight) + 1;
 		};
+
 		return getHeight(this.root);
 	}
 }

@@ -1,14 +1,14 @@
-[**@ts-stdlib/algorithms v1.0.1**](../../../README.md)
+[**@ts-standard-library/algorithms v1.0.3**](../../../README.md)
 
 ***
 
-[@ts-stdlib/algorithms](../../../modules.md) / [sorting/selection-sort](../README.md) / selectionSort
+[@ts-standard-library/algorithms](../../../modules.md) / [sorting/selection-sort](../README.md) / selectionSort
 
 # Function: selectionSort()
 
 > **selectionSort**\<`T`\>(`array`, `compareFn`): `T`[]
 
-Defined in: [sorting/selection-sort.ts:13](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/algorithms/src/sorting/selection-sort.ts#L13)
+Defined in: [sorting/selection-sort.ts:13](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/algorithms/src/sorting/selection-sort.ts#L13)
 
 Sorts an array using the selection sort algorithm.
 

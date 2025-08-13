@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach } from "vitest";
+import { beforeEach, describe, expect, it } from "vitest";
 import { BST } from "./bst";
 
 describe("BST", () => {
@@ -98,5 +98,82 @@ describe("BST", () => {
 		expect(objBst.find({ key: 5 })?.value.key).toBe(5);
 		expect(objBst.find({ key: 15 })?.value.key).toBe(15);
 		expect(objBst.find({ key: 20 })).toBeNull();
+	});
+});
+
+describe("_delete (internal)", () => {
+	it("should return null when deleting from an empty tree", () => {
+		const bst = new BST<number>();
+		// @ts-expect-private
+		// @ts-ignore
+		expect(bst._delete(null, 10)).toBeNull();
+	});
+
+	it("should delete the root node with no children", () => {
+		const bst = new BST<number>();
+		bst.insert(10);
+		// @ts-ignore
+		const result = bst._delete(bst.getRoot(), 10);
+		expect(result).toBeNull();
+	});
+
+	it("should delete the root node with only left child", () => {
+		const bst = new BST<number>();
+		bst.insert(10);
+		bst.insert(5);
+		// @ts-ignore
+		const result = bst._delete(bst.getRoot(), 10);
+		expect(result?.value).toBe(5);
+		expect(result?.left).toBeNull();
+		expect(result?.right).toBeNull();
+	});
+
+	it("should delete the root node with only right child", () => {
+		const bst = new BST<number>();
+		bst.insert(10);
+		bst.insert(15);
+		// @ts-ignore
+		const result = bst._delete(bst.getRoot(), 10);
+		expect(result?.value).toBe(15);
+		expect(result?.left).toBeNull();
+		expect(result?.right).toBeNull();
+	});
+
+	it("should delete the root node with two children (replace with min larger node)", () => {
+		const bst = new BST<number>();
+		bst.insert(10);
+		bst.insert(5);
+		bst.insert(15);
+		bst.insert(12);
+		bst.insert(18);
+		// @ts-ignore
+		const result = bst._delete(bst.getRoot(), 10);
+		expect(result?.value).toBe(12);
+		expect(result?.right?.value).toBe(15);
+		expect(result?.left?.value).toBe(5);
+	});
+
+	it("should delete a node with two children where right child has no left child", () => {
+		const bst = new BST<number>();
+		bst.insert(10);
+		bst.insert(5);
+		bst.insert(15);
+		// @ts-ignore
+		const result = bst._delete(bst.getRoot(), 10);
+		expect(result?.value).toBe(15);
+		expect(result?.left?.value).toBe(5);
+		expect(result?.right).toBeNull();
+	});
+
+	it("should not modify the tree if value does not exist", () => {
+		const bst = new BST<number>();
+		bst.insert(10);
+		bst.insert(5);
+		bst.insert(15);
+		// @ts-ignore
+		const result = bst._delete(bst.getRoot(), 42);
+		expect(result?.value).toBe(10);
+		expect(result?.left?.value).toBe(5);
+		expect(result?.right?.value).toBe(15);
 	});
 });

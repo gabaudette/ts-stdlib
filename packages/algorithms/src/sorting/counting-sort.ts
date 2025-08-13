@@ -18,8 +18,14 @@
  * @see {@link https://en.wikipedia.org/wiki/Counting_sort} for more information on counting sort.
  */
 export function countingSort(array: number[], max: number): number[] {
-	if (array.length === 0) return [];
-	if (max < 0) throw new Error("Max must be a non-negative integer");
+	if (array.length === 0) {
+		return [];
+	}
+
+	if (max < 0) {
+		throw new Error("Max must be a non-negative integer");
+	}
+
 	if (array.some((num) => num < 0 || num > max)) {
 		throw new Error(`All numbers must be between 0 and ${max}`);
 	}
@@ -28,9 +34,11 @@ export function countingSort(array: number[], max: number): number[] {
 	for (const num of array) {
 		count[num]++;
 	}
+
 	const result: number[] = [];
 	for (let i = 0; i < count.length; i++) {
 		result.push(...Array(count[i]).fill(i));
 	}
+
 	return result;
 }

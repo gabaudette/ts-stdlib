@@ -29,7 +29,9 @@ export function radixSort(array: number[], maxDigitLength: number): number[] {
 			const digit = getDigit(num, i);
 			buckets[digit].push(num);
 		}
+		
 		array = buckets.flat();
 	}
+
 	return array;
 }

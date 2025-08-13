@@ -4,7 +4,6 @@
 	"plugin": ["typedoc-plugin-markdown"],
 	"theme": "markdown",
 	"entryPoints": [
-		"src/arrays",
 		"src/linked-list",
 		"src/queue",
 		"src/stack",
@@ -14,7 +13,7 @@
 	],
 	"tsconfig": "./tsconfig.json",
 	"out": "docs",
-	"name": "@ts-stdlib/data-structures",
+	"name": "@ts-standard-library/data-structures",
 	"includeVersion": true,
 	"exclude": ["**/*.test.ts"],
 	"excludeExternals": true,

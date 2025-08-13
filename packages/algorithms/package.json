@@ -1,7 +1,7 @@
 {
     "name": "@ts-standard-library/algorithms",
     "description": "A collection of algorithms for TypeScript.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "repository": {
         "type": "git",
         "url": "https://github.com/gabaudette/ts-stdlib/tree/main/packages/algorithms"
@@ -30,6 +30,6 @@
         "typedoc": "0.28.10",
         "typedoc-plugin-markdown": "^4.8.1",
         "typescript": "^5.1.3",
-        "vitest": "^0.34.3"
+        "vitest": "^3.2.4"
     }
 }

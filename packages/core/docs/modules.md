@@ -1,0 +1,42 @@
+[**@ts-standard-library/core v0.0.1**](README.md)
+
+***
+
+# @ts-standard-library/core v0.0.1
+
+## Modules
+
+- [arrays/functions](arrays/functions/README.md)
+- [assertions/assert](assertions/assert/README.md)
+- [compare/deep-equal](compare/deep-equal/README.md)
+- [compare/shallow-equal](compare/shallow-equal/README.md)
+- [environment/is-browser](environment/is-browser/README.md)
+- [environment/is-node](environment/is-node/README.md)
+- [json/parse](json/parse/README.md)
+- [objects/clone](objects/clone/README.md)
+- [objects/is-empty](objects/is-empty/README.md)
+- [objects/manipulation/object-manipulation](objects/manipulation/object-manipulation/README.md)
+- [objects/manipulation/object-manipulation](objects/manipulation/object-manipulation/README-1.md)
+- [objects/merge-deep](objects/merge-deep/README.md)
+- [objects/omit](objects/omit/README.md)
+- [objects/pick](objects/pick/README.md)
+- [objects/property-access/get](objects/property-access/get/README.md)
+- [objects/property-access/get](objects/property-access/get/README-1.md)
+- [objects/property-access/has](objects/property-access/has/README.md)
+- [objects/property-access/has](objects/property-access/has/README-1.md)
+- [objects/property-access/set](objects/property-access/set/README.md)
+- [objects/property-access/set](objects/property-access/set/README-1.md)
+- [types/guards/is-array](types/guards/is-array/README.md)
+- [types/guards/is-array](types/guards/is-array/README-1.md)
+- [types/guards/is-defined](types/guards/is-defined/README.md)
+- [types/guards/is-defined](types/guards/is-defined/README-1.md)
+- [types/guards/is-json](types/guards/is-json/README.md)
+- [types/guards/is-json](types/guards/is-json/README-1.md)
+- [types/guards/is-number](types/guards/is-number/README.md)
+- [types/guards/is-number](types/guards/is-number/README-1.md)
+- [types/guards/is-object-of-type](types/guards/is-object-of-type/README.md)
+- [types/guards/is-object-of-type](types/guards/is-object-of-type/README-1.md)
+- [types/guards/is-object](types/guards/is-object/README.md)
+- [types/guards/is-object](types/guards/is-object/README-1.md)
+- [types/guards/is-string](types/guards/is-string/README.md)
+- [types/guards/is-string](types/guards/is-string/README-1.md)

@@ -1,8 +1,8 @@
-[**@ts-stdlib/algorithms v1.0.1**](../../README.md)
+[**@ts-standard-library/algorithms v1.0.3**](../../README.md)
 
 ***
 
-[@ts-stdlib/algorithms](../../modules.md) / rng/xorshift
+[@ts-standard-library/algorithms](../../modules.md) / rng/xorshift
 
 # rng/xorshift
 

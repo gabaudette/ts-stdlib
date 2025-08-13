@@ -1,12 +1,12 @@
-[**@ts-stdlib/data-structures v1.0.1**](../../../README.md)
+[**@ts-standard-library/data-structures v1.0.3**](../../../README.md)
 
 ***
 
-[@ts-stdlib/data-structures](../../../modules.md) / [trees/bst](../README.md) / BST
+[@ts-standard-library/data-structures](../../../modules.md) / [trees/bst](../README.md) / BST
 
 # Class: BST\<T\>
 
-Defined in: [trees/bst.ts:34](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/trees/bst.ts#L34)
+Defined in: [trees/bst.ts:34](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/trees/bst.ts#L34)
 
 Represents a generic Binary Search Tree (BST) data structure.
 
@@ -46,7 +46,7 @@ The type of elements stored in the tree.
 
 > **new BST**\<`T`\>(`compare`): `BST`\<`T`\>
 
-Defined in: [trees/bst.ts:37](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/trees/bst.ts#L37)
+Defined in: [trees/bst.ts:37](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/trees/bst.ts#L37)
 
 #### Parameters
 
@@ -64,7 +64,7 @@ Defined in: [trees/bst.ts:37](https://github.com/gabaudette/ts-stdlib/blob/94404
 
 > **insert**(`value`): `void`
 
-Defined in: [trees/bst.ts:49](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/trees/bst.ts#L49)
+Defined in: [trees/bst.ts:51](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/trees/bst.ts#L51)
 
 #### Parameters
 
@@ -82,7 +82,9 @@ Defined in: [trees/bst.ts:49](https://github.com/gabaudette/ts-stdlib/blob/94404
 
 > **find**(`value`): `null` \| [`BSTNode`](BSTNode.md)\<`T`\>
 
-Defined in: [trees/bst.ts:67](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/trees/bst.ts#L67)
+Defined in: [trees/bst.ts:76](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/trees/bst.ts#L76)
+
+Searches for a node with the specified value in the binary search tree.
 
 #### Parameters
 
@@ -90,9 +92,13 @@ Defined in: [trees/bst.ts:67](https://github.com/gabaudette/ts-stdlib/blob/94404
 
 `T`
 
+The value to search for in the tree.
+
 #### Returns
 
 `null` \| [`BSTNode`](BSTNode.md)\<`T`\>
+
+The node containing the specified value, or `null` if not found.
 
 ***
 
@@ -100,13 +106,18 @@ Defined in: [trees/bst.ts:67](https://github.com/gabaudette/ts-stdlib/blob/94404
 
 > **delete**(`value`): `void`
 
-Defined in: [trees/bst.ts:77](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/trees/bst.ts#L77)
+Defined in: [trees/bst.ts:96](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/trees/bst.ts#L96)
+
+Deletes a node with the specified value from the binary search tree.
+If the value does not exist in the tree, the tree remains unchanged.
 
 #### Parameters
 
 ##### value
 
 `T`
+
+The value to delete from the tree.
 
 #### Returns
 
@@ -118,11 +129,15 @@ Defined in: [trees/bst.ts:77](https://github.com/gabaudette/ts-stdlib/blob/94404
 
 > **getRoot**(): `null` \| [`BSTNode`](BSTNode.md)\<`T`\>
 
-Defined in: [trees/bst.ts:111](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/trees/bst.ts#L111)
+Defined in: [trees/bst.ts:136](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/trees/bst.ts#L136)
+
+Returns the root node of the binary search tree.
 
 #### Returns
 
 `null` \| [`BSTNode`](BSTNode.md)\<`T`\>
+
+The root node of the tree if it exists, otherwise `null`.
 
 ***
 
@@ -130,11 +145,23 @@ Defined in: [trees/bst.ts:111](https://github.com/gabaudette/ts-stdlib/blob/9440
 
 > **clear**(): `void`
 
-Defined in: [trees/bst.ts:115](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/trees/bst.ts#L115)
+Defined in: [trees/bst.ts:151](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/trees/bst.ts#L151)
+
+Removes all nodes from the binary search tree, resetting it to an empty state.
 
 #### Returns
 
 `void`
+
+#### Remarks
+
+After calling this method, the tree will contain no elements and its root will be set to `null`.
+
+#### Example
+
+```typescript
+bst.clear();
+```
 
 ***
 
@@ -142,8 +169,15 @@ Defined in: [trees/bst.ts:115](https://github.com/gabaudette/ts-stdlib/blob/9440
 
 > **getHeight**(): `number`
 
-Defined in: [trees/bst.ts:118](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/trees/bst.ts#L118)
+Defined in: [trees/bst.ts:163](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/trees/bst.ts#L163)
+
+Calculates the height of the binary search tree.
+
+The height is defined as the number of nodes along the longest path
+from the root node down to the farthest leaf node. An empty tree has a height of 0.
 
 #### Returns
 
 `number`
+
+The height of the tree.

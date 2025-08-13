@@ -1,12 +1,11 @@
-[**@ts-stdlib/data-structures v1.0.1**](README.md)
+[**@ts-standard-library/data-structures v1.0.3**](README.md)
 
 ***
 
-# @ts-stdlib/data-structures v1.0.1
+# @ts-standard-library/data-structures v1.0.3
 
 ## Modules
 
-- [arrays/functions/functions](arrays/functions/functions/README.md)
 - [linked-list/circular-linked-list](linked-list/circular-linked-list/README.md)
 - [linked-list/double-linked-list](linked-list/double-linked-list/README.md)
 - [linked-list/single-linked-list](linked-list/single-linked-list/README.md)

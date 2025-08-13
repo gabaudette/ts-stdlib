@@ -1,20 +1,18 @@
-[**@ts-stdlib/algorithms v1.0.1**](../../../README.md)
+[**@ts-standard-library/algorithms v1.0.3**](../../../README.md)
 
 ***
 
-[@ts-stdlib/algorithms](../../../modules.md) / [rng/mersenne-twister](../README.md) / MersenneTwister
+[@ts-standard-library/algorithms](../../../modules.md) / [rng/mersenne-twister](../README.md) / MersenneTwister
 
 # Class: MersenneTwister
 
-Defined in: [rng/mersenne-twister.ts:25](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/algorithms/src/rng/mersenne-twister.ts#L25)
+Defined in: [rng/mersenne-twister.ts:24](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/algorithms/src/rng/mersenne-twister.ts#L24)
 
 Implements the Mersenne Twister pseudorandom number generator (MT19937).
 
 The Mersenne Twister is a widely used PRNG known for its long period (2^19937−1),
 high performance, and high-quality randomness. This implementation provides methods
 to generate 32-bit unsigned integers and floating-point numbers in the range [0, 1).
-
-## Implements
 
 ## Example
 
@@ -33,13 +31,17 @@ const float = mt.random();  // floating-point number in [0, 1)
 
 https://en.wikipedia.org/wiki/Mersenne_Twister
 
+## Implements
+
+- [`RNG`](../../interface/rng.interface/interfaces/RNG.md)
+
 ## Constructors
 
 ### Constructor
 
 > **new MersenneTwister**(`seed`): `MersenneTwister`
 
-Defined in: [rng/mersenne-twister.ts:35](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/algorithms/src/rng/mersenne-twister.ts#L35)
+Defined in: [rng/mersenne-twister.ts:34](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/algorithms/src/rng/mersenne-twister.ts#L34)
 
 #### Parameters
 
@@ -57,7 +59,7 @@ Defined in: [rng/mersenne-twister.ts:35](https://github.com/gabaudette/ts-stdlib
 
 > **randomInt**(): `number`
 
-Defined in: [rng/mersenne-twister.ts:56](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/algorithms/src/rng/mersenne-twister.ts#L56)
+Defined in: [rng/mersenne-twister.ts:55](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/algorithms/src/rng/mersenne-twister.ts#L55)
 
 Generates a random 32-bit unsigned integer using the Mersenne Twister algorithm.
 
@@ -70,13 +72,17 @@ tempering transformations to improve the statistical properties of the output.
 
 A random 32-bit unsigned integer.
 
+#### Implementation of
+
+[`RNG`](../../interface/rng.interface/interfaces/RNG.md).[`randomInt`](../../interface/rng.interface/interfaces/RNG.md#randomint)
+
 ***
 
 ### random()
 
 > **random**(): `number`
 
-Defined in: [rng/mersenne-twister.ts:104](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/algorithms/src/rng/mersenne-twister.ts#L104)
+Defined in: [rng/mersenne-twister.ts:105](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/algorithms/src/rng/mersenne-twister.ts#L105)
 
 Generates a random floating-point number in the range [0, 1).
 
@@ -85,3 +91,7 @@ Generates a random floating-point number in the range [0, 1).
 `number`
 
 A pseudo-random number greater than or equal to 0 and less than 1.
+
+#### Implementation of
+
+[`RNG`](../../interface/rng.interface/interfaces/RNG.md).[`random`](../../interface/rng.interface/interfaces/RNG.md#random)

@@ -1,8 +1,8 @@
-[**@ts-stdlib/string v1.0.1**](../../README.md)
+[**@ts-standard-library/string v1.0.3**](../../README.md)
 
 ***
 
-[@ts-stdlib/string](../../modules.md) / trims/trim
+[@ts-standard-library/string](../../modules.md) / trims/trim
 
 # trims/trim
 

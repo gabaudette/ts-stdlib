@@ -20,7 +20,9 @@ export function insertionSort<T>(
 	array: T[],
 	compareFn: (a: T, b: T) => number,
 ): T[] {
-	if (array.length < 2) return array;
+	if (array.length < 2) {
+		return array;
+	}
 
 	for (let i = 1; i < array.length; i++) {
 		const key = array[i];

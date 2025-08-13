@@ -57,4 +57,26 @@ describe("Queue", () => {
 		expect(queue.size()).toBe(0);
 		expect(queue.dequeue()).toBeUndefined();
 	});
+
+	it("should return the enqueued item", () => {
+		const result = queue.enqueue(99);
+		expect(result).toBe(99);
+	});
+
+	it("should add items to the end of the queue", () => {
+		queue.enqueue(1);
+		queue.enqueue(2);
+		queue.enqueue(3);
+		expect(queue.dequeue()).toBe(1);
+		expect(queue.dequeue()).toBe(2);
+		expect(queue.dequeue()).toBe(3);
+	});
+
+	it("should throw an error if queue exceeds MAX_SAFE_INTEGER length", () => {
+		const originalSize = queue.size;
+		queue.size = () => Number.MAX_SAFE_INTEGER;
+		expect(() => queue.enqueue(1)).toThrowError("Queue overflow");
+		queue.size = originalSize;
+	});
 });
+

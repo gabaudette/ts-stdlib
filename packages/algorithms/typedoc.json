@@ -6,7 +6,7 @@
 	"entryPoints": ["src/rng", "src/sorting"],
 	"tsconfig": "./tsconfig.json",
 	"out": "docs",
-	"name": "@ts-stdlib/algorithms",
+	"name": "@ts-standard-library/algorithms",
 	"includeVersion": true,
 	"exclude": ["**/*.test.ts"],
 	"excludeExternals": true,

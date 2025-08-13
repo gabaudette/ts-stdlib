@@ -41,13 +41,13 @@ export function capitalize(text: string): string {
  * and converts the entire string to lowercase.
  *
  * @param text - The input string to convert.
- * 
+ *
  * @example
  * ```typescript
  * toSnakeCase('Hello World'); // returns 'hello_world'
  * toSnakeCase('This is a test'); // returns 'this_is_a_test'
  * ```
- * 
+ *
  * @returns The snake_case version of the input string.
  */
 export function toSnakeCase(text: string): string {
@@ -114,16 +114,10 @@ export function toPascalCase(str: string): string {
  * ```
  */
 export function toCamelCase(str: string): string {
-	const words = str.replace(/[_\- ]+/g, " ").split(" ");
-	return words
-		.map((word, i) => {
-			if (word.length === 0) return "";
-			if (i === 0) {
-				return word.charAt(0).toLowerCase() + word.slice(1);
-			}
-			return word.charAt(0).toUpperCase() + word.slice(1);
-		})
-		.join("");
+    const pascal = toPascalCase(str);
+				return pascal.length > 0
+					? pascal[0].toLowerCase() + pascal.slice(1)
+					: "";
 }
 
 /**

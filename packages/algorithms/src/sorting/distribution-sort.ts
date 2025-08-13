@@ -20,12 +20,16 @@ export function distributionSort<T>(
 	compareFn: (a: T, b: T) => number,
 	keyFn: (item: T) => number,
 ): T[] {
-	if (arr.length === 0) return [];
+	if (arr.length === 0) {
+		return [];
+	}
+
 	const min = Math.min(...arr.map(keyFn));
 	const max = Math.max(...arr.map(keyFn));
 	const buckets: T[][] = Array.from({ length: max - min + 1 }, () => []);
 	for (const item of arr) {
 		buckets[keyFn(item) - min].push(item);
 	}
+
 	return buckets.flat().sort(compareFn);
 }

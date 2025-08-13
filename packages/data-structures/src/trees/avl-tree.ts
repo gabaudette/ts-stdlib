@@ -49,9 +49,11 @@ export class AVLTree<T> {
 		if (a > b) {
 			return 1;
 		}
+
 		if (a < b) {
 			return -1;
 		}
+		
 		return 0;
 	}
 
@@ -102,7 +104,9 @@ export class AVLTree<T> {
 		value: T,
 		compare: (a: T, b: T) => number = this._defaultCompare,
 	): AVLTreeNode<T> {
-		if (!node) return new AVLTreeNode(value);
+		if (!node) {
+			return new AVLTreeNode(value);
+		}
 
 		if (compare(value, node.value) < 0) {
 			node.left = this.insertNode(node.left, value, compare);
@@ -114,6 +118,7 @@ export class AVLTree<T> {
 
 		node.height =
 			1 + Math.max(this.getHeight(node.left), this.getHeight(node.right));
+
 		const balance = this.getBalance(node);
 
 		if (
@@ -123,6 +128,7 @@ export class AVLTree<T> {
 		) {
 			return this.rightRotate(node);
 		}
+
 		if (
 			balance < -1 &&
 			node.right !== null &&
@@ -130,6 +136,7 @@ export class AVLTree<T> {
 		) {
 			return this.leftRotate(node);
 		}
+
 		if (
 			balance > 1 &&
 			node.left !== null &&
@@ -180,9 +187,13 @@ export class AVLTree<T> {
 		let current = this.root;
 		while (current) {
 			const cmp = compare(value, current.value);
-			if (cmp === 0) return true;
+			if (cmp === 0) {
+				return true;
+			}
+
 			current = cmp < 0 ? current.left : current.right;
 		}
+		
 		return false;
 	}
 }

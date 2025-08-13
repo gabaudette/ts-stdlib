@@ -1,14 +1,14 @@
-[**@ts-stdlib/data-structures v1.0.1**](../../../README.md)
+[**@ts-standard-library/data-structures v1.0.3**](../../../README.md)
 
 ***
 
-[@ts-stdlib/data-structures](../../../modules.md) / [tuple/tuple](../README.md) / MutableTuple5
+[@ts-standard-library/data-structures](../../../modules.md) / [tuple/tuple](../README.md) / MutableTuple5
 
 # Type Alias: MutableTuple5\<T1, T2, T3, T4, T5\>
 
 > **MutableTuple5**\<`T1`, `T2`, `T3`, `T4`, `T5`\> = \[`T1`, `T2`, `T3`, `T4`, `T5`\]
 
-Defined in: [tuple/tuple.ts:192](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/tuple/tuple.ts#L192)
+Defined in: [tuple/tuple.ts:192](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/tuple/tuple.ts#L192)
 
 Represents a mutable tuple containing five elements of potentially different types.
 

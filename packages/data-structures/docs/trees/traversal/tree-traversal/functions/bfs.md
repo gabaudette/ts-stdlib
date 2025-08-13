@@ -1,14 +1,14 @@
-[**@ts-stdlib/data-structures v1.0.1**](../../../../README.md)
+[**@ts-standard-library/data-structures v1.0.3**](../../../../README.md)
 
 ***
 
-[@ts-stdlib/data-structures](../../../../modules.md) / [trees/traversal/tree-traversal](../README.md) / bfs
+[@ts-standard-library/data-structures](../../../../modules.md) / [trees/traversal/tree-traversal](../README.md) / bfs
 
 # Function: bfs()
 
 > **bfs**\<`T`\>(`root`, `callback`): `void`
 
-Defined in: [trees/traversal/tree-traversal.ts:171](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/trees/traversal/tree-traversal.ts#L171)
+Defined in: [trees/traversal/tree-traversal.ts:177](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/trees/traversal/tree-traversal.ts#L177)
 
 Performs a breadth-first search (BFS) traversal on a binary tree.
 

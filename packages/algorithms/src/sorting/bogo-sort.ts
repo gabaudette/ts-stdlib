@@ -17,11 +17,15 @@ export function bogoSort<T>(
 	array: T[],
 	compareFn: (a: T, b: T) => number,
 ): T[] {
-	if (array.length < 2) return array;
+	if (array.length < 2) {
+		return array;
+	}
 
 	const isSorted = (arr: T[]): boolean => {
 		for (let i = 1; i < arr.length; i++) {
-			if (compareFn(arr[i - 1], arr[i]) > 0) return false;
+			if (compareFn(arr[i - 1], arr[i]) > 0) {
+				return false;
+			}
 		}
 		return true;
 	};

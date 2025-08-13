@@ -1,14 +1,14 @@
-[**@ts-stdlib/algorithms v1.0.1**](../../../README.md)
+[**@ts-standard-library/algorithms v1.0.3**](../../../README.md)
 
 ***
 
-[@ts-stdlib/algorithms](../../../modules.md) / [sorting/bogo-sort](../README.md) / bogoSort
+[@ts-standard-library/algorithms](../../../modules.md) / [sorting/bogo-sort](../README.md) / bogoSort
 
 # Function: bogoSort()
 
 > **bogoSort**\<`T`\>(`array`, `compareFn`): `T`[]
 
-Defined in: [sorting/bogo-sort.ts:16](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/algorithms/src/sorting/bogo-sort.ts#L16)
+Defined in: [sorting/bogo-sort.ts:16](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/algorithms/src/sorting/bogo-sort.ts#L16)
 
 Sorts an array using the highly inefficient bogo sort algorithm, which repeatedly shuffles the array
 until it is sorted according to the provided comparison function.

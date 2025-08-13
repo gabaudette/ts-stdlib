@@ -51,6 +51,12 @@ export class CircularLinkedList<T> {
 		return this._size === 0;
 	}
 
+	/**
+	 * Adds a new element with the specified value to the circular linked list.
+	 * The new node is inserted after the current tail and becomes the new tail.
+	 *
+	 * @param value - The value to be added to the list.
+	 */
 	public add(value: T): void {
 		const node = new CircularLinkedListNode(value);
 		if (!this.tail) {
@@ -64,6 +70,15 @@ export class CircularLinkedList<T> {
 		this._size++;
 	}
 
+	/**
+	 * Inserts a new element at the beginning of the circular linked list.
+	 * 
+	 * @param value - The value to be added as the first element of the list.
+	 * 
+	 * If the list is empty, the new node becomes the tail and points to itself.
+	 * Otherwise, the new node is inserted immediately after the tail, effectively
+	 * becoming the new head of the list.
+	 */
 	public addFirst(value: T): void {
 		const node = new CircularLinkedListNode(value);
 		if (!this.tail) {
@@ -76,6 +91,12 @@ export class CircularLinkedList<T> {
 		this._size++;
 	}
 
+	/**
+	 * Removes and returns the first element (head) from the circular linked list.
+	 * If the list is empty, returns `undefined`.
+	 *
+	 * @returns {T | undefined} The value of the removed head node, or `undefined` if the list is empty.
+	 */
 	public removeFirst(): T | undefined {
 		if (!this.tail) {
 			return;
@@ -89,9 +110,19 @@ export class CircularLinkedList<T> {
 		}
 
 		this._size--;
+
 		return head.value;
 	}
 
+	/**
+	 * Removes and returns the last element from the circular linked list.
+	 *
+	 * If the list is empty, returns `undefined`.
+	 * If the list contains only one element, removes it and sets the list to empty.
+	 * Otherwise, removes the tail node, updates the tail reference, and returns the removed value.
+	 *
+	 * @returns {T | undefined} The value of the removed last element, or `undefined` if the list is empty.
+	 */
 	public removeLast(): T | undefined {
 		if (!this.tail) {
 			return;
@@ -104,26 +135,50 @@ export class CircularLinkedList<T> {
 			this._size--;
 			return value;
 		}
+
 		while (current.next !== this.tail) {
 			current = current.next;
 		}
+
 		const value = this.tail.value;
+
 		current.next = this.tail.next;
 		this.tail = current;
 		this._size--;
+
 		return value;
 	}
 
+	/**
+	 * Returns the value of the first node in the circular linked list without removing it.
+	 * If the list is empty, returns `undefined`.
+	 *
+	 * @returns {T | undefined} The value of the first node, or `undefined` if the list is empty.
+	 */
 	public peekFirst(): T | undefined {
 		return this.tail ? this.tail.next.value : undefined;
 	}
 
+	/**
+	 * Returns the value of the last node in the circular linked list without removing it.
+	 * @returns The value of the last node if the list is not empty; otherwise, `undefined`.
+	 */
 	public peekLast(): T | undefined {
 		return this.tail ? this.tail.value : undefined;
 	}
 
+	/**
+	 * Returns an iterator over the elements in the circular linked list.
+	 * Iterates starting from the node after the tail and continues until it loops back to the starting node.
+	 * If the list is empty, the iterator yields nothing.
+	 *
+	 * @returns {IterableIterator<T>} An iterator over the values in the circular linked list.
+	 */
 	public *[Symbol.iterator](): IterableIterator<T> {
-		if (!this.tail) return;
+		if (!this.tail) {
+			return;
+		}
+
 		let current = this.tail.next;
 		do {
 			yield current.value;
@@ -131,6 +186,10 @@ export class CircularLinkedList<T> {
 		} while (current !== this.tail.next);
 	}
 
+	/**
+	 * Removes all elements from the circular linked list, resetting it to an empty state.
+	 * After calling this method, the list will have a size of zero and no nodes.
+	 */
 	public clear(): void {
 		this.tail = null;
 		this._size = 0;

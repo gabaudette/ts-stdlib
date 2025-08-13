@@ -120,4 +120,46 @@ describe("case-conversion", () => {
 			expect(toPathCase("multiple   spaces")).toBe("multiple/spaces");
 		});
 	});
+
+	describe("toPascalCase", () => {
+		it("handles empty string", () => {
+			expect(toPascalCase("")).toBe("");
+		});
+		it("handles multiple delimiters", () => {
+			expect(toPascalCase("foo_bar-baz qux")).toBe("FooBarBazQux");
+		});
+		it("handles leading/trailing delimiters", () => {
+			expect(toPascalCase("_foo bar_")).toBe("FooBar");
+		});
+		it("handles consecutive delimiters", () => {
+			expect(toPascalCase("foo__bar--baz")).toBe("FooBarBaz");
+		});
+		it("handles single character words", () => {
+			expect(toPascalCase("a b c")).toBe("ABC");
+		});
+		it("handles already PascalCase", () => {
+			expect(toPascalCase("PascalCase")).toBe("PascalCase");
+		});
+	});
+
+	describe("toCamelCase", () => {
+		it("handles empty string", () => {
+			expect(toCamelCase("")).toBe("");
+		});
+		it("handles multiple delimiters", () => {
+			expect(toCamelCase("foo_bar-baz qux")).toBe("fooBarBazQux");
+		});
+		it("handles leading/trailing delimiters", () => {
+			expect(toCamelCase("_foo bar_")).toBe("fooBar");
+		});
+		it("handles consecutive delimiters", () => {
+			expect(toCamelCase("foo__bar--baz")).toBe("fooBarBaz");
+		});
+		it("handles single character words", () => {
+			expect(toCamelCase("a b c")).toBe("aBC");
+		});
+		it("handles already camelCase", () => {
+			expect(toCamelCase("alreadyCamelCase")).toBe("alreadyCamelCase");
+		});
+	});
 });

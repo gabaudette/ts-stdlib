@@ -1,0 +1,28 @@
+{
+	"$schema": "https://typedoc.org/schema.json",
+	"entryPointStrategy": "expand",
+	"plugin": ["typedoc-plugin-markdown"],
+	"theme": "markdown",
+	"entryPoints": [
+		"src/arrays",
+		"src/arrays/functions",
+		"src/assertions",
+		"src/compare",
+		"src/environment",
+		"src/json",
+		"src/objects",
+		"src/objects/manipulation",
+		"src/objects/property-access",
+		"src/types",
+		"src/types/guards"
+	],
+	"tsconfig": "./tsconfig.json",
+	"out": "docs",
+	"name": "@ts-standard-library/core",
+	"includeVersion": true,
+	"exclude": ["**/*.test.ts"],
+	"excludeExternals": true,
+	"excludePrivate": true,
+	"excludeProtected": true,
+	"sort": ["source-order", "kind"]
+}

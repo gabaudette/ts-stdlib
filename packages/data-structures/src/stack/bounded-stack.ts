@@ -54,9 +54,11 @@ export class BoundedStack<T> extends Stack<T> {
 
 	constructor(maxSize: number, initialValues?: T[]) {
 		super(initialValues);
+		
 		if (maxSize <= 0) {
 			throw new Error("Invalid stack size: Must be greater than 0");
 		}
+
 		if (maxSize > Number.MAX_SAFE_INTEGER) {
 			throw new Error(
 				`Invalid stack size: Must be less than or equal to ${Number.MAX_SAFE_INTEGER}`,

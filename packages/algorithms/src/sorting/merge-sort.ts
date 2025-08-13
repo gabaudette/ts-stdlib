@@ -13,7 +13,9 @@ export function mergeSort<T>(
 	array: T[],
 	compareFn: (a: T, b: T) => number,
 ): T[] {
-	if (array.length < 2) return array;
+	if (array.length < 2) {
+		return array;
+	}
 
 	const mid = Math.floor(array.length / 2);
 	const left = mergeSort(array.slice(0, mid), compareFn);

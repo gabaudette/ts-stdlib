@@ -6,7 +6,7 @@
 
 ## Modules
 
-- [case-conversion/case-conversion](case-conversion/case-conversion/README.md)
-- [template-interpolation/template-interpolation](template-interpolation/template-interpolation/README.md)
-- [trims/trim](trims/trim/README.md)
-- [word-wrap/word-wrap](word-wrap/word-wrap/README.md)
+- [case-conversion/case-conversion](docs/case-conversion/case-conversion/README.md)
+- [template-interpolation/template-interpolation](docs/template-interpolation/template-interpolation/README.md)
+- [trims/trim](docs/trims/trim/README.md)
+- [word-wrap/word-wrap](docs/word-wrap/word-wrap/README.md)

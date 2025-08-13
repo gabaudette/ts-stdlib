@@ -13,8 +13,6 @@ A collection of TypeScript standard library utilities to enhance productivity an
 
 ```bash
 npm install ts-stdlib
-pnpm add ts-stdlib
-yarn install ts-stdlib
 ```
 
 ## Documentation

@@ -1,14 +1,14 @@
-[**@ts-stdlib/algorithms v0.1.0**](../../../README.md)
+[**@ts-stdlib/algorithms v1.0.1**](../../../README.md)
 
 ***
 
-[@ts-stdlib/algorithms](../../../README.md) / [sorting/tournament-sort](../README.md) / tournamentSort
+[@ts-stdlib/algorithms](../../../modules.md) / [sorting/tournament-sort](../README.md) / tournamentSort
 
 # Function: tournamentSort()
 
 > **tournamentSort**\<`T`\>(`array`, `compareFn`): `T`[]
 
-Defined in: [sorting/tournament-sort.ts:13](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/algorithms/src/sorting/tournament-sort.ts#L13)
+Defined in: [sorting/tournament-sort.ts:13](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/algorithms/src/sorting/tournament-sort.ts#L13)
 
 Sorts an array using the tournament sort algorithm.
 

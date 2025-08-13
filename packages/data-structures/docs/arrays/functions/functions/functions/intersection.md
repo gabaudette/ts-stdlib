@@ -1,14 +1,14 @@
-[**@ts-stdlib/data-structures v0.1.0**](../../../../README.md)
+[**@ts-stdlib/data-structures v1.0.1**](../../../../README.md)
 
 ***
 
-[@ts-stdlib/data-structures](../../../../README.md) / [arrays/functions/functions](../README.md) / intersection
+[@ts-stdlib/data-structures](../../../../modules.md) / [arrays/functions/functions](../README.md) / intersection
 
 # Function: intersection()
 
 > **intersection**\<`T`\>(`array1`, `array2`): `T`[]
 
-Defined in: [arrays/functions/functions.ts:199](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/arrays/functions/functions.ts#L199)
+Defined in: [arrays/functions/functions.ts:199](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/arrays/functions/functions.ts#L199)
 
 Returns a new array containing the elements that are present in both `array1` and `array2`.
 

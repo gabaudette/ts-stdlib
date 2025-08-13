@@ -1,14 +1,14 @@
-[**@ts-stdlib/data-structures v0.1.0**](../../../../README.md)
+[**@ts-stdlib/data-structures v1.0.1**](../../../../README.md)
 
 ***
 
-[@ts-stdlib/data-structures](../../../../README.md) / [trees/traversal/tree-traversal](../README.md) / reversePreOrderTraversal
+[@ts-stdlib/data-structures](../../../../modules.md) / [trees/traversal/tree-traversal](../README.md) / reversePreOrderTraversal
 
 # Function: reversePreOrderTraversal()
 
 > **reversePreOrderTraversal**\<`T`\>(`root`, `callback`): `void`
 
-Defined in: [trees/traversal/tree-traversal.ts:92](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/trees/traversal/tree-traversal.ts#L92)
+Defined in: [trees/traversal/tree-traversal.ts:92](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/trees/traversal/tree-traversal.ts#L92)
 
 Performs a reverse pre-order traversal (right, root, left) on a binary tree.
 

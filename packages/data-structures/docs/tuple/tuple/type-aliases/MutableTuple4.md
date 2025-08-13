@@ -1,14 +1,14 @@
-[**@ts-stdlib/data-structures v0.1.0**](../../../README.md)
+[**@ts-stdlib/data-structures v1.0.1**](../../../README.md)
 
 ***
 
-[@ts-stdlib/data-structures](../../../README.md) / [tuple/tuple](../README.md) / MutableTuple4
+[@ts-stdlib/data-structures](../../../modules.md) / [tuple/tuple](../README.md) / MutableTuple4
 
 # Type Alias: MutableTuple4\<T1, T2, T3, T4\>
 
 > **MutableTuple4**\<`T1`, `T2`, `T3`, `T4`\> = \[`T1`, `T2`, `T3`, `T4`\]
 
-Defined in: [tuple/tuple.ts:166](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/tuple/tuple.ts#L166)
+Defined in: [tuple/tuple.ts:166](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/tuple/tuple.ts#L166)
 
 Represents a mutable tuple containing four elements of potentially different types.
 

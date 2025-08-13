@@ -1,8 +1,8 @@
-[**@ts-stdlib/data-structures v0.1.0**](../../README.md)
+[**@ts-stdlib/data-structures v1.0.1**](../../README.md)
 
 ***
 
-[@ts-stdlib/data-structures](../../README.md) / queue/queue
+[@ts-stdlib/data-structures](../../modules.md) / queue/queue
 
 # queue/queue
 

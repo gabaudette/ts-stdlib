@@ -1,14 +1,14 @@
-[**@ts-stdlib/algorithms v0.1.0**](../../../README.md)
+[**@ts-stdlib/algorithms v1.0.1**](../../../README.md)
 
 ***
 
-[@ts-stdlib/algorithms](../../../README.md) / [sorting/comb-sort](../README.md) / combSort
+[@ts-stdlib/algorithms](../../../modules.md) / [sorting/comb-sort](../README.md) / combSort
 
 # Function: combSort()
 
 > **combSort**\<`T`\>(`array`, `compareFn`): `T`[]
 
-Defined in: [sorting/comb-sort.ts:22](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/algorithms/src/sorting/comb-sort.ts#L22)
+Defined in: [sorting/comb-sort.ts:22](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/algorithms/src/sorting/comb-sort.ts#L22)
 
 Sorts an array using the comb sort algorithm.
 

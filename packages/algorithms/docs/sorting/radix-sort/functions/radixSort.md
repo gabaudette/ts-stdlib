@@ -1,14 +1,14 @@
-[**@ts-stdlib/algorithms v0.1.0**](../../../README.md)
+[**@ts-stdlib/algorithms v1.0.1**](../../../README.md)
 
 ***
 
-[@ts-stdlib/algorithms](../../../README.md) / [sorting/radix-sort](../README.md) / radixSort
+[@ts-stdlib/algorithms](../../../modules.md) / [sorting/radix-sort](../README.md) / radixSort
 
 # Function: radixSort()
 
 > **radixSort**(`array`, `maxDigitLength`): `number`[]
 
-Defined in: [sorting/radix-sort.ts:20](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/algorithms/src/sorting/radix-sort.ts#L20)
+Defined in: [sorting/radix-sort.ts:20](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/algorithms/src/sorting/radix-sort.ts#L20)
 
 Sorts an array of numbers using the radix sort algorithm.
 

@@ -1,7 +1,7 @@
 {
     "name": "@ts-standard-library/algorithms",
     "description": "A collection of algorithms for TypeScript.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "repository": {
         "type": "git",
         "url": "https://github.com/gabaudette/ts-stdlib/tree/main/packages/algorithms"

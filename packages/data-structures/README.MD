@@ -1,23 +1,29 @@
-**@ts-stdlib/data-structures v0.1.0**
+# ts-stdlib
 
-***
+A collection of TypeScript standard library utilities to enhance productivity and code quality.
 
-# @ts-stdlib/data-structures v0.1.0
+## Features
 
-## Modules
+- Utility functions for common tasks
+- Type-safe helpers
+- Modular and easy to use
+- Tree shackable
 
-- [arrays/functions/functions](docs/arrays/functions/functions/README.md)
-- [linked-list/circular-linked-list](docs/linked-list/circular-linked-list/README.md)
-- [linked-list/double-linked-list](docs/linked-list/double-linked-list/README.md)
-- [linked-list/single-linked-list](docs/linked-list/single-linked-list/README.md)
-- [queue/bounded-queue](docs/queue/bounded-queue/README.md)
-- [queue/queue](docs/queue/queue/README.md)
-- [stack/bounded-stack](docs/stack/bounded-stack/README.md)
-- [stack/stack](docs/stack/stack/README.md)
-- [trees/avl-tree](docs/trees/avl-tree/README.md)
-- [trees/binary-tree](docs/trees/binary-tree/README.md)
-- [trees/bst](docs/trees/bst/README.md)
-- [trees/traversal/tree-traversal](docs/trees/traversal/tree-traversal/README.md)
-- [trees/traversal/tree-traversal](docs/trees/traversal/tree-traversal/README-1.md)
-- [trees/tree-node](docs/trees/tree-node/README.md)
-- [tuple/tuple](docs/tuple/tuple/README.md)
+## Installation
+
+```bash
+npm install ts-stdlib
+```
+
+## Documentation
+- [Algorithms Documentation](https://github.com/gabaudette/ts-stdlib/blob/main/packages/algorithms/docs/README.md)
+- [Data Structures Documentation](https://github.com/gabaudette/ts-stdlib/blob/main/packages/data-structures/docs/README.md)
+- [String Documentation](https://github.com/gabaudette/ts-stdlib/blob/main/packages/string/docs/README.md)
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests.
+
+## License
+
+MIT

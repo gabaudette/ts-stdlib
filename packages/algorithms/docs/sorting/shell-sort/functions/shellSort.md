@@ -1,14 +1,14 @@
-[**@ts-stdlib/algorithms v0.1.0**](../../../README.md)
+[**@ts-stdlib/algorithms v1.0.1**](../../../README.md)
 
 ***
 
-[@ts-stdlib/algorithms](../../../README.md) / [sorting/shell-sort](../README.md) / shellSort
+[@ts-stdlib/algorithms](../../../modules.md) / [sorting/shell-sort](../README.md) / shellSort
 
 # Function: shellSort()
 
 > **shellSort**\<`T`\>(`array`, `compareFn`): `T`[]
 
-Defined in: [sorting/shell-sort.ts:16](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/algorithms/src/sorting/shell-sort.ts#L16)
+Defined in: [sorting/shell-sort.ts:16](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/algorithms/src/sorting/shell-sort.ts#L16)
 
 Sorts an array using the Shell sort algorithm.
 

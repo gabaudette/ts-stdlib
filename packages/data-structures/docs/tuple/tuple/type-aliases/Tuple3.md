@@ -1,14 +1,14 @@
-[**@ts-stdlib/data-structures v0.1.0**](../../../README.md)
+[**@ts-stdlib/data-structures v1.0.1**](../../../README.md)
 
 ***
 
-[@ts-stdlib/data-structures](../../../README.md) / [tuple/tuple](../README.md) / Tuple3
+[@ts-stdlib/data-structures](../../../modules.md) / [tuple/tuple](../README.md) / Tuple3
 
 # Type Alias: Tuple3\<T1, T2, T3\>
 
 > **Tuple3**\<`T1`, `T2`, `T3`\> = `Readonly`\<\[`T1`, `T2`, `T3`\]\>
 
-Defined in: [tuple/tuple.ts:34](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/tuple/tuple.ts#L34)
+Defined in: [tuple/tuple.ts:34](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/tuple/tuple.ts#L34)
 
 Represents a read-only tuple containing exactly three elements of potentially different types.
 

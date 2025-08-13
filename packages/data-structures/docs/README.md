@@ -1,23 +1,33 @@
-**@ts-stdlib/data-structures v0.1.0**
+**@ts-stdlib/data-structures v1.0.1**
 
 ***
 
-# @ts-stdlib/data-structures v0.1.0
+# ts-stdlib
 
-## Modules
+A collection of TypeScript standard library utilities to enhance productivity and code quality.
 
-- [arrays/functions/functions](arrays/functions/functions/README.md)
-- [linked-list/circular-linked-list](linked-list/circular-linked-list/README.md)
-- [linked-list/double-linked-list](linked-list/double-linked-list/README.md)
-- [linked-list/single-linked-list](linked-list/single-linked-list/README.md)
-- [queue/bounded-queue](queue/bounded-queue/README.md)
-- [queue/queue](queue/queue/README.md)
-- [stack/bounded-stack](stack/bounded-stack/README.md)
-- [stack/stack](stack/stack/README.md)
-- [trees/avl-tree](trees/avl-tree/README.md)
-- [trees/binary-tree](trees/binary-tree/README.md)
-- [trees/bst](trees/bst/README.md)
-- [trees/traversal/tree-traversal](trees/traversal/tree-traversal/README.md)
-- [trees/traversal/tree-traversal](trees/traversal/tree-traversal/README-1.md)
-- [trees/tree-node](trees/tree-node/README.md)
-- [tuple/tuple](tuple/tuple/README.md)
+## Features
+
+- Utility functions for common tasks
+- Type-safe helpers
+- Modular and easy to use
+- Tree shackable
+
+## Installation
+
+```bash
+npm install ts-stdlib
+```
+
+## Documentation
+- [Algorithms Documentation](https://github.com/gabaudette/ts-stdlib/blob/main/packages/algorithms/docs/README.md)
+- [Data Structures Documentation](https://github.com/gabaudette/ts-stdlib/blob/main/packages/data-structures/docs/README.md)
+- [String Documentation](https://github.com/gabaudette/ts-stdlib/blob/main/packages/string/docs/README.md)
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests.
+
+## License
+
+MIT

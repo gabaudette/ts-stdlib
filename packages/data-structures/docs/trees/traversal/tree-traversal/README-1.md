@@ -1,8 +1,8 @@
-[**@ts-stdlib/data-structures v0.1.0**](../../../README.md)
+[**@ts-stdlib/data-structures v1.0.1**](../../../README.md)
 
 ***
 
-[@ts-stdlib/data-structures](../../../README.md) / trees/traversal/tree-traversal
+[@ts-stdlib/data-structures](../../../modules.md) / trees/traversal/tree-traversal
 
 # trees/traversal/tree-traversal
 

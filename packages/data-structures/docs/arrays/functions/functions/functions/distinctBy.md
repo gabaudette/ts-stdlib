@@ -1,14 +1,14 @@
-[**@ts-stdlib/data-structures v0.1.0**](../../../../README.md)
+[**@ts-stdlib/data-structures v1.0.1**](../../../../README.md)
 
 ***
 
-[@ts-stdlib/data-structures](../../../../README.md) / [arrays/functions/functions](../README.md) / distinctBy
+[@ts-stdlib/data-structures](../../../../modules.md) / [arrays/functions/functions](../README.md) / distinctBy
 
 # Function: distinctBy()
 
 > **distinctBy**\<`T`, `K`\>(`array`, `key`): `T`[]
 
-Defined in: [arrays/functions/functions.ts:291](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/arrays/functions/functions.ts#L291)
+Defined in: [arrays/functions/functions.ts:291](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/arrays/functions/functions.ts#L291)
 
 Returns a new array containing only the first occurrence of each element,
 as determined by the value returned from the provided key selector function.

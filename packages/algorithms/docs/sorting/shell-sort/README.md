@@ -1,8 +1,8 @@
-[**@ts-stdlib/algorithms v0.1.0**](../../README.md)
+[**@ts-stdlib/algorithms v1.0.1**](../../README.md)
 
 ***
 
-[@ts-stdlib/algorithms](../../README.md) / sorting/shell-sort
+[@ts-stdlib/algorithms](../../modules.md) / sorting/shell-sort
 
 # sorting/shell-sort
 

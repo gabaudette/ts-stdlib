@@ -1,12 +1,12 @@
-[**@ts-stdlib/algorithms v0.1.0**](../../../README.md)
+[**@ts-stdlib/algorithms v1.0.1**](../../../README.md)
 
 ***
 
-[@ts-stdlib/algorithms](../../../README.md) / [rng/lcg](../README.md) / LCG
+[@ts-stdlib/algorithms](../../../modules.md) / [rng/lcg](../README.md) / LCG
 
 # Class: LCG
 
-Defined in: [rng/lcg.ts:25](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/algorithms/src/rng/lcg.ts#L25)
+Defined in: [rng/lcg.ts:25](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/algorithms/src/rng/lcg.ts#L25)
 
 Linear Congruential Generator (LCG) implementation of a pseudo-random number generator (PRNG).
 
@@ -40,7 +40,7 @@ This implementation is suitable for non-cryptographic purposes.
 
 > **new LCG**(`seed`): `LCG`
 
-Defined in: [rng/lcg.ts:47](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/algorithms/src/rng/lcg.ts#L47)
+Defined in: [rng/lcg.ts:47](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/algorithms/src/rng/lcg.ts#L47)
 
 #### Parameters
 
@@ -58,7 +58,7 @@ Defined in: [rng/lcg.ts:47](https://github.com/gabaudette/ts-stdlib/blob/8e7816a
 
 > **randomInt**(): `number`
 
-Defined in: [rng/lcg.ts:59](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/algorithms/src/rng/lcg.ts#L59)
+Defined in: [rng/lcg.ts:59](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/algorithms/src/rng/lcg.ts#L59)
 
 Generates a random integer using the linear congruential generator (LCG).
 
@@ -78,7 +78,7 @@ A pseudo-random integer.
 
 > **random**(): `number`
 
-Defined in: [rng/lcg.ts:68](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/algorithms/src/rng/lcg.ts#L68)
+Defined in: [rng/lcg.ts:68](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/algorithms/src/rng/lcg.ts#L68)
 
 Generates a pseudo-random floating-point number in the range [0, 1).
 
@@ -98,7 +98,7 @@ A pseudo-random number greater than or equal to 0 and less than 1.
 
 > **next**(): `number`
 
-Defined in: [rng/lcg.ts:80](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/algorithms/src/rng/lcg.ts#L80)
+Defined in: [rng/lcg.ts:80](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/algorithms/src/rng/lcg.ts#L80)
 
 Generates the next pseudo-random number in the sequence using the linear congruential generator (LCG) algorithm.
 

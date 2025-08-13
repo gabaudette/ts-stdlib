@@ -1,14 +1,14 @@
-[**@ts-stdlib/algorithms v0.1.0**](../../../README.md)
+[**@ts-stdlib/algorithms v1.0.1**](../../../README.md)
 
 ***
 
-[@ts-stdlib/algorithms](../../../README.md) / [sorting/counting-sort](../README.md) / countingSort
+[@ts-stdlib/algorithms](../../../modules.md) / [sorting/counting-sort](../README.md) / countingSort
 
 # Function: countingSort()
 
 > **countingSort**(`array`, `max`): `number`[]
 
-Defined in: [sorting/counting-sort.ts:20](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/algorithms/src/sorting/counting-sort.ts#L20)
+Defined in: [sorting/counting-sort.ts:20](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/algorithms/src/sorting/counting-sort.ts#L20)
 
 Sorts an array of non-negative integers using the counting sort algorithm.
 

@@ -1,12 +1,12 @@
-[**@ts-stdlib/data-structures v0.1.0**](../../../README.md)
+[**@ts-stdlib/data-structures v1.0.1**](../../../README.md)
 
 ***
 
-[@ts-stdlib/data-structures](../../../README.md) / [linked-list/circular-linked-list](../README.md) / CircularLinkedListNode
+[@ts-stdlib/data-structures](../../../modules.md) / [linked-list/circular-linked-list](../README.md) / CircularLinkedListNode
 
 # Class: CircularLinkedListNode\<T\>
 
-Defined in: [linked-list/circular-linked-list.ts:11](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/linked-list/circular-linked-list.ts#L11)
+Defined in: [linked-list/circular-linked-list.ts:11](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/linked-list/circular-linked-list.ts#L11)
 
 Represents a node in a circular singly linked list.
 
@@ -28,7 +28,7 @@ forming a closed loop.
 
 > **new CircularLinkedListNode**\<`T`\>(`value`): `CircularLinkedListNode`\<`T`\>
 
-Defined in: [linked-list/circular-linked-list.ts:15](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/linked-list/circular-linked-list.ts#L15)
+Defined in: [linked-list/circular-linked-list.ts:15](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/linked-list/circular-linked-list.ts#L15)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [linked-list/circular-linked-list.ts:15](https://github.com/gabaudet
 
 > **value**: `T`
 
-Defined in: [linked-list/circular-linked-list.ts:12](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/linked-list/circular-linked-list.ts#L12)
+Defined in: [linked-list/circular-linked-list.ts:12](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/linked-list/circular-linked-list.ts#L12)
 
 ***
 
@@ -54,4 +54,4 @@ Defined in: [linked-list/circular-linked-list.ts:12](https://github.com/gabaudet
 
 > **next**: `CircularLinkedListNode`\<`T`\>
 
-Defined in: [linked-list/circular-linked-list.ts:13](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/linked-list/circular-linked-list.ts#L13)
+Defined in: [linked-list/circular-linked-list.ts:13](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/linked-list/circular-linked-list.ts#L13)

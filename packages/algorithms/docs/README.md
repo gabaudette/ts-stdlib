@@ -1,26 +1,33 @@
-**@ts-stdlib/algorithms v0.1.0**
+**@ts-stdlib/algorithms v1.0.1**
 
 ***
 
-# @ts-stdlib/algorithms v0.1.0
+# ts-stdlib
 
-## Modules
+A collection of TypeScript standard library utilities to enhance productivity and code quality.
 
-- [rng/interface/rng.interface](rng/interface/rng.interface/README.md)
-- [rng/lcg](rng/lcg/README.md)
-- [rng/mersenne-twister](rng/mersenne-twister/README.md)
-- [rng/xorshift](rng/xorshift/README.md)
-- [sorting/bogo-sort](sorting/bogo-sort/README.md)
-- [sorting/bubble-sort](sorting/bubble-sort/README.md)
-- [sorting/comb-sort](sorting/comb-sort/README.md)
-- [sorting/counting-sort](sorting/counting-sort/README.md)
-- [sorting/distribution-sort](sorting/distribution-sort/README.md)
-- [sorting/exchange-sort](sorting/exchange-sort/README.md)
-- [sorting/heap-sort](sorting/heap-sort/README.md)
-- [sorting/insertion-sort](sorting/insertion-sort/README.md)
-- [sorting/merge-sort](sorting/merge-sort/README.md)
-- [sorting/quick-sort](sorting/quick-sort/README.md)
-- [sorting/radix-sort](sorting/radix-sort/README.md)
-- [sorting/selection-sort](sorting/selection-sort/README.md)
-- [sorting/shell-sort](sorting/shell-sort/README.md)
-- [sorting/tournament-sort](sorting/tournament-sort/README.md)
+## Features
+
+- Utility functions for common tasks
+- Type-safe helpers
+- Modular and easy to use
+- Tree shackable
+
+## Installation
+
+```bash
+npm install ts-stdlib
+```
+
+## Documentation
+- [Algorithms Documentation](https://github.com/gabaudette/ts-stdlib/blob/main/packages/algorithms/docs/README.md)
+- [Data Structures Documentation](https://github.com/gabaudette/ts-stdlib/blob/main/packages/data-structures/docs/README.md)
+- [String Documentation](https://github.com/gabaudette/ts-stdlib/blob/main/packages/string/docs/README.md)
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests.
+
+## License
+
+MIT

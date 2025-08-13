@@ -1,12 +1,12 @@
-[**@ts-stdlib/data-structures v0.1.0**](../../../README.md)
+[**@ts-stdlib/data-structures v1.0.1**](../../../README.md)
 
 ***
 
-[@ts-stdlib/data-structures](../../../README.md) / [trees/avl-tree](../README.md) / AVLTreeNode
+[@ts-stdlib/data-structures](../../../modules.md) / [trees/avl-tree](../README.md) / AVLTreeNode
 
 # Class: AVLTreeNode\<T\>
 
-Defined in: [trees/avl-tree.ts:12](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/trees/avl-tree.ts#L12)
+Defined in: [trees/avl-tree.ts:12](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/trees/avl-tree.ts#L12)
 
 Represents a node in an AVL (Adelson-Velsky and Landis) tree.
 Each node contains a value, references to its left and right child nodes,
@@ -26,7 +26,7 @@ The type of the value stored in the node.
 
 > **new AVLTreeNode**\<`T`\>(`value`, `left`, `right`): `AVLTreeNode`\<`T`\>
 
-Defined in: [trees/avl-tree.ts:14](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/trees/avl-tree.ts#L14)
+Defined in: [trees/avl-tree.ts:14](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/trees/avl-tree.ts#L14)
 
 #### Parameters
 
@@ -52,7 +52,7 @@ Defined in: [trees/avl-tree.ts:14](https://github.com/gabaudette/ts-stdlib/blob/
 
 > **height**: `number` = `1`
 
-Defined in: [trees/avl-tree.ts:13](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/trees/avl-tree.ts#L13)
+Defined in: [trees/avl-tree.ts:13](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/trees/avl-tree.ts#L13)
 
 The height of the node in the tree (default is 1).
 
@@ -62,7 +62,7 @@ The height of the node in the tree (default is 1).
 
 > **value**: `T`
 
-Defined in: [trees/avl-tree.ts:15](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/trees/avl-tree.ts#L15)
+Defined in: [trees/avl-tree.ts:15](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/trees/avl-tree.ts#L15)
 
 The value stored in the node.
 
@@ -72,7 +72,7 @@ The value stored in the node.
 
 > **left**: `null` \| `AVLTreeNode`\<`T`\> = `null`
 
-Defined in: [trees/avl-tree.ts:16](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/trees/avl-tree.ts#L16)
+Defined in: [trees/avl-tree.ts:16](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/trees/avl-tree.ts#L16)
 
 Reference to the left child node, or null if none.
 
@@ -82,6 +82,6 @@ Reference to the left child node, or null if none.
 
 > **right**: `null` \| `AVLTreeNode`\<`T`\> = `null`
 
-Defined in: [trees/avl-tree.ts:17](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/trees/avl-tree.ts#L17)
+Defined in: [trees/avl-tree.ts:17](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/data-structures/src/trees/avl-tree.ts#L17)
 
 Reference to the right child node, or null if none.

@@ -8,7 +8,7 @@
 
 > **mergeSort**\<`T`\>(`array`, `compareFn`): `T`[]
 
-Defined in: sorting/merge-sort.ts:12
+Defined in: [sorting/merge-sort.ts:12](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/sorting/merge-sort.ts#L12)
 
 Sorts an array using the merge sort algorithm.
 

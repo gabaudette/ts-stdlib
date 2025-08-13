@@ -8,7 +8,7 @@
 
 > **MutableTuple5**\<`T1`, `T2`, `T3`, `T4`, `T5`\> = \[`T1`, `T2`, `T3`, `T4`, `T5`\]
 
-Defined in: [tuple/tuple.ts:192](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/tuple/tuple.ts#L192)
+Defined in: [tuple/tuple.ts:192](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/tuple/tuple.ts#L192)
 
 Represents a mutable tuple containing five elements of potentially different types.
 

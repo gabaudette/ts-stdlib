@@ -8,7 +8,7 @@
 
 > **combSort**\<`T`\>(`array`, `compareFn`): `T`[]
 
-Defined in: sorting/comb-sort.ts:22
+Defined in: [sorting/comb-sort.ts:22](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/sorting/comb-sort.ts#L22)
 
 Sorts an array using the comb sort algorithm.
 

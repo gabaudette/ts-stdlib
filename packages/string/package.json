@@ -1,5 +1,5 @@
 {
-    "name": "@ts-stdlib/string",
+    "name": "@ts-standard-library/string",
     "description": "A collection of string manipulation utilities for TypeScript.",
     "version": "0.1.0",
     "license": "MIT",

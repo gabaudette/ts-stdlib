@@ -6,7 +6,7 @@
 
 # Class: LCG
 
-Defined in: rng/lcg.ts:25
+Defined in: [rng/lcg.ts:25](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/rng/lcg.ts#L25)
 
 Linear Congruential Generator (LCG) implementation of a pseudo-random number generator (PRNG).
 
@@ -40,7 +40,7 @@ This implementation is suitable for non-cryptographic purposes.
 
 > **new LCG**(`seed`): `LCG`
 
-Defined in: rng/lcg.ts:47
+Defined in: [rng/lcg.ts:47](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/rng/lcg.ts#L47)
 
 #### Parameters
 
@@ -58,7 +58,7 @@ Defined in: rng/lcg.ts:47
 
 > **randomInt**(): `number`
 
-Defined in: rng/lcg.ts:59
+Defined in: [rng/lcg.ts:59](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/rng/lcg.ts#L59)
 
 Generates a random integer using the linear congruential generator (LCG).
 
@@ -78,7 +78,7 @@ A pseudo-random integer.
 
 > **random**(): `number`
 
-Defined in: rng/lcg.ts:68
+Defined in: [rng/lcg.ts:68](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/rng/lcg.ts#L68)
 
 Generates a pseudo-random floating-point number in the range [0, 1).
 
@@ -98,7 +98,7 @@ A pseudo-random number greater than or equal to 0 and less than 1.
 
 > **next**(): `number`
 
-Defined in: rng/lcg.ts:80
+Defined in: [rng/lcg.ts:80](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/rng/lcg.ts#L80)
 
 Generates the next pseudo-random number in the sequence using the linear congruential generator (LCG) algorithm.
 

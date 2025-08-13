@@ -8,7 +8,7 @@
 
 > **tournamentSort**\<`T`\>(`array`, `compareFn`): `T`[]
 
-Defined in: sorting/tournament-sort.ts:13
+Defined in: [sorting/tournament-sort.ts:13](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/sorting/tournament-sort.ts#L13)
 
 Sorts an array using the tournament sort algorithm.
 

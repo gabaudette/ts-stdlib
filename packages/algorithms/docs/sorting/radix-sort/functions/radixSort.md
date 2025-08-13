@@ -8,7 +8,7 @@
 
 > **radixSort**(`array`, `maxDigitLength`): `number`[]
 
-Defined in: sorting/radix-sort.ts:20
+Defined in: [sorting/radix-sort.ts:20](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/sorting/radix-sort.ts#L20)
 
 Sorts an array of numbers using the radix sort algorithm.
 

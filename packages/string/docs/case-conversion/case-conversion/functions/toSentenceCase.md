@@ -8,7 +8,7 @@
 
 > **toSentenceCase**(`text`): `string`
 
-Defined in: case-conversion/case-conversion.ts:152
+Defined in: [case-conversion/case-conversion.ts:155](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/string/src/case-conversion/case-conversion.ts#L155)
 
 Converts the input string to sentence case.
 The first character is capitalized and the rest are converted to lowercase.

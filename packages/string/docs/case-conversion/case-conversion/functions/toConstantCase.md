@@ -8,7 +8,7 @@
 
 > **toConstantCase**(`text`): `string`
 
-Defined in: case-conversion/case-conversion.ts:171
+Defined in: [case-conversion/case-conversion.ts:174](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/string/src/case-conversion/case-conversion.ts#L174)
 
 Converts a given string to CONSTANT_CASE.
 

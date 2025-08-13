@@ -8,7 +8,7 @@
 
 > **toKebabCase**(`text`): `string`
 
-Defined in: case-conversion/case-conversion.ts:72
+Defined in: [case-conversion/case-conversion.ts:72](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/string/src/case-conversion/case-conversion.ts#L72)
 
 Converts a given string to kebab-case.
 

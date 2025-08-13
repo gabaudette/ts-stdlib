@@ -1,5 +1,5 @@
 {
-    "name": "@ts-stdlib/algorithms",
+    "name": "@ts-standard-library/algorithms",
     "description": "A collection of algorithms for TypeScript.",
     "version": "0.1.0",
     "license": "MIT",

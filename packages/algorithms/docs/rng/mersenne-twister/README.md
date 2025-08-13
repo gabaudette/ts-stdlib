@@ -5,3 +5,7 @@
 [@ts-stdlib/algorithms](../../README.md) / rng/mersenne-twister
 
 # rng/mersenne-twister
+
+## Classes
+
+- [MersenneTwister](classes/MersenneTwister.md)

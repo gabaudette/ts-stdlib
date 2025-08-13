@@ -8,7 +8,7 @@
 
 > **difference**\<`T`\>(`array1`, `array2`): `T`[]
 
-Defined in: [arrays/functions/functions.ts:229](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/arrays/functions/functions.ts#L229)
+Defined in: [arrays/functions/functions.ts:229](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/arrays/functions/functions.ts#L229)
 
 Returns a new array containing the elements from `array1` that are not present in `array2`.
 

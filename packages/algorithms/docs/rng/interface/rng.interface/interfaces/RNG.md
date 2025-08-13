@@ -6,7 +6,7 @@
 
 # Interface: RNG
 
-Defined in: rng/interface/rng.interface.ts:1
+Defined in: [rng/interface/rng.interface.ts:1](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/rng/interface/rng.interface.ts#L1)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: rng/interface/rng.interface.ts:1
 
 > **randomInt**(): `number`
 
-Defined in: rng/interface/rng.interface.ts:2
+Defined in: [rng/interface/rng.interface.ts:2](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/rng/interface/rng.interface.ts#L2)
 
 #### Returns
 
@@ -26,7 +26,7 @@ Defined in: rng/interface/rng.interface.ts:2
 
 > **random**(): `number`
 
-Defined in: rng/interface/rng.interface.ts:3
+Defined in: [rng/interface/rng.interface.ts:3](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/rng/interface/rng.interface.ts#L3)
 
 #### Returns
 

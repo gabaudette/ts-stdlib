@@ -6,7 +6,7 @@
 
 # Class: BST\<T\>
 
-Defined in: [trees/bst.ts:34](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/trees/bst.ts#L34)
+Defined in: [trees/bst.ts:34](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/trees/bst.ts#L34)
 
 Represents a generic Binary Search Tree (BST) data structure.
 
@@ -46,7 +46,7 @@ The type of elements stored in the tree.
 
 > **new BST**\<`T`\>(`compare`): `BST`\<`T`\>
 
-Defined in: [trees/bst.ts:37](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/trees/bst.ts#L37)
+Defined in: [trees/bst.ts:37](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/trees/bst.ts#L37)
 
 #### Parameters
 
@@ -64,7 +64,7 @@ Defined in: [trees/bst.ts:37](https://github.com/gabaudette/ts-stdlib/blob/5164f
 
 > **insert**(`value`): `void`
 
-Defined in: [trees/bst.ts:49](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/trees/bst.ts#L49)
+Defined in: [trees/bst.ts:49](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/trees/bst.ts#L49)
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: [trees/bst.ts:49](https://github.com/gabaudette/ts-stdlib/blob/5164f
 
 > **find**(`value`): `null` \| [`BSTNode`](BSTNode.md)\<`T`\>
 
-Defined in: [trees/bst.ts:67](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/trees/bst.ts#L67)
+Defined in: [trees/bst.ts:67](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/trees/bst.ts#L67)
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: [trees/bst.ts:67](https://github.com/gabaudette/ts-stdlib/blob/5164f
 
 > **delete**(`value`): `void`
 
-Defined in: [trees/bst.ts:77](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/trees/bst.ts#L77)
+Defined in: [trees/bst.ts:77](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/trees/bst.ts#L77)
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: [trees/bst.ts:77](https://github.com/gabaudette/ts-stdlib/blob/5164f
 
 > **getRoot**(): `null` \| [`BSTNode`](BSTNode.md)\<`T`\>
 
-Defined in: [trees/bst.ts:111](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/trees/bst.ts#L111)
+Defined in: [trees/bst.ts:111](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/trees/bst.ts#L111)
 
 #### Returns
 
@@ -130,7 +130,7 @@ Defined in: [trees/bst.ts:111](https://github.com/gabaudette/ts-stdlib/blob/5164
 
 > **clear**(): `void`
 
-Defined in: [trees/bst.ts:115](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/trees/bst.ts#L115)
+Defined in: [trees/bst.ts:115](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/trees/bst.ts#L115)
 
 #### Returns
 
@@ -142,7 +142,7 @@ Defined in: [trees/bst.ts:115](https://github.com/gabaudette/ts-stdlib/blob/5164
 
 > **getHeight**(): `number`
 
-Defined in: [trees/bst.ts:118](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/trees/bst.ts#L118)
+Defined in: [trees/bst.ts:118](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/trees/bst.ts#L118)
 
 #### Returns
 

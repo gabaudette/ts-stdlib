@@ -1,5 +1,5 @@
 {
-    "name": "@ts-stdlib/root",
+    "name": "@ts-standard-library/root",
     "private": true,
     "license": "MIT",
     "author": "Gabriel Audette",

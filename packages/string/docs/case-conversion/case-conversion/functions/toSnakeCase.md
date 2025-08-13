@@ -8,7 +8,7 @@
 
 > **toSnakeCase**(`text`): `string`
 
-Defined in: case-conversion/case-conversion.ts:53
+Defined in: [case-conversion/case-conversion.ts:53](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/string/src/case-conversion/case-conversion.ts#L53)
 
 Converts a given string to snake_case.
 

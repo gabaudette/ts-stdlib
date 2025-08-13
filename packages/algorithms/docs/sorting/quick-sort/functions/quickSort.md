@@ -8,7 +8,7 @@
 
 > **quickSort**\<`T`\>(`array`, `compareFn`): `T`[]
 
-Defined in: sorting/quick-sort.ts:19
+Defined in: [sorting/quick-sort.ts:19](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/sorting/quick-sort.ts#L19)
 
 Sorts an array using the Quick Sort algorithm.
 

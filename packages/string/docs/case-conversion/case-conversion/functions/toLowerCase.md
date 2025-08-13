@@ -8,7 +8,7 @@
 
 > **toLowerCase**(`text`): `string`
 
-Defined in: case-conversion/case-conversion.ts:17
+Defined in: [case-conversion/case-conversion.ts:17](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/string/src/case-conversion/case-conversion.ts#L17)
 
 Converts all the characters in the given string to lowercase.
 

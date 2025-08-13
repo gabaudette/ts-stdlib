@@ -6,7 +6,7 @@
 
 # Class: CircularLinkedListNode\<T\>
 
-Defined in: [linked-list/circular-linked-list.ts:11](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/linked-list/circular-linked-list.ts#L11)
+Defined in: [linked-list/circular-linked-list.ts:11](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/linked-list/circular-linked-list.ts#L11)
 
 Represents a node in a circular singly linked list.
 
@@ -28,7 +28,7 @@ forming a closed loop.
 
 > **new CircularLinkedListNode**\<`T`\>(`value`): `CircularLinkedListNode`\<`T`\>
 
-Defined in: [linked-list/circular-linked-list.ts:15](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/linked-list/circular-linked-list.ts#L15)
+Defined in: [linked-list/circular-linked-list.ts:15](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/linked-list/circular-linked-list.ts#L15)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [linked-list/circular-linked-list.ts:15](https://github.com/gabaudet
 
 > **value**: `T`
 
-Defined in: [linked-list/circular-linked-list.ts:12](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/linked-list/circular-linked-list.ts#L12)
+Defined in: [linked-list/circular-linked-list.ts:12](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/linked-list/circular-linked-list.ts#L12)
 
 ***
 
@@ -54,4 +54,4 @@ Defined in: [linked-list/circular-linked-list.ts:12](https://github.com/gabaudet
 
 > **next**: `CircularLinkedListNode`\<`T`\>
 
-Defined in: [linked-list/circular-linked-list.ts:13](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/linked-list/circular-linked-list.ts#L13)
+Defined in: [linked-list/circular-linked-list.ts:13](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/linked-list/circular-linked-list.ts#L13)

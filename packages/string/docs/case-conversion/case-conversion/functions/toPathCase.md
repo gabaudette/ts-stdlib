@@ -8,7 +8,7 @@
 
 > **toPathCase**(`text`): `string`
 
-Defined in: case-conversion/case-conversion.ts:187
+Defined in: [case-conversion/case-conversion.ts:190](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/string/src/case-conversion/case-conversion.ts#L190)
 
 Converts a string to path case, replacing all whitespace characters with slashes ("/")
 and converting the result to lowercase.

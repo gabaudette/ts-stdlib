@@ -6,7 +6,7 @@
 
 # Class: SingleLinkedList\<T\>
 
-Defined in: [linked-list/single-linked-list.ts:28](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/linked-list/single-linked-list.ts#L28)
+Defined in: [linked-list/single-linked-list.ts:28](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/linked-list/single-linked-list.ts#L28)
 
 Represents a singly linked list data structure.
 
@@ -54,7 +54,7 @@ The type of elements stored in the list.
 
 > **append**(`value`): `void`
 
-Defined in: [linked-list/single-linked-list.ts:47](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/linked-list/single-linked-list.ts#L47)
+Defined in: [linked-list/single-linked-list.ts:47](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/linked-list/single-linked-list.ts#L47)
 
 Appends a new node with the specified value to the end of the linked list.
 
@@ -82,7 +82,7 @@ The length of the list is incremented after the operation.
 
 > **prepend**(`value`): `void`
 
-Defined in: [linked-list/single-linked-list.ts:70](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/linked-list/single-linked-list.ts#L70)
+Defined in: [linked-list/single-linked-list.ts:70](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/linked-list/single-linked-list.ts#L70)
 
 Inserts a new node with the specified value at the beginning of the linked list.
 
@@ -107,7 +107,7 @@ The value to be stored in the new node.
 
 > **delete**(`value`): `boolean`
 
-Defined in: [linked-list/single-linked-list.ts:94](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/linked-list/single-linked-list.ts#L94)
+Defined in: [linked-list/single-linked-list.ts:94](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/linked-list/single-linked-list.ts#L94)
 
 Deletes the first node in the linked list that contains the specified value.
 
@@ -137,7 +137,7 @@ The length of the list is decremented when a node is deleted.
 
 > **find**(`value`): `null` \| [`Node`](../interfaces/Node.md)\<`T`\>
 
-Defined in: [linked-list/single-linked-list.ts:130](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/linked-list/single-linked-list.ts#L130)
+Defined in: [linked-list/single-linked-list.ts:130](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/linked-list/single-linked-list.ts#L130)
 
 Searches for the first node in the linked list that contains the specified value.
 
@@ -161,7 +161,7 @@ The first node containing the value, or `null` if no such node exists.
 
 > **getSize**(): `number`
 
-Defined in: [linked-list/single-linked-list.ts:146](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/linked-list/single-linked-list.ts#L146)
+Defined in: [linked-list/single-linked-list.ts:146](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/linked-list/single-linked-list.ts#L146)
 
 Returns the number of elements in the linked list.
 
@@ -177,7 +177,7 @@ The current size of the linked list.
 
 > **getTail**(): `null` \| [`Node`](../interfaces/Node.md)\<`T`\>
 
-Defined in: [linked-list/single-linked-list.ts:155](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/linked-list/single-linked-list.ts#L155)
+Defined in: [linked-list/single-linked-list.ts:155](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/linked-list/single-linked-list.ts#L155)
 
 Returns the tail node of the linked list.
 
@@ -193,7 +193,7 @@ The last node in the list, or `null` if the list is empty.
 
 > **getHead**(): `null` \| [`Node`](../interfaces/Node.md)\<`T`\>
 
-Defined in: [linked-list/single-linked-list.ts:164](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/linked-list/single-linked-list.ts#L164)
+Defined in: [linked-list/single-linked-list.ts:164](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/linked-list/single-linked-list.ts#L164)
 
 Returns the head node of the linked list.
 
@@ -209,7 +209,7 @@ The first node in the list, or `null` if the list is empty.
 
 > **isEmpty**(): `boolean`
 
-Defined in: [linked-list/single-linked-list.ts:173](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/linked-list/single-linked-list.ts#L173)
+Defined in: [linked-list/single-linked-list.ts:173](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/linked-list/single-linked-list.ts#L173)
 
 Determines whether the linked list is empty.
 

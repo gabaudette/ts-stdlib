@@ -9,4 +9,3 @@
 ## Functions
 
 - [mergeSort](functions/mergeSort.md)
-- [inPlaceMergeSort](functions/inPlaceMergeSort.md)

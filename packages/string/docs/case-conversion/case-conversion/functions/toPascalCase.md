@@ -6,9 +6,9 @@
 
 # Function: toPascalCase()
 
-> **toPascalCase**(`text`): `string`
+> **toPascalCase**(`str`): `string`
 
-Defined in: case-conversion/case-conversion.ts:91
+Defined in: [case-conversion/case-conversion.ts:91](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/string/src/case-conversion/case-conversion.ts#L91)
 
 Converts a given string to PascalCase.
 
@@ -17,11 +17,9 @@ For example, "hello world" becomes "HelloWorld".
 
 ## Parameters
 
-### text
+### str
 
 `string`
-
-The input string to convert.
 
 ## Returns
 

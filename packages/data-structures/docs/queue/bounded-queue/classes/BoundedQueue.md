@@ -6,7 +6,7 @@
 
 # Class: BoundedQueue\<T\>
 
-Defined in: [queue/bounded-queue.ts:13](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/queue/bounded-queue.ts#L13)
+Defined in: [queue/bounded-queue.ts:13](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/queue/bounded-queue.ts#L13)
 
 A queue data structure with a fixed maximum size.
 
@@ -35,7 +35,7 @@ The type of elements held in the queue.
 
 > **new BoundedQueue**\<`T`\>(`maxSize`): `BoundedQueue`\<`T`\>
 
-Defined in: [queue/bounded-queue.ts:16](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/queue/bounded-queue.ts#L16)
+Defined in: [queue/bounded-queue.ts:16](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/queue/bounded-queue.ts#L16)
 
 #### Parameters
 
@@ -57,7 +57,7 @@ Defined in: [queue/bounded-queue.ts:16](https://github.com/gabaudette/ts-stdlib/
 
 > **enqueue**(`item`): `T`
 
-Defined in: [queue/bounded-queue.ts:29](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/queue/bounded-queue.ts#L29)
+Defined in: [queue/bounded-queue.ts:29](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/queue/bounded-queue.ts#L29)
 
 Adds an item to the queue.
 Throws an error if the queue has reached its maximum size.
@@ -90,7 +90,7 @@ If the queue is full.
 
 > **dequeue**(): `undefined` \| `T`
 
-Defined in: [queue/queue.ts:52](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/queue/queue.ts#L52)
+Defined in: [queue/queue.ts:52](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/queue/queue.ts#L52)
 
 Removes and returns the item at the front of the queue.
 
@@ -110,7 +110,7 @@ The dequeued item of type `T`, or `undefined` if the queue is empty.
 
 > **peek**(): `undefined` \| `T`
 
-Defined in: [queue/queue.ts:61](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/queue/queue.ts#L61)
+Defined in: [queue/queue.ts:61](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/queue/queue.ts#L61)
 
 Returns the element at the front of the queue without removing it.
 
@@ -130,7 +130,7 @@ The front element of the queue if it exists; otherwise, `undefined`.
 
 > **isEmpty**(): `boolean`
 
-Defined in: [queue/queue.ts:70](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/queue/queue.ts#L70)
+Defined in: [queue/queue.ts:70](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/queue/queue.ts#L70)
 
 Determines whether the queue is empty.
 
@@ -150,7 +150,7 @@ Determines whether the queue is empty.
 
 > **size**(): `number`
 
-Defined in: [queue/queue.ts:79](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/queue/queue.ts#L79)
+Defined in: [queue/queue.ts:79](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/queue/queue.ts#L79)
 
 Returns the number of elements currently in the queue.
 
@@ -170,7 +170,7 @@ The size of the queue.
 
 > **clear**(): `void`
 
-Defined in: [queue/queue.ts:89](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/queue/queue.ts#L89)
+Defined in: [queue/queue.ts:89](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/queue/queue.ts#L89)
 
 Removes all elements from the queue, resetting it to an empty state.
 

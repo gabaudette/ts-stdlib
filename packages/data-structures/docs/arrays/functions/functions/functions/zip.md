@@ -8,7 +8,7 @@
 
 > **zip**\<`T`, `U`\>(`array1`, `array2`): \[`T`, `U`\][]
 
-Defined in: [arrays/functions/functions.ts:109](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/arrays/functions/functions.ts#L109)
+Defined in: [arrays/functions/functions.ts:109](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/arrays/functions/functions.ts#L109)
 
 Combines two arrays into a single array of pairs.
 Each pair contains elements from the same index of the input arrays.

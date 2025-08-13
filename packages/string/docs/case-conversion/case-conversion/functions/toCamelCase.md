@@ -6,9 +6,9 @@
 
 # Function: toCamelCase()
 
-> **toCamelCase**(`text`): `string`
+> **toCamelCase**(`str`): `string`
 
-Defined in: case-conversion/case-conversion.ts:114
+Defined in: [case-conversion/case-conversion.ts:116](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/string/src/case-conversion/case-conversion.ts#L116)
 
 Converts a given string to camelCase format.
 
@@ -17,11 +17,9 @@ and capitalizes the first letter of each subsequent word, then joins them togeth
 
 ## Parameters
 
-### text
+### str
 
 `string`
-
-The input string to convert.
 
 ## Returns
 

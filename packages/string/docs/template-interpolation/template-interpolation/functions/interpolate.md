@@ -8,7 +8,7 @@
 
 > **interpolate**(`template`, `variables`): `string`
 
-Defined in: [template-interpolation/template-interpolation.ts:11](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/string/src/template-interpolation/template-interpolation.ts#L11)
+Defined in: [template-interpolation/template-interpolation.ts:11](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/string/src/template-interpolation/template-interpolation.ts#L11)
 
 Replaces placeholders in a template string with corresponding values from a variables object.
 

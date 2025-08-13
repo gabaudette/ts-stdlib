@@ -8,7 +8,7 @@
 
 > **trimEnd**(`text`): `string`
 
-Defined in: [trims/trim.ts:17](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/string/src/trims/trim.ts#L17)
+Defined in: [trims/trim.ts:17](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/string/src/trims/trim.ts#L17)
 
 Removes trailing whitespace characters from the end of the given string.
 

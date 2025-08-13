@@ -8,7 +8,7 @@
 
 > **reversePreOrderTraversal**\<`T`\>(`root`, `callback`): `void`
 
-Defined in: [trees/traversal/tree-traversal.ts:92](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/trees/traversal/tree-traversal.ts#L92)
+Defined in: [trees/traversal/tree-traversal.ts:92](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/trees/traversal/tree-traversal.ts#L92)
 
 Performs a reverse pre-order traversal (right, root, left) on a binary tree.
 

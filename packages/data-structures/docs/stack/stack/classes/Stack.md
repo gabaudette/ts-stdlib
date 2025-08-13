@@ -6,7 +6,7 @@
 
 # Class: Stack\<T\>
 
-Defined in: [stack/stack.ts:17](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/stack/stack.ts#L17)
+Defined in: [stack/stack.ts:17](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/stack/stack.ts#L17)
 
 Represents a generic stack data structure, supporting typical stack operations such as push, pop, peek, and clear.
 
@@ -42,7 +42,7 @@ The type of elements stored in the stack.
 
 > **new Stack**\<`T`\>(`initialValues?`): `Stack`\<`T`\>
 
-Defined in: [stack/stack.ts:20](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/stack/stack.ts#L20)
+Defined in: [stack/stack.ts:20](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/stack/stack.ts#L20)
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: [stack/stack.ts:20](https://github.com/gabaudette/ts-stdlib/blob/516
 
 > **push**(`value`): `void`
 
-Defined in: [stack/stack.ts:34](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/stack/stack.ts#L34)
+Defined in: [stack/stack.ts:34](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/stack/stack.ts#L34)
 
 Adds a value to the top of the stack.
 
@@ -86,7 +86,7 @@ If the stack size exceeds `Number.MAX_SAFE_INTEGER (9007199254740991 2^53 − 1.
 
 > **pop**(): `undefined` \| `T`
 
-Defined in: [stack/stack.ts:47](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/stack/stack.ts#L47)
+Defined in: [stack/stack.ts:47](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/stack/stack.ts#L47)
 
 Removes and returns the top element from the stack.
 
@@ -102,7 +102,7 @@ The element at the top of the stack, or `undefined` if the stack is empty.
 
 > **peek**(): `undefined` \| `T`
 
-Defined in: [stack/stack.ts:57](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/stack/stack.ts#L57)
+Defined in: [stack/stack.ts:57](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/stack/stack.ts#L57)
 
 Returns the top element of the stack without removing it.
 If the stack is empty, returns `undefined`.
@@ -119,7 +119,7 @@ The top element of the stack, or `undefined` if the stack is empty.
 
 > **isEmpty**(): `boolean`
 
-Defined in: [stack/stack.ts:70](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/stack/stack.ts#L70)
+Defined in: [stack/stack.ts:70](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/stack/stack.ts#L70)
 
 Checks whether the stack is empty.
 
@@ -135,7 +135,7 @@ Checks whether the stack is empty.
 
 > **size**(): `number`
 
-Defined in: [stack/stack.ts:79](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/stack/stack.ts#L79)
+Defined in: [stack/stack.ts:79](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/stack/stack.ts#L79)
 
 Returns the number of elements currently in the stack.
 
@@ -151,7 +151,7 @@ The size of the stack.
 
 > **clear**(): `void`
 
-Defined in: [stack/stack.ts:89](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/stack/stack.ts#L89)
+Defined in: [stack/stack.ts:89](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/stack/stack.ts#L89)
 
 Removes all elements from the stack, resetting it to an empty state.
 

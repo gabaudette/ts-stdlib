@@ -1,14 +1,14 @@
-[**@ts-stdlib/string v0.1.0**](../../../README.md)
+[**@ts-stdlib/string v1.0.1**](../../../README.md)
 
 ***
 
-[@ts-stdlib/string](../../../README.md) / [template-interpolation/template-interpolation](../README.md) / interpolate
+[@ts-stdlib/string](../../../modules.md) / [template-interpolation/template-interpolation](../README.md) / interpolate
 
 # Function: interpolate()
 
 > **interpolate**(`template`, `variables`): `string`
 
-Defined in: [template-interpolation/template-interpolation.ts:11](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/string/src/template-interpolation/template-interpolation.ts#L11)
+Defined in: [template-interpolation/template-interpolation.ts:11](https://github.com/gabaudette/ts-stdlib/blob/94404285f4faf17348604cdfd50e84b4b9ee7b00/packages/string/src/template-interpolation/template-interpolation.ts#L11)
 
 Replaces placeholders in a template string with corresponding values from a variables object.
 

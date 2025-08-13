@@ -1,8 +1,8 @@
-[**@ts-stdlib/string v0.1.0**](../../README.md)
+[**@ts-stdlib/string v1.0.1**](../../README.md)
 
 ***
 
-[@ts-stdlib/string](../../README.md) / template-interpolation/template-interpolation
+[@ts-stdlib/string](../../modules.md) / template-interpolation/template-interpolation
 
 # template-interpolation/template-interpolation
 

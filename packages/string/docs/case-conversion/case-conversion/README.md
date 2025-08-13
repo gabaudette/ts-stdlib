@@ -1,8 +1,8 @@
-[**@ts-stdlib/string v0.1.0**](../../README.md)
+[**@ts-stdlib/string v1.0.1**](../../README.md)
 
 ***
 
-[@ts-stdlib/string](../../README.md) / case-conversion/case-conversion
+[@ts-stdlib/string](../../modules.md) / case-conversion/case-conversion
 
 # case-conversion/case-conversion
 

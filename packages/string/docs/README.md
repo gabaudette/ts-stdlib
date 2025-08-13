@@ -1,12 +1,33 @@
-**@ts-stdlib/string v0.1.0**
+**@ts-stdlib/string v1.0.1**
 
 ***
 
-# @ts-stdlib/string v0.1.0
+# ts-stdlib
 
-## Modules
+A collection of TypeScript standard library utilities to enhance productivity and code quality.
 
-- [case-conversion/case-conversion](case-conversion/case-conversion/README.md)
-- [template-interpolation/template-interpolation](template-interpolation/template-interpolation/README.md)
-- [trims/trim](trims/trim/README.md)
-- [word-wrap/word-wrap](word-wrap/word-wrap/README.md)
+## Features
+
+- Utility functions for common tasks
+- Type-safe helpers
+- Modular and easy to use
+- Tree shackable
+
+## Installation
+
+```bash
+npm install ts-stdlib
+```
+
+## Documentation
+- [Algorithms Documentation](https://github.com/gabaudette/ts-stdlib/blob/main/packages/algorithms/docs/README.md)
+- [Data Structures Documentation](https://github.com/gabaudette/ts-stdlib/blob/main/packages/data-structures/docs/README.md)
+- [String Documentation](https://github.com/gabaudette/ts-stdlib/blob/main/packages/string/docs/README.md)
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests.
+
+## License
+
+MIT

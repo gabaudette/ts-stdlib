@@ -8,7 +8,7 @@
 
 > **chunk**\<`T`\>(`array`, `size`): `T`[][]
 
-Defined in: [arrays/functions/functions.ts:148](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/arrays/functions/functions.ts#L148)
+Defined in: [arrays/functions/functions.ts:148](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/arrays/functions/functions.ts#L148)
 
 Splits an array into chunks of a specified size.
 

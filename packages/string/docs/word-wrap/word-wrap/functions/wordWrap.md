@@ -8,7 +8,7 @@
 
 > **wordWrap**(`text`, `width`): `string`
 
-Defined in: [word-wrap/word-wrap.ts:11](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/string/src/word-wrap/word-wrap.ts#L11)
+Defined in: [word-wrap/word-wrap.ts:11](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/string/src/word-wrap/word-wrap.ts#L11)
 
 Wraps a given text into lines of specified maximum width, breaking lines at word boundaries.
 

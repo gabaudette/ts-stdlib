@@ -6,7 +6,7 @@
 
 # Class: MersenneTwister
 
-Defined in: [rng/mersenne-twister.ts:25](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/rng/mersenne-twister.ts#L25)
+Defined in: [rng/mersenne-twister.ts:25](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/algorithms/src/rng/mersenne-twister.ts#L25)
 
 Implements the Mersenne Twister pseudorandom number generator (MT19937).
 
@@ -39,7 +39,7 @@ https://en.wikipedia.org/wiki/Mersenne_Twister
 
 > **new MersenneTwister**(`seed`): `MersenneTwister`
 
-Defined in: [rng/mersenne-twister.ts:35](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/rng/mersenne-twister.ts#L35)
+Defined in: [rng/mersenne-twister.ts:35](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/algorithms/src/rng/mersenne-twister.ts#L35)
 
 #### Parameters
 
@@ -57,7 +57,7 @@ Defined in: [rng/mersenne-twister.ts:35](https://github.com/gabaudette/ts-standa
 
 > **randomInt**(): `number`
 
-Defined in: [rng/mersenne-twister.ts:56](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/rng/mersenne-twister.ts#L56)
+Defined in: [rng/mersenne-twister.ts:56](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/algorithms/src/rng/mersenne-twister.ts#L56)
 
 Generates a random 32-bit unsigned integer using the Mersenne Twister algorithm.
 
@@ -76,7 +76,7 @@ A random 32-bit unsigned integer.
 
 > **random**(): `number`
 
-Defined in: [rng/mersenne-twister.ts:104](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/rng/mersenne-twister.ts#L104)
+Defined in: [rng/mersenne-twister.ts:104](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/algorithms/src/rng/mersenne-twister.ts#L104)
 
 Generates a random floating-point number in the range [0, 1).
 

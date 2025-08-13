@@ -8,7 +8,7 @@
 
 > **countingSort**(`array`, `max`): `number`[]
 
-Defined in: [sorting/counting-sort.ts:20](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/sorting/counting-sort.ts#L20)
+Defined in: [sorting/counting-sort.ts:20](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/algorithms/src/sorting/counting-sort.ts#L20)
 
 Sorts an array of non-negative integers using the counting sort algorithm.
 

@@ -6,7 +6,7 @@
 
 # Class: CircularLinkedList\<T\>
 
-Defined in: [linked-list/circular-linked-list.ts:42](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/linked-list/circular-linked-list.ts#L42)
+Defined in: [linked-list/circular-linked-list.ts:42](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/linked-list/circular-linked-list.ts#L42)
 
 Represents a circular singly linked list data structure.
 
@@ -55,7 +55,7 @@ The type of elements stored in the list.
 
 > **get** **size**(): `number`
 
-Defined in: [linked-list/circular-linked-list.ts:46](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/linked-list/circular-linked-list.ts#L46)
+Defined in: [linked-list/circular-linked-list.ts:46](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/linked-list/circular-linked-list.ts#L46)
 
 ##### Returns
 
@@ -67,7 +67,7 @@ Defined in: [linked-list/circular-linked-list.ts:46](https://github.com/gabaudet
 
 > **isEmpty**(): `boolean`
 
-Defined in: [linked-list/circular-linked-list.ts:50](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/linked-list/circular-linked-list.ts#L50)
+Defined in: [linked-list/circular-linked-list.ts:50](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/linked-list/circular-linked-list.ts#L50)
 
 #### Returns
 
@@ -79,7 +79,7 @@ Defined in: [linked-list/circular-linked-list.ts:50](https://github.com/gabaudet
 
 > **add**(`value`): `void`
 
-Defined in: [linked-list/circular-linked-list.ts:54](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/linked-list/circular-linked-list.ts#L54)
+Defined in: [linked-list/circular-linked-list.ts:54](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/linked-list/circular-linked-list.ts#L54)
 
 #### Parameters
 
@@ -97,7 +97,7 @@ Defined in: [linked-list/circular-linked-list.ts:54](https://github.com/gabaudet
 
 > **addFirst**(`value`): `void`
 
-Defined in: [linked-list/circular-linked-list.ts:67](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/linked-list/circular-linked-list.ts#L67)
+Defined in: [linked-list/circular-linked-list.ts:67](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/linked-list/circular-linked-list.ts#L67)
 
 #### Parameters
 
@@ -115,7 +115,7 @@ Defined in: [linked-list/circular-linked-list.ts:67](https://github.com/gabaudet
 
 > **removeFirst**(): `undefined` \| `T`
 
-Defined in: [linked-list/circular-linked-list.ts:79](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/linked-list/circular-linked-list.ts#L79)
+Defined in: [linked-list/circular-linked-list.ts:79](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/linked-list/circular-linked-list.ts#L79)
 
 #### Returns
 
@@ -127,7 +127,7 @@ Defined in: [linked-list/circular-linked-list.ts:79](https://github.com/gabaudet
 
 > **removeLast**(): `undefined` \| `T`
 
-Defined in: [linked-list/circular-linked-list.ts:95](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/linked-list/circular-linked-list.ts#L95)
+Defined in: [linked-list/circular-linked-list.ts:95](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/linked-list/circular-linked-list.ts#L95)
 
 #### Returns
 
@@ -139,7 +139,7 @@ Defined in: [linked-list/circular-linked-list.ts:95](https://github.com/gabaudet
 
 > **peekFirst**(): `undefined` \| `T`
 
-Defined in: [linked-list/circular-linked-list.ts:117](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/linked-list/circular-linked-list.ts#L117)
+Defined in: [linked-list/circular-linked-list.ts:117](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/linked-list/circular-linked-list.ts#L117)
 
 #### Returns
 
@@ -151,7 +151,7 @@ Defined in: [linked-list/circular-linked-list.ts:117](https://github.com/gabaude
 
 > **peekLast**(): `undefined` \| `T`
 
-Defined in: [linked-list/circular-linked-list.ts:121](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/linked-list/circular-linked-list.ts#L121)
+Defined in: [linked-list/circular-linked-list.ts:121](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/linked-list/circular-linked-list.ts#L121)
 
 #### Returns
 
@@ -163,7 +163,7 @@ Defined in: [linked-list/circular-linked-list.ts:121](https://github.com/gabaude
 
 > **\[iterator\]**(): `IterableIterator`\<`T`\>
 
-Defined in: [linked-list/circular-linked-list.ts:125](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/linked-list/circular-linked-list.ts#L125)
+Defined in: [linked-list/circular-linked-list.ts:125](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/linked-list/circular-linked-list.ts#L125)
 
 #### Returns
 
@@ -175,7 +175,7 @@ Defined in: [linked-list/circular-linked-list.ts:125](https://github.com/gabaude
 
 > **clear**(): `void`
 
-Defined in: [linked-list/circular-linked-list.ts:134](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/linked-list/circular-linked-list.ts#L134)
+Defined in: [linked-list/circular-linked-list.ts:134](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/linked-list/circular-linked-list.ts#L134)
 
 #### Returns
 

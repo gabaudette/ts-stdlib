@@ -60,7 +60,7 @@ jobs:
   publish:
     name: Publish Packages
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubugntu-latest
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
     steps:
       - uses: actions/checkout@v4

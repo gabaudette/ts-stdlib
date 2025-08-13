@@ -8,7 +8,7 @@
 
 > **exchangeSort**\<`T`\>(`array`, `compareFn`): `T`[]
 
-Defined in: [sorting/exchange-sort.ts:19](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/sorting/exchange-sort.ts#L19)
+Defined in: [sorting/exchange-sort.ts:19](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/algorithms/src/sorting/exchange-sort.ts#L19)
 
 Sorts an array in-place using the exchange sort algorithm.
 Exchange sort compares each pair of elements and swaps them if they are out of order,

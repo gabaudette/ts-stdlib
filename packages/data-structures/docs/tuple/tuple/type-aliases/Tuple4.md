@@ -8,7 +8,7 @@
 
 > **Tuple4**\<`T1`, `T2`, `T3`, `T4`\> = `Readonly`\<\[`T1`, `T2`, `T3`, `T4`\]\>
 
-Defined in: [tuple/tuple.ts:52](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/data-structures/src/tuple/tuple.ts#L52)
+Defined in: [tuple/tuple.ts:52](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/data-structures/src/tuple/tuple.ts#L52)
 
 Represents a tuple containing exactly four elements of potentially different types.
 

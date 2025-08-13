@@ -6,7 +6,7 @@
 
 # Class: Xorshift
 
-Defined in: [rng/xorshift.ts:22](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/rng/xorshift.ts#L22)
+Defined in: [rng/xorshift.ts:22](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/algorithms/src/rng/xorshift.ts#L22)
 
 Implements a simple Xorshift random number generator (RNG).
 
@@ -40,7 +40,7 @@ https://en.wikipedia.org/wiki/Xorshift
 
 > **new Xorshift**(`seed`): `Xorshift`
 
-Defined in: [rng/xorshift.ts:25](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/rng/xorshift.ts#L25)
+Defined in: [rng/xorshift.ts:25](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/algorithms/src/rng/xorshift.ts#L25)
 
 #### Parameters
 
@@ -58,7 +58,7 @@ Defined in: [rng/xorshift.ts:25](https://github.com/gabaudette/ts-standard-libra
 
 > **randomInt**(): `number`
 
-Defined in: [rng/xorshift.ts:29](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/rng/xorshift.ts#L29)
+Defined in: [rng/xorshift.ts:29](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/algorithms/src/rng/xorshift.ts#L29)
 
 #### Returns
 
@@ -74,7 +74,7 @@ Defined in: [rng/xorshift.ts:29](https://github.com/gabaudette/ts-standard-libra
 
 > **random**(): `number`
 
-Defined in: [rng/xorshift.ts:33](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/rng/xorshift.ts#L33)
+Defined in: [rng/xorshift.ts:33](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/algorithms/src/rng/xorshift.ts#L33)
 
 #### Returns
 
@@ -90,7 +90,7 @@ Defined in: [rng/xorshift.ts:33](https://github.com/gabaudette/ts-standard-libra
 
 > **next**(): `number`
 
-Defined in: [rng/xorshift.ts:37](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/rng/xorshift.ts#L37)
+Defined in: [rng/xorshift.ts:37](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/algorithms/src/rng/xorshift.ts#L37)
 
 #### Returns
 

@@ -8,7 +8,7 @@
 
 > **shellSort**\<`T`\>(`array`, `compareFn`): `T`[]
 
-Defined in: [sorting/shell-sort.ts:16](https://github.com/gabaudette/ts-standard-library/blob/ff5d83fe4b66247fa084c3cd3ca7e6ef97c8bcfa/packages/algorithms/src/sorting/shell-sort.ts#L16)
+Defined in: [sorting/shell-sort.ts:16](https://github.com/gabaudette/ts-stdlib/blob/8e7816af16ba99a04cff637dfff9fab2e1e392d8/packages/algorithms/src/sorting/shell-sort.ts#L16)
 
 Sorts an array using the Shell sort algorithm.
 

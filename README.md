@@ -20,6 +20,7 @@ yarn install ts-stdlib
 ## Documentation
 - [Algorithms Documentation](./packages/algorithms/docs)
 - [Data Structures Documentation](./packages/data-structures/docs)
+- [String Documentation](./packages/string/docs)
 
 ## Contributing
 

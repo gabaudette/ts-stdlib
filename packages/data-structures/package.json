@@ -1,7 +1,22 @@
 {
     "name": "@ts-standard-library/data-structures",
     "description": "A collection of data structures for TypeScript.",
-    "version": "0.2.0",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gabaudette/ts-stdlib/tree/main/packages/data-structures"
+    },
+    "keywords": [
+        "data-structures",
+        "typescript",
+        "utilities",
+        "collections",
+        "arrays",
+        "stack",
+        "queue",
+        "linked-list",
+        "tree"
+    ],
     "license": "MIT",
     "author": "Gabriel Audette",
     "main": "dist/index.js",

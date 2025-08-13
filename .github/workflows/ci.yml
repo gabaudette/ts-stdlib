@@ -65,15 +65,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Copy docs/README.md to package root
-        run: |
-          for pkg in packages/*; do
-            if [ -f "$pkg/docs/README.md" ]; then
-              cp "$pkg/docs/README.md" "$pkg/README.md"
-              echo "Copied $pkg/docs/README.md to $pkg/README.md"
-            fi
-          done
-
       - name: Enable Corepack (pnpm)
         run: corepack enable
 

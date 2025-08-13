@@ -1,7 +1,7 @@
 {
     "name": "@ts-standard-library/algorithms",
     "description": "A collection of algorithms for TypeScript.",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "license": "MIT",
     "author": "Gabriel Audette",
     "main": "dist/index.js",

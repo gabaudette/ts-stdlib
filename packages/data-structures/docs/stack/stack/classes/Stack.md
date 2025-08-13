@@ -1,0 +1,164 @@
+[**@ts-stdlib/algorithms v0.1.0**](../../../README.md)
+
+***
+
+[@ts-stdlib/algorithms](../../../README.md) / [stack/stack](../README.md) / Stack
+
+# Class: Stack\<T\>
+
+Defined in: stack/stack.ts:17
+
+Represents a generic stack data structure, supporting typical stack operations such as push, pop, peek, and clear.
+
+## Example
+
+```typescript
+const stack = new Stack<number>([1, 2, 3]);
+stack.push(4);
+const top = stack.peek(); // 4
+const popped = stack.pop(); // 4
+```
+
+## See
+
+ - [https://en.wikipedia.org/wiki/Stack\_(abstract\_data\_type)](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) for more information on stacks.
+ - BoundedStack for a bounded stack implementation.
+
+## Extended by
+
+- [`BoundedStack`](../../bounded-stack/classes/BoundedStack.md)
+
+## Type Parameters
+
+### T
+
+`T`
+
+The type of elements stored in the stack.
+
+## Constructors
+
+### Constructor
+
+> **new Stack**\<`T`\>(`initialValues?`): `Stack`\<`T`\>
+
+Defined in: stack/stack.ts:20
+
+#### Parameters
+
+##### initialValues?
+
+`T`[]
+
+#### Returns
+
+`Stack`\<`T`\>
+
+## Methods
+
+### push()
+
+> **push**(`value`): `void`
+
+Defined in: stack/stack.ts:34
+
+Adds a value to the top of the stack.
+
+#### Parameters
+
+##### value
+
+`T`
+
+The value to be pushed onto the stack.
+
+#### Returns
+
+`void`
+
+#### Throws
+
+If the stack size exceeds `Number.MAX_SAFE_INTEGER (9007199254740991 2^53 − 1.)`.
+
+***
+
+### pop()
+
+> **pop**(): `undefined` \| `T`
+
+Defined in: stack/stack.ts:47
+
+Removes and returns the top element from the stack.
+
+#### Returns
+
+`undefined` \| `T`
+
+The element at the top of the stack, or `undefined` if the stack is empty.
+
+***
+
+### peek()
+
+> **peek**(): `undefined` \| `T`
+
+Defined in: stack/stack.ts:57
+
+Returns the top element of the stack without removing it.
+If the stack is empty, returns `undefined`.
+
+#### Returns
+
+`undefined` \| `T`
+
+The top element of the stack, or `undefined` if the stack is empty.
+
+***
+
+### isEmpty()
+
+> **isEmpty**(): `boolean`
+
+Defined in: stack/stack.ts:70
+
+Checks whether the stack is empty.
+
+#### Returns
+
+`boolean`
+
+`true` if the stack contains no elements, otherwise `false`.
+
+***
+
+### size()
+
+> **size**(): `number`
+
+Defined in: stack/stack.ts:79
+
+Returns the number of elements currently in the stack.
+
+#### Returns
+
+`number`
+
+The size of the stack.
+
+***
+
+### clear()
+
+> **clear**(): `void`
+
+Defined in: stack/stack.ts:89
+
+Removes all elements from the stack, resetting it to an empty state.
+
+#### Returns
+
+`void`
+
+#### Remarks
+
+After calling this method, the stack will contain no elements.

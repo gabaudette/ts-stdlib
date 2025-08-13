@@ -1,0 +1,43 @@
+[**@ts-stdlib/algorithms v0.1.0**](../../../README.md)
+
+***
+
+[@ts-stdlib/algorithms](../../../README.md) / [tuple/tuple](../README.md) / Tuple3
+
+# Type Alias: Tuple3\<T1, T2, T3\>
+
+> **Tuple3**\<`T1`, `T2`, `T3`\> = `Readonly`\<\[`T1`, `T2`, `T3`\]\>
+
+Defined in: tuple/tuple.ts:34
+
+Represents a read-only tuple containing exactly three elements of potentially different types.
+
+## Type Parameters
+
+### T1
+
+`T1`
+
+The type of the first element in the tuple.
+
+### T2
+
+`T2`
+
+The type of the second element in the tuple.
+
+### T3
+
+`T3`
+
+The type of the third element in the tuple.
+
+## Example
+
+```typescript
+const point: Tuple3<number, number, number> = [1, 2, 3] as const;
+```
+
+## See
+
+[MutableTuple3](MutableTuple3.md) for a mutable version of this tuple.

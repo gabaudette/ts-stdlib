@@ -9,12 +9,6 @@ A collection of TypeScript standard library utilities to enhance productivity an
 - Modular and easy to use
 - Tree shackable
 
-## Installation
-
-```bash
-npm install ts-stdlib
-```
-
 ## Documentation
 - [Algorithms Documentation](./packages/algorithms/docs)
 - [Data Structures Documentation](./packages/data-structures/docs)

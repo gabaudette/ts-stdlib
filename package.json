@@ -6,6 +6,7 @@
     "workspaces": [
         "packages/*"
     ],
+    "packageManager": "pnpm@9.1.0",
     "devDependencies": {
         "@biomejs/biome": "2.1.4",
         "parcel": "^2.15.4",

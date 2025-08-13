@@ -1,0 +1,24 @@
+{
+  "name": "@ts-stdlib/core",
+  "description": "A standard library for TypeScript containing a collection of utilities.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Gabriel Audette",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -b",
+    "lint": "biome lint .",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@ts-stdlib/data-structures": "workspace:^0.1.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.1.4",
+    "typescript": "^5.9.2",
+    "vitest": "^0.34.3"
+  }
+}

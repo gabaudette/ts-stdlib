@@ -1,14 +1,14 @@
-[**@ts-stdlib/algorithms v0.1.0**](../../../../README.md)
+[**@ts-stdlib/data-structures v0.1.0**](../../../../README.md)
 
 ***
 
-[@ts-stdlib/algorithms](../../../../README.md) / [arrays/functions/functions](../README.md) / groupBy
+[@ts-stdlib/data-structures](../../../../README.md) / [arrays/functions/functions](../README.md) / groupBy
 
 # Function: groupBy()
 
 > **groupBy**\<`T`\>(`array`, `key`): `Record`\<`string`, `T`[]\>
 
-Defined in: arrays/functions/functions.ts:35
+Defined in: [arrays/functions/functions.ts:35](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/arrays/functions/functions.ts#L35)
 
 Groups the elements of an array based on the specified key.
 

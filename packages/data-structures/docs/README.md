@@ -1,8 +1,8 @@
-**@ts-stdlib/algorithms v0.1.0**
+**@ts-stdlib/data-structures v0.1.0**
 
 ***
 
-# @ts-stdlib/algorithms v0.1.0
+# @ts-stdlib/data-structures v0.1.0
 
 ## Modules
 

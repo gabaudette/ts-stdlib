@@ -48,3 +48,11 @@
 - Is browser / is node
 - Get environment variables (typed)
 - Safe JSON parse/stringify
+
+## 8. Regex
+- Email regexes
+- IP regexes
+- Password regexes
+- Postal Code regexes
+- Phone regexes
+- Other commonly use regexes 

@@ -1,14 +1,14 @@
-[**@ts-stdlib/algorithms v0.1.0**](../../../README.md)
+[**@ts-stdlib/data-structures v0.1.0**](../../../README.md)
 
 ***
 
-[@ts-stdlib/algorithms](../../../README.md) / [tuple/tuple](../README.md) / MutableTuple3
+[@ts-stdlib/data-structures](../../../README.md) / [tuple/tuple](../README.md) / MutableTuple3
 
 # Type Alias: MutableTuple3\<T1, T2, T3\>
 
 > **MutableTuple3**\<`T1`, `T2`, `T3`\> = \[`T1`, `T2`, `T3`\]
 
-Defined in: tuple/tuple.ts:141
+Defined in: [tuple/tuple.ts:141](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/tuple/tuple.ts#L141)
 
 Represents a mutable tuple containing three elements of potentially different types.
 

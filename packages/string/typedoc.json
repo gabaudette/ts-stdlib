@@ -3,10 +3,15 @@
 	"entryPointStrategy": "expand",
 	"plugin": ["typedoc-plugin-markdown"],
 	"theme": "markdown",
-	"entryPoints": ["src/rng", "src/sorting"],
+	"entryPoints": [
+		"src/case-conversion",
+		"src/template-interpolation",
+		"src/trims",
+		"src/word-wrap"
+	],
 	"tsconfig": "./tsconfig.json",
 	"out": "docs",
-	"name": "@ts-stdlib/algorithms",
+	"name": "@ts-stdlib/string",
 	"includeVersion": true,
 	"exclude": ["**/*.test.ts"],
 	"excludeExternals": true,

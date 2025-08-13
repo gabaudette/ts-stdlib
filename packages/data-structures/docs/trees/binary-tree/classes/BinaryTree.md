@@ -1,12 +1,12 @@
-[**@ts-stdlib/algorithms v0.1.0**](../../../README.md)
+[**@ts-stdlib/data-structures v0.1.0**](../../../README.md)
 
 ***
 
-[@ts-stdlib/algorithms](../../../README.md) / [trees/binary-tree](../README.md) / BinaryTree
+[@ts-stdlib/data-structures](../../../README.md) / [trees/binary-tree](../README.md) / BinaryTree
 
 # Class: BinaryTree\<T\>
 
-Defined in: trees/binary-tree.ts:31
+Defined in: [trees/binary-tree.ts:31](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/trees/binary-tree.ts#L31)
 
 Represents a generic binary tree data structure.
 
@@ -54,7 +54,7 @@ The type of values stored in the tree nodes.
 
 > **insert**(`value`, `parent`, `left`): [`BinaryTreeNode`](BinaryTreeNode.md)\<`T`\>
 
-Defined in: trees/binary-tree.ts:48
+Defined in: [trees/binary-tree.ts:48](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/trees/binary-tree.ts#L48)
 
 Inserts a new node with the specified value into the binary tree.
 
@@ -99,7 +99,7 @@ Error if parent is not specified for non-root insertions, or if the child positi
 
 > **getRoot**(): `null` \| [`BinaryTreeNode`](BinaryTreeNode.md)\<`T`\>
 
-Defined in: trees/binary-tree.ts:83
+Defined in: [trees/binary-tree.ts:83](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/trees/binary-tree.ts#L83)
 
 Returns the root node of the binary tree.
 
@@ -115,7 +115,7 @@ The root node of type `BinaryTreeNode<T>`, or `null` if the tree is empty.
 
 > **clear**(): `void`
 
-Defined in: trees/binary-tree.ts:92
+Defined in: [trees/binary-tree.ts:92](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/trees/binary-tree.ts#L92)
 
 Removes all nodes from the binary tree, resetting it to an empty state.
 
@@ -131,7 +131,7 @@ After calling this method, the tree will have no root node and all references to
 
 > **getHeight**(`node`): `number`
 
-Defined in: trees/binary-tree.ts:105
+Defined in: [trees/binary-tree.ts:105](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/trees/binary-tree.ts#L105)
 
 Calculates the height of the binary tree starting from the specified node.
 
@@ -158,7 +158,7 @@ The height of the tree from the specified node.
 
 > **isEmpty**(): `boolean`
 
-Defined in: trees/binary-tree.ts:119
+Defined in: [trees/binary-tree.ts:119](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/trees/binary-tree.ts#L119)
 
 Determines whether the binary tree is empty.
 

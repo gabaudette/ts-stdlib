@@ -1,8 +1,8 @@
-[**@ts-stdlib/algorithms v0.1.0**](../../README.md)
+[**@ts-stdlib/data-structures v0.1.0**](../../README.md)
 
 ***
 
-[@ts-stdlib/algorithms](../../README.md) / trees/binary-tree
+[@ts-stdlib/data-structures](../../README.md) / trees/binary-tree
 
 # trees/binary-tree
 

@@ -1,14 +1,14 @@
-[**@ts-stdlib/algorithms v0.1.0**](../../../../README.md)
+[**@ts-stdlib/data-structures v0.1.0**](../../../../README.md)
 
 ***
 
-[@ts-stdlib/algorithms](../../../../README.md) / [arrays/functions/functions](../README.md) / zip
+[@ts-stdlib/data-structures](../../../../README.md) / [arrays/functions/functions](../README.md) / zip
 
 # Function: zip()
 
 > **zip**\<`T`, `U`\>(`array1`, `array2`): \[`T`, `U`\][]
 
-Defined in: arrays/functions/functions.ts:109
+Defined in: [arrays/functions/functions.ts:109](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/arrays/functions/functions.ts#L109)
 
 Combines two arrays into a single array of pairs.
 Each pair contains elements from the same index of the input arrays.

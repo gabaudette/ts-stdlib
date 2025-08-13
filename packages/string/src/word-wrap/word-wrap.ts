@@ -8,7 +8,7 @@
  * @param width - The maximum width (in characters) of each line.
  * @returns The wrapped text with lines separated by newline characters (`\n`).
  */
-export function wordWarp(text: string, width: number): string {
+export function wordWrap(text: string, width: number): string {
 	const words = text.split(" ");
 	let currentLine = "";
 	let result = "";

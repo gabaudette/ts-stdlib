@@ -1,12 +1,12 @@
-[**@ts-stdlib/algorithms v0.1.0**](../../../README.md)
+[**@ts-stdlib/data-structures v0.1.0**](../../../README.md)
 
 ***
 
-[@ts-stdlib/algorithms](../../../README.md) / [linked-list/circular-linked-list](../README.md) / CircularLinkedListNode
+[@ts-stdlib/data-structures](../../../README.md) / [linked-list/circular-linked-list](../README.md) / CircularLinkedListNode
 
 # Class: CircularLinkedListNode\<T\>
 
-Defined in: linked-list/circular-linked-list.ts:11
+Defined in: [linked-list/circular-linked-list.ts:11](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/linked-list/circular-linked-list.ts#L11)
 
 Represents a node in a circular singly linked list.
 
@@ -28,7 +28,7 @@ forming a closed loop.
 
 > **new CircularLinkedListNode**\<`T`\>(`value`): `CircularLinkedListNode`\<`T`\>
 
-Defined in: linked-list/circular-linked-list.ts:15
+Defined in: [linked-list/circular-linked-list.ts:15](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/linked-list/circular-linked-list.ts#L15)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: linked-list/circular-linked-list.ts:15
 
 > **value**: `T`
 
-Defined in: linked-list/circular-linked-list.ts:12
+Defined in: [linked-list/circular-linked-list.ts:12](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/linked-list/circular-linked-list.ts#L12)
 
 ***
 
@@ -54,4 +54,4 @@ Defined in: linked-list/circular-linked-list.ts:12
 
 > **next**: `CircularLinkedListNode`\<`T`\>
 
-Defined in: linked-list/circular-linked-list.ts:13
+Defined in: [linked-list/circular-linked-list.ts:13](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/linked-list/circular-linked-list.ts#L13)

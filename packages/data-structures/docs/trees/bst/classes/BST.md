@@ -1,12 +1,12 @@
-[**@ts-stdlib/algorithms v0.1.0**](../../../README.md)
+[**@ts-stdlib/data-structures v0.1.0**](../../../README.md)
 
 ***
 
-[@ts-stdlib/algorithms](../../../README.md) / [trees/bst](../README.md) / BST
+[@ts-stdlib/data-structures](../../../README.md) / [trees/bst](../README.md) / BST
 
 # Class: BST\<T\>
 
-Defined in: trees/bst.ts:34
+Defined in: [trees/bst.ts:34](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/trees/bst.ts#L34)
 
 Represents a generic Binary Search Tree (BST) data structure.
 
@@ -46,7 +46,7 @@ The type of elements stored in the tree.
 
 > **new BST**\<`T`\>(`compare`): `BST`\<`T`\>
 
-Defined in: trees/bst.ts:37
+Defined in: [trees/bst.ts:37](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/trees/bst.ts#L37)
 
 #### Parameters
 
@@ -64,7 +64,7 @@ Defined in: trees/bst.ts:37
 
 > **insert**(`value`): `void`
 
-Defined in: trees/bst.ts:49
+Defined in: [trees/bst.ts:49](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/trees/bst.ts#L49)
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: trees/bst.ts:49
 
 > **find**(`value`): `null` \| [`BSTNode`](BSTNode.md)\<`T`\>
 
-Defined in: trees/bst.ts:67
+Defined in: [trees/bst.ts:67](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/trees/bst.ts#L67)
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: trees/bst.ts:67
 
 > **delete**(`value`): `void`
 
-Defined in: trees/bst.ts:77
+Defined in: [trees/bst.ts:77](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/trees/bst.ts#L77)
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Defined in: trees/bst.ts:77
 
 > **getRoot**(): `null` \| [`BSTNode`](BSTNode.md)\<`T`\>
 
-Defined in: trees/bst.ts:111
+Defined in: [trees/bst.ts:111](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/trees/bst.ts#L111)
 
 #### Returns
 
@@ -130,7 +130,7 @@ Defined in: trees/bst.ts:111
 
 > **clear**(): `void`
 
-Defined in: trees/bst.ts:115
+Defined in: [trees/bst.ts:115](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/trees/bst.ts#L115)
 
 #### Returns
 
@@ -142,7 +142,7 @@ Defined in: trees/bst.ts:115
 
 > **getHeight**(): `number`
 
-Defined in: trees/bst.ts:118
+Defined in: [trees/bst.ts:118](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/trees/bst.ts#L118)
 
 #### Returns
 

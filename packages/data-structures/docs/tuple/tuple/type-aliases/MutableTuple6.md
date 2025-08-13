@@ -1,14 +1,14 @@
-[**@ts-stdlib/algorithms v0.1.0**](../../../README.md)
+[**@ts-stdlib/data-structures v0.1.0**](../../../README.md)
 
 ***
 
-[@ts-stdlib/algorithms](../../../README.md) / [tuple/tuple](../README.md) / MutableTuple6
+[@ts-stdlib/data-structures](../../../README.md) / [tuple/tuple](../README.md) / MutableTuple6
 
 # Type Alias: MutableTuple6\<T1, T2, T3, T4, T5, T6\>
 
 > **MutableTuple6**\<`T1`, `T2`, `T3`, `T4`, `T5`, `T6`\> = \[`T1`, `T2`, `T3`, `T4`, `T5`, `T6`\]
 
-Defined in: tuple/tuple.ts:219
+Defined in: [tuple/tuple.ts:219](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/tuple/tuple.ts#L219)
 
 Represents a mutable tuple containing six elements of potentially different types.
 

@@ -1,12 +1,12 @@
-[**@ts-stdlib/algorithms v0.1.0**](../../../README.md)
+[**@ts-stdlib/data-structures v0.1.0**](../../../README.md)
 
 ***
 
-[@ts-stdlib/algorithms](../../../README.md) / [stack/bounded-stack](../README.md) / BoundedStack
+[@ts-stdlib/data-structures](../../../README.md) / [stack/bounded-stack](../README.md) / BoundedStack
 
 # Class: BoundedStack\<T\>
 
-Defined in: stack/bounded-stack.ts:52
+Defined in: [stack/bounded-stack.ts:52](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/stack/bounded-stack.ts#L52)
 
 A stack data structure with a fixed maximum capacity.
 
@@ -77,7 +77,7 @@ The element type stored in the stack.
 
 > **new BoundedStack**\<`T`\>(`maxSize`, `initialValues?`): `BoundedStack`\<`T`\>
 
-Defined in: stack/bounded-stack.ts:55
+Defined in: [stack/bounded-stack.ts:55](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/stack/bounded-stack.ts#L55)
 
 #### Parameters
 
@@ -103,7 +103,7 @@ Defined in: stack/bounded-stack.ts:55
 
 > **push**(`value`): `void`
 
-Defined in: stack/bounded-stack.ts:74
+Defined in: [stack/bounded-stack.ts:74](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/stack/bounded-stack.ts#L74)
 
 #### Parameters
 
@@ -131,7 +131,7 @@ If the stack is full or exceeds the maximum size.
 
 > **pop**(): `undefined` \| `T`
 
-Defined in: stack/stack.ts:47
+Defined in: [stack/stack.ts:47](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/stack/stack.ts#L47)
 
 Removes and returns the top element from the stack.
 
@@ -151,7 +151,7 @@ The element at the top of the stack, or `undefined` if the stack is empty.
 
 > **peek**(): `undefined` \| `T`
 
-Defined in: stack/stack.ts:57
+Defined in: [stack/stack.ts:57](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/stack/stack.ts#L57)
 
 Returns the top element of the stack without removing it.
 If the stack is empty, returns `undefined`.
@@ -172,7 +172,7 @@ The top element of the stack, or `undefined` if the stack is empty.
 
 > **isEmpty**(): `boolean`
 
-Defined in: stack/stack.ts:70
+Defined in: [stack/stack.ts:70](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/stack/stack.ts#L70)
 
 Checks whether the stack is empty.
 
@@ -192,7 +192,7 @@ Checks whether the stack is empty.
 
 > **size**(): `number`
 
-Defined in: stack/stack.ts:79
+Defined in: [stack/stack.ts:79](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/stack/stack.ts#L79)
 
 Returns the number of elements currently in the stack.
 
@@ -212,7 +212,7 @@ The size of the stack.
 
 > **clear**(): `void`
 
-Defined in: stack/stack.ts:89
+Defined in: [stack/stack.ts:89](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/stack/stack.ts#L89)
 
 Removes all elements from the stack, resetting it to an empty state.
 

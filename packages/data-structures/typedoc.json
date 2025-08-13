@@ -14,7 +14,7 @@
 	],
 	"tsconfig": "./tsconfig.json",
 	"out": "docs",
-	"name": "@ts-stdlib/algorithms",
+	"name": "@ts-stdlib/data-structures",
 	"includeVersion": true,
 	"exclude": ["**/*.test.ts"],
 	"excludeExternals": true,

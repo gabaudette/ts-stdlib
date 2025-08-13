@@ -1,14 +1,14 @@
-[**@ts-stdlib/algorithms v0.1.0**](../../../README.md)
+[**@ts-stdlib/data-structures v0.1.0**](../../../README.md)
 
 ***
 
-[@ts-stdlib/algorithms](../../../README.md) / [tuple/tuple](../README.md) / Tuple
+[@ts-stdlib/data-structures](../../../README.md) / [tuple/tuple](../README.md) / Tuple
 
 # Type Alias: Tuple\<T1, T2\>
 
 > **Tuple**\<`T1`, `T2`\> = `Readonly`\<\[`T1`, `T2`\]\>
 
-Defined in: tuple/tuple.ts:18
+Defined in: [tuple/tuple.ts:18](https://github.com/gabaudette/ts-stdlib/blob/5164f234b9a04fc1f1f671b028e4805f98b56ab3/packages/data-structures/src/tuple/tuple.ts#L18)
 
 Represents a tuple containing two elements of potentially different types.
 

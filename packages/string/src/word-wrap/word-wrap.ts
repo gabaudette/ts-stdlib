@@ -9,17 +9,28 @@
  * @returns The wrapped text with lines separated by newline characters (`\n`).
  */
 export function wordWrap(text: string, width: number): string {
-	const words = text.split(" ");
-	let currentLine = "";
-	let result = "";
-
-	for (const word of words) {
-		if (currentLine.length + word.length + 1 > width) {
-			result += `${currentLine.trim()}\n`;
-			currentLine = "";
-		}
-		currentLine += `${word} `;
+	if (!text.trim()) {
+		return "";
 	}
 
-	return `${result}${currentLine.trim()}`;
+	const words = text.trim().split(/\s+/);
+	const lines: string[] = [];
+	let currentLine = "";
+
+	for (const word of words) {
+		if (currentLine.length === 0) {
+			currentLine = word;
+		} else if (`${currentLine} ${word}`.length <= width) {
+			currentLine += ` ${word}`;
+		} else {
+			lines.push(currentLine);
+			currentLine = word;
+		}
+	}
+
+	if (currentLine) {
+		lines.push(currentLine);
+	}
+
+	return lines.join("\n");
 }

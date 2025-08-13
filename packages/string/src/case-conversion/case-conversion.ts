@@ -88,13 +88,15 @@ export function toKebabCase(text: string): string {
  * toPascalCase("typeScript is awesome"); // "TypeScriptIsAwesome"
  * ```
  */
-export function toPascalCase(text: string): string {
-	return text
+export function toPascalCase(str: string): string {
+	return str
+		.replace(/[_\- ]+/g, " ")
 		.split(" ")
-		.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+		.map((word) =>
+			word.length === 0 ? "" : word.charAt(0).toUpperCase() + word.slice(1),
+		)
 		.join("");
 }
-
 
 /**
  * Converts a given string to camelCase format.
@@ -111,12 +113,13 @@ export function toPascalCase(text: string): string {
  * toCamelCase("TypeScript is awesome"); // "typeScriptIsAwesome"
  * ```
  */
-export function toCamelCase(text: string): string {
-	return text
-		.split(" ")
-		.map((word, index) => {
-			if (index === 0) {
-				return word.toLowerCase();
+export function toCamelCase(str: string): string {
+	const words = str.replace(/[_\- ]+/g, " ").split(" ");
+	return words
+		.map((word, i) => {
+			if (word.length === 0) return "";
+			if (i === 0) {
+				return word.charAt(0).toLowerCase() + word.slice(1);
 			}
 			return word.charAt(0).toUpperCase() + word.slice(1);
 		})

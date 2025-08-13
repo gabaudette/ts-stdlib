@@ -22,67 +22,6 @@ export function mergeSort<T>(
 	return merge(left, right, compareFn);
 }
 
-/**
- * Sorts an array in place using the merge sort algorithm.
- *
- * This function modifies the input array directly and returns the sorted array.
- * It uses a comparison function to determine the order of elements.
- *
- * @typeParam T - The type of elements in the array.
- * @param array - The array to be sorted.
- * @param compareFn - A function that defines the sort order. It should return a negative number if the first argument is less than the second, zero if they're equal, and a positive number otherwise.
- * @returns The sorted array (same reference as the input array).
- * @see {@link https://en.wikipedia.org/wiki/https://en.wikipedia.org/wiki/Merge_sort#In-place_merge_sort} for more information on merge sort.
- *
- * @example
- * ```typescript
- * const arr = [5, 2, 9, 1];
- * inPlaceMergeSort(arr, (a, b) => a - b);
- * // arr is now [1, 2, 5, 9]
- * ```
- */
-export function inPlaceMergeSort<T>(
-	array: T[],
-	compareFn: (a: T, b: T) => number,
-): T[] {
-	if (array.length < 2) return array;
-
-	const merge = (left: number, mid: number, right: number) => {
-		let i = left;
-		let j = mid + 1;
-
-		while (i <= mid && j <= right) {
-			if (compareFn(array[i], array[j]) <= 0) {
-				i++;
-			} else {
-				const value = array[j];
-				let index = j - 1;
-
-				while (index >= i) {
-					array[index + 1] = array[index];
-					index--;
-				}
-				array[i] = value;
-
-				i++;
-				mid++;
-				j++;
-			}
-		}
-	};
-
-	const mergeSort = (left: number, right: number) => {
-		if (left >= right) return;
-
-		const mid = Math.floor((left + right) / 2);
-		mergeSort(left, mid);
-		mergeSort(mid + 1, right);
-		merge(left, mid, right);
-	};
-
-	mergeSort(0, array.length - 1);
-	return array;
-}
 
 /**
  * Merges two sorted arrays into a single sorted array using the provided comparison function.

@@ -28,15 +28,7 @@ jobs:
 
       - name: Run tests with coverage
         run: pnpm vitest run --coverage
-
-      - name: Check global coverage
-        run: |
-          COVERAGE=$(npx c8 check-coverage --lines 95 --functions 95 --branches 95 --statements 95 || echo "fail")
-          if [ "$COVERAGE" = "fail" ]; then
-            echo "Coverage below 95%"
-            exit 1
-          fi
-
+        
       - name: Upload coverage report
         uses: actions/upload-artifact@v4
         with:

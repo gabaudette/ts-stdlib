@@ -1,0 +1,23 @@
+{
+	"$schema": "https://typedoc.org/schema.json",
+	"entryPointStrategy": "expand",
+	"plugin": ["typedoc-plugin-markdown"],
+	"theme": "markdown",
+	"entryPoints": [
+		"src/algebra",
+		"src/geometry",
+		"src/matrix",
+		"src/trigonometry",
+		"src/statistic",
+		"src/vector"
+	],
+	"tsconfig": "./tsconfig.json",
+	"out": "docs",
+	"name": "@ts-standard-library/mathematics",
+	"includeVersion": true,
+	"exclude": ["**/*.test.ts"],
+	"excludeExternals": true,
+	"excludePrivate": true,
+	"excludeProtected": true,
+	"sort": ["source-order", "kind"]
+}

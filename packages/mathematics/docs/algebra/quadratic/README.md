@@ -1,0 +1,12 @@
+[**@ts-standard-library/mathematics v0.0.1**](../../README.md)
+
+***
+
+[@ts-standard-library/mathematics](../../README.md) / algebra/quadratic
+
+# algebra/quadratic
+
+## Functions
+
+- [generateQuadraticSequence](functions/generateQuadraticSequence.md)
+- [isQuadraticSequence](functions/isQuadraticSequence.md)

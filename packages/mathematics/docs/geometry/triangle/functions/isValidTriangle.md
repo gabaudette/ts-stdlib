@@ -1,0 +1,30 @@
+[**@ts-standard-library/mathematics v0.0.1**](../../../README.md)
+
+***
+
+[@ts-standard-library/mathematics](../../../README.md) / [geometry/triangle](../README.md) / isValidTriangle
+
+# Function: isValidTriangle()
+
+> **isValidTriangle**(`triangle`): `boolean`
+
+Defined in: geometry/triangle.ts:25
+
+Determines whether the given triangle is valid based on the triangle inequality theorem.
+
+A triangle is considered valid if the sum of the lengths of any two sides
+is greater than the length of the remaining side.
+
+## Parameters
+
+### triangle
+
+[`ITriangle`](../interfaces/ITriangle.md)
+
+An object implementing the `ITriangle` interface, containing the side lengths `a`, `b`, and `c`.
+
+## Returns
+
+`boolean`
+
+`true` if the triangle is valid; otherwise, `false`.

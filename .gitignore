@@ -19,3 +19,7 @@ dist/
 # pnpm store and lockfiles
 .pnpm-store/
 .pnpm-lock.yaml
+
+# shell files
+*.sh
+*.ps1

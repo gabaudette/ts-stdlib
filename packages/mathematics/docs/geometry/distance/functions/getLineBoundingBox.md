@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v0.0.1**](../../../README.md)
+[**@ts-standard-library/mathematics v0.0.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **getLineBoundingBox**(`lineStart`, `lineEnd`): `object`
 
-Defined in: geometry/distance.ts:195
+Defined in: [geometry/distance.ts:195](https://github.com/gabaudette/ts-stdlib/blob/725aff52e6f28b9942b278b955914b3ace9f325c/packages/mathematics/src/geometry/distance.ts#L195)
 
 Calculates the axis-aligned bounding box for a line segment defined by two points.
 

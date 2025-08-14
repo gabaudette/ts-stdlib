@@ -1,8 +1,8 @@
-**@ts-standard-library/mathematics v0.0.1**
+**@ts-standard-library/mathematics v0.0.2**
 
 ***
 
-# @ts-standard-library/mathematics v0.0.1
+# @ts-standard-library/mathematics v0.0.2
 
 ## Modules
 
@@ -17,5 +17,6 @@
 - [geometry/sqrt](geometry/sqrt/README.md)
 - [geometry/triangle](geometry/triangle/README.md)
 - [matrix/matrix](matrix/matrix/README.md)
+- [statistics/statistics](statistics/statistics/README.md)
 - [trigonometry/trigonometry](trigonometry/trigonometry/README.md)
 - [vector/vector](vector/vector/README.md)

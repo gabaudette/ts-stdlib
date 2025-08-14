@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v0.0.1**](../../../README.md)
+[**@ts-standard-library/mathematics v0.0.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **getLineYIntercept**(`lineStart`, `lineEnd`): `null` \| `number`
 
-Defined in: geometry/distance.ts:155
+Defined in: [geometry/distance.ts:155](https://github.com/gabaudette/ts-stdlib/blob/725aff52e6f28b9942b278b955914b3ace9f325c/packages/mathematics/src/geometry/distance.ts#L155)
 
 Calculates the y-intercept of a line defined by two points.
 

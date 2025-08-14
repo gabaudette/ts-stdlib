@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v0.0.1**](../../../README.md)
+[**@ts-standard-library/mathematics v0.0.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **normalize2D**(`v`): [`Vector2D`](../type-aliases/Vector2D.md)
 
-Defined in: vector/vector.ts:195
+Defined in: [vector/vector.ts:195](https://github.com/gabaudette/ts-stdlib/blob/725aff52e6f28b9942b278b955914b3ace9f325c/packages/mathematics/src/vector/vector.ts#L195)
 
 Returns a normalized (unit length) 2D vector in the same direction as the input vector.
 

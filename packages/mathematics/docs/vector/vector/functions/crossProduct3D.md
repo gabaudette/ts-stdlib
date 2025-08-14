@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v0.0.1**](../../../README.md)
+[**@ts-standard-library/mathematics v0.0.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **crossProduct3D**(`v1`, `v2`): [`Vector3D`](../type-aliases/Vector3D.md)
 
-Defined in: vector/vector.ts:280
+Defined in: [vector/vector.ts:280](https://github.com/gabaudette/ts-stdlib/blob/725aff52e6f28b9942b278b955914b3ace9f325c/packages/mathematics/src/vector/vector.ts#L280)
 
 Computes the cross product of two 3-dimensional vectors.
 

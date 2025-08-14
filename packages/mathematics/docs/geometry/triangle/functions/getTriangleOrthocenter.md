@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v0.0.1**](../../../README.md)
+[**@ts-standard-library/mathematics v0.0.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **getTriangleOrthocenter**(`triangle`): `null` \| \{ `x`: `number`; `y`: `number`; \}
 
-Defined in: geometry/triangle.ts:185
+Defined in: [geometry/triangle.ts:185](https://github.com/gabaudette/ts-stdlib/blob/725aff52e6f28b9942b278b955914b3ace9f325c/packages/mathematics/src/geometry/triangle.ts#L185)
 
 Calculates the orthocenter of a given triangle.
 

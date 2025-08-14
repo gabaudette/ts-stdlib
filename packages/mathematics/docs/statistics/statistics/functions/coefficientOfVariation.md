@@ -1,0 +1,42 @@
+[**@ts-standard-library/mathematics v0.0.2**](../../../README.md)
+
+***
+
+[@ts-standard-library/mathematics](../../../README.md) / [statistics/statistics](../README.md) / coefficientOfVariation
+
+# Function: coefficientOfVariation()
+
+> **coefficientOfVariation**(`numbers`): `null` \| `number`
+
+Defined in: [statistics/statistics.ts:109](https://github.com/gabaudette/ts-stdlib/blob/725aff52e6f28b9942b278b955914b3ace9f325c/packages/mathematics/src/statistics/statistics.ts#L109)
+
+Calculates the coefficient of variation (CV) for a given array of numbers.
+The coefficient of variation is defined as the ratio of the standard deviation
+to the mean, expressed as a percentage.
+
+## Parameters
+
+### numbers
+
+`number`[]
+
+An array of numbers for which to compute the coefficient of variation.
+
+## Returns
+
+`null` \| `number`
+
+The coefficient of variation as a percentage, or `null` if the input array is empty
+         or if the standard deviation cannot be computed.
+
+## Remarks
+
+The coefficient of variation is useful for comparing the degree of variation
+between different datasets, even if their means are drastically different.
+
+## Example
+
+```typescript
+const data = [10, 12, 23, 23, 16, 23, 21, 16];
+const cv = coefficientOfVariation(data); // e.g., returns 27.5
+```

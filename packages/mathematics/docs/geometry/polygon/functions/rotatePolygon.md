@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v0.0.1**](../../../README.md)
+[**@ts-standard-library/mathematics v0.0.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **rotatePolygon**(`polygon`, `angle`): `null` \| [`IPolygon`](../interfaces/IPolygon.md)
 
-Defined in: geometry/polygon.ts:332
+Defined in: [geometry/polygon.ts:332](https://github.com/gabaudette/ts-stdlib/blob/725aff52e6f28b9942b278b955914b3ace9f325c/packages/mathematics/src/geometry/polygon.ts#L332)
 
 Rotates a polygon by a specified angle around the origin (0, 0).
 

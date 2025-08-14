@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v0.0.1**](../../../README.md)
+[**@ts-standard-library/mathematics v0.0.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **projectPolygon**(`polygon`, `axis`): `null` \| \{ `min`: `number`; `max`: `number`; \}
 
-Defined in: geometry/polygon.ts:368
+Defined in: [geometry/polygon.ts:368](https://github.com/gabaudette/ts-stdlib/blob/725aff52e6f28b9942b278b955914b3ace9f325c/packages/mathematics/src/geometry/polygon.ts#L368)
 
 Projects a polygon onto a given axis and returns the minimum and maximum scalar values
 of the projection. This is commonly used in collision detection algorithms such as the

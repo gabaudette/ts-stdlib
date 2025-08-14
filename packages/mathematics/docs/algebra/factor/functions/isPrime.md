@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v0.0.1**](../../../README.md)
+[**@ts-standard-library/mathematics v0.0.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **isPrime**(`n`): `boolean`
 
-Defined in: algebra/factor.ts:49
+Defined in: [algebra/factor.ts:49](https://github.com/gabaudette/ts-stdlib/blob/725aff52e6f28b9942b278b955914b3ace9f325c/packages/mathematics/src/algebra/factor.ts#L49)
 
 Determines whether a given number is a prime number.
 

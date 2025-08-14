@@ -8,7 +8,7 @@
 		"src/geometry",
 		"src/matrix",
 		"src/trigonometry",
-		"src/statistic",
+		"src/statistics",
 		"src/vector"
 	],
 	"tsconfig": "./tsconfig.json",

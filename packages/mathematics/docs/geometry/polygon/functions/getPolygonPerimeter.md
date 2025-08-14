@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v0.0.1**](../../../README.md)
+[**@ts-standard-library/mathematics v0.0.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **getPolygonPerimeter**(`polygon`): `null` \| `number`
 
-Defined in: geometry/polygon.ts:100
+Defined in: [geometry/polygon.ts:100](https://github.com/gabaudette/ts-stdlib/blob/725aff52e6f28b9942b278b955914b3ace9f325c/packages/mathematics/src/geometry/polygon.ts#L100)
 
 Calculates the perimeter of a polygon by summing the distances between consecutive vertices.
 

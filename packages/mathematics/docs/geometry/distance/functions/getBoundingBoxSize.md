@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v0.0.1**](../../../README.md)
+[**@ts-standard-library/mathematics v0.0.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **getBoundingBoxSize**(`boundingBox`): `object`
 
-Defined in: geometry/distance.ts:269
+Defined in: [geometry/distance.ts:269](https://github.com/gabaudette/ts-stdlib/blob/725aff52e6f28b9942b278b955914b3ace9f325c/packages/mathematics/src/geometry/distance.ts#L269)
 
 Calculates the width and height of a bounding box given its minimum and maximum X and Y coordinates.
 

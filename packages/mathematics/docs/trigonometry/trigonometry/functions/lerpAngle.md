@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v0.0.1**](../../../README.md)
+[**@ts-standard-library/mathematics v0.0.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **lerpAngle**(`start`, `end`, `t`): `number`
 
-Defined in: trigonometry/trigonometry.ts:384
+Defined in: [trigonometry/trigonometry.ts:384](https://github.com/gabaudette/ts-stdlib/blob/725aff52e6f28b9942b278b955914b3ace9f325c/packages/mathematics/src/trigonometry/trigonometry.ts#L384)
 
 Linearly interpolates between two angles, taking the shortest path around the circle.
 

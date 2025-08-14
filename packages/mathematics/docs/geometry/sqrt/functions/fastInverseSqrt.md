@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v0.0.1**](../../../README.md)
+[**@ts-standard-library/mathematics v0.0.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **fastInverseSqrt**(`x`): `number`
 
-Defined in: geometry/sqrt.ts:21
+Defined in: [geometry/sqrt.ts:21](https://github.com/gabaudette/ts-stdlib/blob/725aff52e6f28b9942b278b955914b3ace9f325c/packages/mathematics/src/geometry/sqrt.ts#L21)
 
 Computes an approximation of the inverse square root of a number using the fast inverse square root algorithm.
 

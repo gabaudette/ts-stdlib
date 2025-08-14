@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v0.0.1**](../../../README.md)
+[**@ts-standard-library/mathematics v0.0.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **solveLinearEquation**(`a`, `b`): `null` \| `number`
 
-Defined in: algebra/equation.ts:13
+Defined in: [algebra/equation.ts:13](https://github.com/gabaudette/ts-stdlib/blob/725aff52e6f28b9942b278b955914b3ace9f325c/packages/mathematics/src/algebra/equation.ts#L13)
 
 Solves a linear equation of the form `ax + b = 0` for `x`.
 

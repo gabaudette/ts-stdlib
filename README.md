@@ -13,6 +13,7 @@ A collection of TypeScript standard library utilities to enhance productivity an
 - [Algorithms Documentation](./packages/algorithms/docs)
 - [Core Documentation](./packages/core/docs)
 - [Data Structures Documentation](./packages/data-structures/docs)
+- [Mathematics Documentation](./packages//mathematics/docs)
 - [String Documentation](./packages/string/docs)
 
 ## Contributing

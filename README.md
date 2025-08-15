@@ -17,7 +17,7 @@ helpers that make TypeScript development faster, safer, and more
 Practical and experimental algorithms implemented with type safety.
 - [Documentation](./packages/algorithms/docs)
 - [NPM](https://www.npmjs.com/package/@ts-standard-library/algorithms)
-- 
+
 #### Core
 Foundational helpers and utilities that show up in almost every Typescript project.
 - [Documentation](./packages/core/docs)

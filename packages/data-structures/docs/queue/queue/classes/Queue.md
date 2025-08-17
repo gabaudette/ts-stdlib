@@ -1,4 +1,4 @@
-[**@ts-standard-library/data-structures v1.0.3**](../../../README.md)
+[**@ts-standard-library/data-structures v1.0.4**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: Queue\<T\>
 
-Defined in: [queue/queue.ts:29](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/queue/queue.ts#L29)
+Defined in: [queue/queue.ts:29](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/queue/queue.ts#L29)
 
 Represents a generic queue data structure, supporting FIFO (first-in, first-out) operations.
 
@@ -47,7 +47,7 @@ The type of elements stored in the queue.
 
 > **enqueue**(`item`): `T`
 
-Defined in: [queue/queue.ts:39](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/queue/queue.ts#L39)
+Defined in: [queue/queue.ts:39](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/queue/queue.ts#L39)
 
 Adds an item to the end of the queue.
 
@@ -75,7 +75,7 @@ If the queue exceeds the maximum safe integer length.
 
 > **dequeue**(): `undefined` \| `T`
 
-Defined in: [queue/queue.ts:54](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/queue/queue.ts#L54)
+Defined in: [queue/queue.ts:54](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/queue/queue.ts#L54)
 
 Removes and returns the item at the front of the queue.
 
@@ -91,7 +91,7 @@ The dequeued item of type `T`, or `undefined` if the queue is empty.
 
 > **peek**(): `undefined` \| `T`
 
-Defined in: [queue/queue.ts:63](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/queue/queue.ts#L63)
+Defined in: [queue/queue.ts:63](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/queue/queue.ts#L63)
 
 Returns the element at the front of the queue without removing it.
 
@@ -107,7 +107,7 @@ The front element of the queue if it exists; otherwise, `undefined`.
 
 > **isEmpty**(): `boolean`
 
-Defined in: [queue/queue.ts:72](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/queue/queue.ts#L72)
+Defined in: [queue/queue.ts:72](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/queue/queue.ts#L72)
 
 Determines whether the queue is empty.
 
@@ -123,7 +123,7 @@ Determines whether the queue is empty.
 
 > **size**(): `number`
 
-Defined in: [queue/queue.ts:81](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/queue/queue.ts#L81)
+Defined in: [queue/queue.ts:81](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/queue/queue.ts#L81)
 
 Returns the number of elements currently in the queue.
 
@@ -139,7 +139,7 @@ The size of the queue.
 
 > **clear**(): `void`
 
-Defined in: [queue/queue.ts:91](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/queue/queue.ts#L91)
+Defined in: [queue/queue.ts:91](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/queue/queue.ts#L91)
 
 Removes all elements from the queue, resetting it to an empty state.
 

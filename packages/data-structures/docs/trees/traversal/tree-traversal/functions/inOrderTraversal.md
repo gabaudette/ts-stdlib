@@ -1,4 +1,4 @@
-[**@ts-standard-library/data-structures v1.0.3**](../../../../README.md)
+[**@ts-standard-library/data-structures v1.0.4**](../../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **inOrderTraversal**\<`T`\>(`root`, `callback`): `void`
 
-Defined in: [trees/traversal/tree-traversal.ts:66](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/trees/traversal/tree-traversal.ts#L66)
+Defined in: [trees/traversal/tree-traversal.ts:66](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/trees/traversal/tree-traversal.ts#L66)
 
 Performs an in-order traversal on a binary tree, invoking a callback for each node's value.
 

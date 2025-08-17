@@ -1,4 +1,4 @@
-[**@ts-standard-library/core v0.0.1**](../../../README.md)
+[**@ts-standard-library/core v1.0.0**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: NodeJSProcess
 
-Defined in: environment/is-node.ts:1
+Defined in: [environment/is-node.ts:1](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/core/src/environment/is-node.ts#L1)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: environment/is-node.ts:1
 
 > **versions**: `object`
 
-Defined in: environment/is-node.ts:2
+Defined in: [environment/is-node.ts:2](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/core/src/environment/is-node.ts#L2)
 
 #### node
 

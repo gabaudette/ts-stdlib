@@ -1,4 +1,4 @@
-[**@ts-standard-library/algorithms v1.0.3**](../../../README.md)
+[**@ts-standard-library/algorithms v1.0.4**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **quickSort**\<`T`\>(`array`, `compareFn`): `T`[]
 
-Defined in: [sorting/quick-sort.ts:19](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/algorithms/src/sorting/quick-sort.ts#L19)
+Defined in: [sorting/quick-sort.ts:19](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/algorithms/src/sorting/quick-sort.ts#L19)
 
 Sorts an array using the Quick Sort algorithm.
 

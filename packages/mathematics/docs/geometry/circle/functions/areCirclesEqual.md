@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v0.0.2**](../../../README.md)
+[**@ts-standard-library/mathematics v1.0.0**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **areCirclesEqual**(`circle1`, `circle2`): `boolean`
 
-Defined in: [geometry/circle.ts:160](https://github.com/gabaudette/ts-stdlib/blob/725aff52e6f28b9942b278b955914b3ace9f325c/packages/mathematics/src/geometry/circle.ts#L160)
+Defined in: [geometry/circle.ts:160](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/mathematics/src/geometry/circle.ts#L160)
 
 Determines whether two circles are equal based on their radii.
 

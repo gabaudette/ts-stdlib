@@ -1,4 +1,4 @@
-[**@ts-standard-library/core v0.0.1**](../../../../README.md)
+[**@ts-standard-library/core v1.0.0**](../../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **isObjectOfType**\<`T`\>(`value`, `typeGuard`): `value is T`
 
-Defined in: types/guards/is-object-of-type.ts:13
+Defined in: [types/guards/is-object-of-type.ts:13](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/core/src/types/guards/is-object-of-type.ts#L13)
 
 Determines whether a given value is a non-null object and satisfies a specified type guard.
 

@@ -1,4 +1,4 @@
-[**@ts-standard-library/data-structures v1.0.3**](../../../README.md)
+[**@ts-standard-library/data-structures v1.0.4**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **Tuple3**\<`T1`, `T2`, `T3`\> = `Readonly`\<\[`T1`, `T2`, `T3`\]\>
 
-Defined in: [tuple/tuple.ts:34](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/tuple/tuple.ts#L34)
+Defined in: [tuple/tuple.ts:34](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/tuple/tuple.ts#L34)
 
 Represents a read-only tuple containing exactly three elements of potentially different types.
 

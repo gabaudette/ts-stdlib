@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v0.0.2**](../../../README.md)
+[**@ts-standard-library/mathematics v1.0.0**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **generatePolynomialSequence**(`coefficients`, `n`): `number`[]
 
-Defined in: [algebra/polynomial.ts:17](https://github.com/gabaudette/ts-stdlib/blob/725aff52e6f28b9942b278b955914b3ace9f325c/packages/mathematics/src/algebra/polynomial.ts#L17)
+Defined in: [algebra/polynomial.ts:17](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/mathematics/src/algebra/polynomial.ts#L17)
 
 Generates a sequence of values by evaluating a polynomial with the given coefficients
 at integer points starting from 0 up to n - 1.

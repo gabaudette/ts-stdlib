@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v0.0.2**](../../../README.md)
+[**@ts-standard-library/mathematics v1.0.0**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ICircle
 
-Defined in: [geometry/circle.ts:6](https://github.com/gabaudette/ts-stdlib/blob/725aff52e6f28b9942b278b955914b3ace9f325c/packages/mathematics/src/geometry/circle.ts#L6)
+Defined in: [geometry/circle.ts:6](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/mathematics/src/geometry/circle.ts#L6)
 
 Represents a circle defined by its radius.
 
@@ -16,6 +16,6 @@ Represents a circle defined by its radius.
 
 > **radius**: `number`
 
-Defined in: [geometry/circle.ts:7](https://github.com/gabaudette/ts-stdlib/blob/725aff52e6f28b9942b278b955914b3ace9f325c/packages/mathematics/src/geometry/circle.ts#L7)
+Defined in: [geometry/circle.ts:7](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/mathematics/src/geometry/circle.ts#L7)
 
 The radius of the circle.

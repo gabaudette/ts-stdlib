@@ -1,4 +1,4 @@
-[**@ts-standard-library/data-structures v1.0.3**](../../../README.md)
+[**@ts-standard-library/data-structures v1.0.4**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: BST\<T\>
 
-Defined in: [trees/bst.ts:34](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/trees/bst.ts#L34)
+Defined in: [trees/bst.ts:34](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/trees/bst.ts#L34)
 
 Represents a generic Binary Search Tree (BST) data structure.
 
@@ -46,7 +46,7 @@ The type of elements stored in the tree.
 
 > **new BST**\<`T`\>(`compare`): `BST`\<`T`\>
 
-Defined in: [trees/bst.ts:37](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/trees/bst.ts#L37)
+Defined in: [trees/bst.ts:37](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/trees/bst.ts#L37)
 
 #### Parameters
 
@@ -64,7 +64,7 @@ Defined in: [trees/bst.ts:37](https://github.com/gabaudette/ts-stdlib/blob/f3564
 
 > **insert**(`value`): `void`
 
-Defined in: [trees/bst.ts:51](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/trees/bst.ts#L51)
+Defined in: [trees/bst.ts:51](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/trees/bst.ts#L51)
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: [trees/bst.ts:51](https://github.com/gabaudette/ts-stdlib/blob/f3564
 
 > **find**(`value`): `null` \| [`BSTNode`](BSTNode.md)\<`T`\>
 
-Defined in: [trees/bst.ts:76](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/trees/bst.ts#L76)
+Defined in: [trees/bst.ts:76](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/trees/bst.ts#L76)
 
 Searches for a node with the specified value in the binary search tree.
 
@@ -106,7 +106,7 @@ The node containing the specified value, or `null` if not found.
 
 > **delete**(`value`): `void`
 
-Defined in: [trees/bst.ts:96](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/trees/bst.ts#L96)
+Defined in: [trees/bst.ts:96](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/trees/bst.ts#L96)
 
 Deletes a node with the specified value from the binary search tree.
 If the value does not exist in the tree, the tree remains unchanged.
@@ -129,7 +129,7 @@ The value to delete from the tree.
 
 > **getRoot**(): `null` \| [`BSTNode`](BSTNode.md)\<`T`\>
 
-Defined in: [trees/bst.ts:136](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/trees/bst.ts#L136)
+Defined in: [trees/bst.ts:136](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/trees/bst.ts#L136)
 
 Returns the root node of the binary search tree.
 
@@ -145,7 +145,7 @@ The root node of the tree if it exists, otherwise `null`.
 
 > **clear**(): `void`
 
-Defined in: [trees/bst.ts:151](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/trees/bst.ts#L151)
+Defined in: [trees/bst.ts:151](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/trees/bst.ts#L151)
 
 Removes all nodes from the binary search tree, resetting it to an empty state.
 
@@ -169,7 +169,7 @@ bst.clear();
 
 > **getHeight**(): `number`
 
-Defined in: [trees/bst.ts:163](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/trees/bst.ts#L163)
+Defined in: [trees/bst.ts:163](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/trees/bst.ts#L163)
 
 Calculates the height of the binary search tree.
 

@@ -1,4 +1,4 @@
-[**@ts-standard-library/string v1.0.3**](../../../README.md)
+[**@ts-standard-library/string v1.0.4**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **wordWrap**(`text`, `width`): `string`
 
-Defined in: [word-wrap/word-wrap.ts:11](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/string/src/word-wrap/word-wrap.ts#L11)
+Defined in: [word-wrap/word-wrap.ts:11](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/string/src/word-wrap/word-wrap.ts#L11)
 
 Wraps a given text into lines of specified maximum width, breaking lines at word boundaries.
 

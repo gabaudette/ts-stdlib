@@ -1,4 +1,4 @@
-[**@ts-standard-library/data-structures v1.0.3**](../../../README.md)
+[**@ts-standard-library/data-structures v1.0.4**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: CircularLinkedList\<T\>
 
-Defined in: [linked-list/circular-linked-list.ts:42](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/linked-list/circular-linked-list.ts#L42)
+Defined in: [linked-list/circular-linked-list.ts:42](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/linked-list/circular-linked-list.ts#L42)
 
 Represents a circular singly linked list data structure.
 
@@ -55,7 +55,7 @@ The type of elements stored in the list.
 
 > **get** **size**(): `number`
 
-Defined in: [linked-list/circular-linked-list.ts:46](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/linked-list/circular-linked-list.ts#L46)
+Defined in: [linked-list/circular-linked-list.ts:46](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/linked-list/circular-linked-list.ts#L46)
 
 ##### Returns
 
@@ -67,7 +67,7 @@ Defined in: [linked-list/circular-linked-list.ts:46](https://github.com/gabaudet
 
 > **isEmpty**(): `boolean`
 
-Defined in: [linked-list/circular-linked-list.ts:50](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/linked-list/circular-linked-list.ts#L50)
+Defined in: [linked-list/circular-linked-list.ts:50](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/linked-list/circular-linked-list.ts#L50)
 
 #### Returns
 
@@ -79,7 +79,7 @@ Defined in: [linked-list/circular-linked-list.ts:50](https://github.com/gabaudet
 
 > **add**(`value`): `void`
 
-Defined in: [linked-list/circular-linked-list.ts:60](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/linked-list/circular-linked-list.ts#L60)
+Defined in: [linked-list/circular-linked-list.ts:60](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/linked-list/circular-linked-list.ts#L60)
 
 Adds a new element with the specified value to the circular linked list.
 The new node is inserted after the current tail and becomes the new tail.
@@ -102,7 +102,7 @@ The value to be added to the list.
 
 > **addFirst**(`value`): `void`
 
-Defined in: [linked-list/circular-linked-list.ts:82](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/linked-list/circular-linked-list.ts#L82)
+Defined in: [linked-list/circular-linked-list.ts:82](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/linked-list/circular-linked-list.ts#L82)
 
 Inserts a new element at the beginning of the circular linked list.
 
@@ -128,7 +128,7 @@ becoming the new head of the list.
 
 > **removeFirst**(): `undefined` \| `T`
 
-Defined in: [linked-list/circular-linked-list.ts:100](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/linked-list/circular-linked-list.ts#L100)
+Defined in: [linked-list/circular-linked-list.ts:100](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/linked-list/circular-linked-list.ts#L100)
 
 Removes and returns the first element (head) from the circular linked list.
 If the list is empty, returns `undefined`.
@@ -145,7 +145,7 @@ The value of the removed head node, or `undefined` if the list is empty.
 
 > **removeLast**(): `undefined` \| `T`
 
-Defined in: [linked-list/circular-linked-list.ts:126](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/linked-list/circular-linked-list.ts#L126)
+Defined in: [linked-list/circular-linked-list.ts:126](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/linked-list/circular-linked-list.ts#L126)
 
 Removes and returns the last element from the circular linked list.
 
@@ -165,7 +165,7 @@ The value of the removed last element, or `undefined` if the list is empty.
 
 > **peekFirst**(): `undefined` \| `T`
 
-Defined in: [linked-list/circular-linked-list.ts:158](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/linked-list/circular-linked-list.ts#L158)
+Defined in: [linked-list/circular-linked-list.ts:158](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/linked-list/circular-linked-list.ts#L158)
 
 Returns the value of the first node in the circular linked list without removing it.
 If the list is empty, returns `undefined`.
@@ -182,7 +182,7 @@ The value of the first node, or `undefined` if the list is empty.
 
 > **peekLast**(): `undefined` \| `T`
 
-Defined in: [linked-list/circular-linked-list.ts:166](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/linked-list/circular-linked-list.ts#L166)
+Defined in: [linked-list/circular-linked-list.ts:166](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/linked-list/circular-linked-list.ts#L166)
 
 Returns the value of the last node in the circular linked list without removing it.
 
@@ -198,7 +198,7 @@ The value of the last node if the list is not empty; otherwise, `undefined`.
 
 > **\[iterator\]**(): `IterableIterator`\<`T`\>
 
-Defined in: [linked-list/circular-linked-list.ts:177](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/linked-list/circular-linked-list.ts#L177)
+Defined in: [linked-list/circular-linked-list.ts:177](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/linked-list/circular-linked-list.ts#L177)
 
 Returns an iterator over the elements in the circular linked list.
 Iterates starting from the node after the tail and continues until it loops back to the starting node.
@@ -216,7 +216,7 @@ An iterator over the values in the circular linked list.
 
 > **clear**(): `void`
 
-Defined in: [linked-list/circular-linked-list.ts:193](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/linked-list/circular-linked-list.ts#L193)
+Defined in: [linked-list/circular-linked-list.ts:193](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/linked-list/circular-linked-list.ts#L193)
 
 Removes all elements from the circular linked list, resetting it to an empty state.
 After calling this method, the list will have a size of zero and no nodes.

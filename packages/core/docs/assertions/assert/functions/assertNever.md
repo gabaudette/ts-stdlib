@@ -1,4 +1,4 @@
-[**@ts-standard-library/core v0.0.1**](../../../README.md)
+[**@ts-standard-library/core v1.0.0**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **assertNever**(`value`, `message?`): `asserts value is never`
 
-Defined in: assertions/assert.ts:32
+Defined in: [assertions/assert.ts:32](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/core/src/assertions/assert.ts#L32)
 
 Asserts that a value should never occur.
 

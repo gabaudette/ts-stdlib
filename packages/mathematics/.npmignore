@@ -1,0 +1,8 @@
+*.test.ts
+__tests__/
+test/
+tests/
+*.spec.ts
+.vitest*
+coverage/
+docs/

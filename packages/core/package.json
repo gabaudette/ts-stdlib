@@ -1,7 +1,7 @@
 {
     "name": "@ts-standard-library/core",
     "description": "A collection of core utilities for TypeScript.",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "repository": {
         "type": "git",
         "url": "https://github.com/gabaudette/ts-stdlib/tree/main/packages/core"
@@ -19,11 +19,17 @@
     "main": "dist/index.js",
     "module": "dist/index.js",
     "types": "dist/index.d.ts",
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
     "sideEffects": false,
     "scripts": {
         "build": "tsc",
         "lint": "biome lint .",
-        "test": "vitest"
+        "test": "vitest",
+        "docs": "typedoc"
     },
     "devDependencies": {
         "typedoc": "0.28.10",

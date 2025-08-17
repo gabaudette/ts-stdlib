@@ -1,4 +1,4 @@
-[**@ts-standard-library/core v0.0.1**](../../../README.md)
+[**@ts-standard-library/core v1.0.0**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **groupBy**\<`T`\>(`array`, `key`): `Record`\<`string`, `T`[]\>
 
-Defined in: arrays/functions.ts:35
+Defined in: [arrays/functions.ts:35](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/core/src/arrays/functions.ts#L35)
 
 Groups the elements of an array based on the specified key.
 

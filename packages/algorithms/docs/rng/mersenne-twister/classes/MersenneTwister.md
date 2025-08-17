@@ -1,4 +1,4 @@
-[**@ts-standard-library/algorithms v1.0.3**](../../../README.md)
+[**@ts-standard-library/algorithms v1.0.4**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: MersenneTwister
 
-Defined in: [rng/mersenne-twister.ts:24](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/algorithms/src/rng/mersenne-twister.ts#L24)
+Defined in: [rng/mersenne-twister.ts:24](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/algorithms/src/rng/mersenne-twister.ts#L24)
 
 Implements the Mersenne Twister pseudorandom number generator (MT19937).
 
@@ -41,7 +41,7 @@ https://en.wikipedia.org/wiki/Mersenne_Twister
 
 > **new MersenneTwister**(`seed`): `MersenneTwister`
 
-Defined in: [rng/mersenne-twister.ts:34](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/algorithms/src/rng/mersenne-twister.ts#L34)
+Defined in: [rng/mersenne-twister.ts:34](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/algorithms/src/rng/mersenne-twister.ts#L34)
 
 #### Parameters
 
@@ -59,7 +59,7 @@ Defined in: [rng/mersenne-twister.ts:34](https://github.com/gabaudette/ts-stdlib
 
 > **randomInt**(): `number`
 
-Defined in: [rng/mersenne-twister.ts:55](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/algorithms/src/rng/mersenne-twister.ts#L55)
+Defined in: [rng/mersenne-twister.ts:55](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/algorithms/src/rng/mersenne-twister.ts#L55)
 
 Generates a random 32-bit unsigned integer using the Mersenne Twister algorithm.
 
@@ -82,7 +82,7 @@ A random 32-bit unsigned integer.
 
 > **random**(): `number`
 
-Defined in: [rng/mersenne-twister.ts:105](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/algorithms/src/rng/mersenne-twister.ts#L105)
+Defined in: [rng/mersenne-twister.ts:105](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/algorithms/src/rng/mersenne-twister.ts#L105)
 
 Generates a random floating-point number in the range [0, 1).
 

@@ -1,8 +1,8 @@
-[**@ts-standard-library/string v1.0.3**](README.md)
+[**@ts-standard-library/string v1.0.4**](README.md)
 
 ***
 
-# @ts-standard-library/string v1.0.3
+# @ts-standard-library/string v1.0.4
 
 ## Modules
 

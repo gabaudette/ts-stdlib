@@ -1,4 +1,4 @@
-[**@ts-standard-library/algorithms v1.0.3**](../../README.md)
+[**@ts-standard-library/algorithms v1.0.4**](../../README.md)
 
 ***
 

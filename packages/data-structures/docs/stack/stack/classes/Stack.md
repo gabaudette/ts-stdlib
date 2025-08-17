@@ -1,4 +1,4 @@
-[**@ts-standard-library/data-structures v1.0.3**](../../../README.md)
+[**@ts-standard-library/data-structures v1.0.4**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: Stack\<T\>
 
-Defined in: [stack/stack.ts:17](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/stack/stack.ts#L17)
+Defined in: [stack/stack.ts:17](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/stack/stack.ts#L17)
 
 Represents a generic stack data structure, supporting typical stack operations such as push, pop, peek, and clear.
 
@@ -42,7 +42,7 @@ The type of elements stored in the stack.
 
 > **new Stack**\<`T`\>(`initialValues?`): `Stack`\<`T`\>
 
-Defined in: [stack/stack.ts:20](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/stack/stack.ts#L20)
+Defined in: [stack/stack.ts:20](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/stack/stack.ts#L20)
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Defined in: [stack/stack.ts:20](https://github.com/gabaudette/ts-stdlib/blob/f35
 
 > **push**(`value`): `void`
 
-Defined in: [stack/stack.ts:34](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/stack/stack.ts#L34)
+Defined in: [stack/stack.ts:34](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/stack/stack.ts#L34)
 
 Adds a value to the top of the stack.
 
@@ -86,7 +86,7 @@ If the stack size exceeds `Number.MAX_SAFE_INTEGER (9007199254740991 2^53 − 1.
 
 > **pop**(): `undefined` \| `T`
 
-Defined in: [stack/stack.ts:47](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/stack/stack.ts#L47)
+Defined in: [stack/stack.ts:47](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/stack/stack.ts#L47)
 
 Removes and returns the top element from the stack.
 
@@ -102,7 +102,7 @@ The element at the top of the stack, or `undefined` if the stack is empty.
 
 > **peek**(): `undefined` \| `T`
 
-Defined in: [stack/stack.ts:57](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/stack/stack.ts#L57)
+Defined in: [stack/stack.ts:57](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/stack/stack.ts#L57)
 
 Returns the top element of the stack without removing it.
 If the stack is empty, returns `undefined`.
@@ -119,7 +119,7 @@ The top element of the stack, or `undefined` if the stack is empty.
 
 > **isEmpty**(): `boolean`
 
-Defined in: [stack/stack.ts:70](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/stack/stack.ts#L70)
+Defined in: [stack/stack.ts:70](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/stack/stack.ts#L70)
 
 Checks whether the stack is empty.
 
@@ -135,7 +135,7 @@ Checks whether the stack is empty.
 
 > **size**(): `number`
 
-Defined in: [stack/stack.ts:79](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/stack/stack.ts#L79)
+Defined in: [stack/stack.ts:79](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/stack/stack.ts#L79)
 
 Returns the number of elements currently in the stack.
 
@@ -151,7 +151,7 @@ The size of the stack.
 
 > **clear**(): `void`
 
-Defined in: [stack/stack.ts:89](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/stack/stack.ts#L89)
+Defined in: [stack/stack.ts:89](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/stack/stack.ts#L89)
 
 Removes all elements from the stack, resetting it to an empty state.
 

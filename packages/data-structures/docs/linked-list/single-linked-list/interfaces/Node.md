@@ -1,4 +1,4 @@
-[**@ts-standard-library/data-structures v1.0.3**](../../../README.md)
+[**@ts-standard-library/data-structures v1.0.4**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: Node\<T\>
 
-Defined in: [linked-list/single-linked-list.ts:2](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/linked-list/single-linked-list.ts#L2)
+Defined in: [linked-list/single-linked-list.ts:2](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/linked-list/single-linked-list.ts#L2)
 
 ## Type Parameters
 
@@ -20,7 +20,7 @@ Defined in: [linked-list/single-linked-list.ts:2](https://github.com/gabaudette/
 
 > **value**: `T`
 
-Defined in: [linked-list/single-linked-list.ts:3](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/linked-list/single-linked-list.ts#L3)
+Defined in: [linked-list/single-linked-list.ts:3](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/linked-list/single-linked-list.ts#L3)
 
 ***
 
@@ -28,4 +28,4 @@ Defined in: [linked-list/single-linked-list.ts:3](https://github.com/gabaudette/
 
 > **next**: `null` \| `Node`\<`T`\>
 
-Defined in: [linked-list/single-linked-list.ts:4](https://github.com/gabaudette/ts-stdlib/blob/f3564012967e497619352a1e83b33c59ea25d02c/packages/data-structures/src/linked-list/single-linked-list.ts#L4)
+Defined in: [linked-list/single-linked-list.ts:4](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/linked-list/single-linked-list.ts#L4)

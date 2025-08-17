@@ -1,8 +1,8 @@
-[**@ts-standard-library/core v0.0.1**](README.md)
+[**@ts-standard-library/core v1.0.0**](README.md)
 
 ***
 
-# @ts-standard-library/core v0.0.1
+# @ts-standard-library/core v1.0.0
 
 ## Modules
 

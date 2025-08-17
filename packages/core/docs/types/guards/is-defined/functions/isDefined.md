@@ -1,4 +1,4 @@
-[**@ts-standard-library/core v0.0.1**](../../../../README.md)
+[**@ts-standard-library/core v1.0.0**](../../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **isDefined**\<`T`\>(`value`): `value is T`
 
-Defined in: types/guards/is-defined.ts:17
+Defined in: [types/guards/is-defined.ts:17](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/core/src/types/guards/is-defined.ts#L17)
 
 Determines whether a value is neither `undefined` nor `null`.
 

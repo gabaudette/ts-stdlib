@@ -1,4 +1,4 @@
-[**@ts-standard-library/core v0.0.1**](../../../../README.md)
+[**@ts-standard-library/core v1.0.0**](../../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **isArray**(`value`): `value is unknown[]`
 
-Defined in: types/guards/is-array.ts:7
+Defined in: [types/guards/is-array.ts:7](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/core/src/types/guards/is-array.ts#L7)
 
 Determines whether the provided value is an array.
 

@@ -1,4 +1,4 @@
-[**@ts-standard-library/string v1.0.4**](../../README.md)
+[**@ts-standard-library/string v1.0.5**](../../README.md)
 
 ***
 

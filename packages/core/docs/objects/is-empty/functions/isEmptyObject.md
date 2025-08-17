@@ -1,4 +1,4 @@
-[**@ts-standard-library/core v1.0.0**](../../../README.md)
+[**@ts-standard-library/core v1.0.1**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **isEmptyObject**(`obj`): `boolean`
 
-Defined in: [objects/is-empty.ts:14](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/core/src/objects/is-empty.ts#L14)
+Defined in: [objects/is-empty.ts:14](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/core/src/objects/is-empty.ts#L14)
 
 Determines whether the provided object has no own enumerable properties.
 

@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v1.0.0**](../../../README.md)
+[**@ts-standard-library/mathematics v1.0.1**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **expandPolygon**(`polygon`, `distance`): `null` \| [`IPolygon`](../interfaces/IPolygon.md)
 
-Defined in: [geometry/polygon.ts:415](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/mathematics/src/geometry/polygon.ts#L415)
+Defined in: [geometry/polygon.ts:415](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/mathematics/src/geometry/polygon.ts#L415)
 
 Expands a polygon outward by a specified distance from its centroid.
 

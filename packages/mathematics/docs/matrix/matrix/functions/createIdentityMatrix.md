@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v1.0.0**](../../../README.md)
+[**@ts-standard-library/mathematics v1.0.1**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **createIdentityMatrix**(`size`): `null` \| [`Matrix`](../type-aliases/Matrix.md)
 
-Defined in: [matrix/matrix.ts:195](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/mathematics/src/matrix/matrix.ts#L195)
+Defined in: [matrix/matrix.ts:195](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/mathematics/src/matrix/matrix.ts#L195)
 
 Creates an identity matrix of the specified size.
 

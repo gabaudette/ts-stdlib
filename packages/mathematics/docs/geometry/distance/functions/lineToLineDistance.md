@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v1.0.0**](../../../README.md)
+[**@ts-standard-library/mathematics v1.0.1**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **lineToLineDistance**(`line1Start`, `line1End`, `line2Start`, `line2End`): `number`
 
-Defined in: [geometry/distance.ts:52](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/mathematics/src/geometry/distance.ts#L52)
+Defined in: [geometry/distance.ts:52](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/mathematics/src/geometry/distance.ts#L52)
 
 Calculates the minimum distance between two line segments in 2D space.
 

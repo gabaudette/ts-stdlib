@@ -1,4 +1,4 @@
-[**@ts-standard-library/data-structures v1.0.4**](../../../README.md)
+[**@ts-standard-library/data-structures v1.0.5**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ITreeNode\<T\>
 
-Defined in: [trees/tree-node.ts:11](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/trees/tree-node.ts#L11)
+Defined in: [trees/tree-node.ts:11](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/trees/tree-node.ts#L11)
 
 Represents a node in a binary tree structure.
 
@@ -24,7 +24,7 @@ The type of the value stored in the node.
 
 > **value**: `T`
 
-Defined in: [trees/tree-node.ts:12](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/trees/tree-node.ts#L12)
+Defined in: [trees/tree-node.ts:12](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/trees/tree-node.ts#L12)
 
 The value stored in the node.
 
@@ -34,7 +34,7 @@ The value stored in the node.
 
 > **left**: `null` \| `ITreeNode`\<`T`\>
 
-Defined in: [trees/tree-node.ts:13](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/trees/tree-node.ts#L13)
+Defined in: [trees/tree-node.ts:13](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/trees/tree-node.ts#L13)
 
 Reference to the left child node, or `null` if none.
 
@@ -44,6 +44,6 @@ Reference to the left child node, or `null` if none.
 
 > **right**: `null` \| `ITreeNode`\<`T`\>
 
-Defined in: [trees/tree-node.ts:14](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/trees/tree-node.ts#L14)
+Defined in: [trees/tree-node.ts:14](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/trees/tree-node.ts#L14)
 
 Reference to the right child node, or `null` if none.

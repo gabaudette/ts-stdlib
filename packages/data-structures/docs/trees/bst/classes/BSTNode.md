@@ -1,4 +1,4 @@
-[**@ts-standard-library/data-structures v1.0.4**](../../../README.md)
+[**@ts-standard-library/data-structures v1.0.5**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: BSTNode\<T\>
 
-Defined in: [trees/bst.ts:9](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/trees/bst.ts#L9)
+Defined in: [trees/bst.ts:9](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/trees/bst.ts#L9)
 
 Represents a node in a Binary Search Tree (BST).
 Inherits from [TreeNode](../../tree-node/classes/TreeNode.md), and is typically used to store data and references to child nodes.
@@ -29,7 +29,7 @@ The type of value stored in the node.
 
 > **new BSTNode**\<`T`\>(`value`, `left`, `right`): `BSTNode`\<`T`\>
 
-Defined in: [trees/tree-node.ts:48](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/trees/tree-node.ts#L48)
+Defined in: [trees/tree-node.ts:48](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/trees/tree-node.ts#L48)
 
 #### Parameters
 
@@ -59,7 +59,7 @@ Defined in: [trees/tree-node.ts:48](https://github.com/gabaudette/ts-stdlib/blob
 
 > **value**: `T`
 
-Defined in: [trees/tree-node.ts:49](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/trees/tree-node.ts#L49)
+Defined in: [trees/tree-node.ts:49](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/trees/tree-node.ts#L49)
 
 The value stored in the node.
 
@@ -73,7 +73,7 @@ The value stored in the node.
 
 > **left**: `null` \| [`TreeNode`](../../tree-node/classes/TreeNode.md)\<`T`\> = `null`
 
-Defined in: [trees/tree-node.ts:50](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/trees/tree-node.ts#L50)
+Defined in: [trees/tree-node.ts:50](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/trees/tree-node.ts#L50)
 
 Reference to the left child node, or `null` if none.
 
@@ -87,7 +87,7 @@ Reference to the left child node, or `null` if none.
 
 > **right**: `null` \| [`TreeNode`](../../tree-node/classes/TreeNode.md)\<`T`\> = `null`
 
-Defined in: [trees/tree-node.ts:51](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/trees/tree-node.ts#L51)
+Defined in: [trees/tree-node.ts:51](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/trees/tree-node.ts#L51)
 
 Reference to the right child node, or `null` if none.
 

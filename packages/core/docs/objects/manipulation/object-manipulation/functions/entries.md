@@ -1,4 +1,4 @@
-[**@ts-standard-library/core v1.0.0**](../../../../README.md)
+[**@ts-standard-library/core v1.0.1**](../../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **entries**\<`T`\>(`obj`): \[keyof `T`, `T`\[keyof `T`\]\][]
 
-Defined in: [objects/manipulation/object-manipulation.ts:63](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/core/src/objects/manipulation/object-manipulation.ts#L63)
+Defined in: [objects/manipulation/object-manipulation.ts:63](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/core/src/objects/manipulation/object-manipulation.ts#L63)
 
 Returns an array of the object's own enumerable string-keyed property [key, value] pairs.
 

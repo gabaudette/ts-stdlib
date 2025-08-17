@@ -1,7 +1,7 @@
 {
     "name": "@ts-standard-library/data-structures",
     "description": "A collection of data structures for TypeScript.",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "repository": {
         "type": "git",
         "url": "https://github.com/gabaudette/ts-stdlib/tree/main/packages/data-structures"
@@ -27,6 +27,13 @@
         "README.md",
         "LICENSE"
     ],
+    "exports": {
+        ".": {
+            "import": "./dist/index.js",
+            "require": "./dist/index.js",
+            "types": "./dist/index.d.ts"
+        }
+    },
     "sideEffects": false,
     "scripts": {
         "build": "tsc",

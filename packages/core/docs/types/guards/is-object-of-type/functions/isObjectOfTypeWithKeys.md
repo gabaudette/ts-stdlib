@@ -1,4 +1,4 @@
-[**@ts-standard-library/core v1.0.0**](../../../../README.md)
+[**@ts-standard-library/core v1.0.1**](../../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **isObjectOfTypeWithKeys**\<`T`\>(`value`, `typeGuard`, `keys`): `value is T`
 
-Defined in: [types/guards/is-object-of-type.ts:29](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/core/src/types/guards/is-object-of-type.ts#L29)
+Defined in: [types/guards/is-object-of-type.ts:29](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/core/src/types/guards/is-object-of-type.ts#L29)
 
 Determines if a given value is an object of a specific type and contains all specified keys.
 

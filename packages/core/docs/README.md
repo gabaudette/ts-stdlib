@@ -1,4 +1,4 @@
-**@ts-standard-library/core v1.0.0**
+**@ts-standard-library/core v1.0.1**
 
 ***
 

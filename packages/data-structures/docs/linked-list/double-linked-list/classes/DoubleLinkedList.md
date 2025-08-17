@@ -1,4 +1,4 @@
-[**@ts-standard-library/data-structures v1.0.4**](../../../README.md)
+[**@ts-standard-library/data-structures v1.0.5**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: DoubleLinkedList\<T\>
 
-Defined in: [linked-list/double-linked-list.ts:42](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/linked-list/double-linked-list.ts#L42)
+Defined in: [linked-list/double-linked-list.ts:42](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/linked-list/double-linked-list.ts#L42)
 
 Represents a generic double linked list data structure.
 
@@ -58,7 +58,7 @@ The type of elements stored in the list.
 
 > **get** **size**(): `number`
 
-Defined in: [linked-list/double-linked-list.ts:121](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/linked-list/double-linked-list.ts#L121)
+Defined in: [linked-list/double-linked-list.ts:121](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/linked-list/double-linked-list.ts#L121)
 
 Gets the number of elements in the double linked list.
 
@@ -76,7 +76,7 @@ The current length of the list.
 
 > **get** **isEmpty**(): `boolean`
 
-Defined in: [linked-list/double-linked-list.ts:129](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/linked-list/double-linked-list.ts#L129)
+Defined in: [linked-list/double-linked-list.ts:129](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/linked-list/double-linked-list.ts#L129)
 
 Indicates whether the linked list contains no elements.
 
@@ -94,7 +94,7 @@ Indicates whether the linked list contains no elements.
 
 > **get** **headNode**(): `null` \| [`DoubleLinkedListNode`](DoubleLinkedListNode.md)\<`T`\>
 
-Defined in: [linked-list/double-linked-list.ts:137](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/linked-list/double-linked-list.ts#L137)
+Defined in: [linked-list/double-linked-list.ts:137](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/linked-list/double-linked-list.ts#L137)
 
 Gets the head (first) node of the double linked list.
 
@@ -112,7 +112,7 @@ The head node if the list is not empty; otherwise, `null`.
 
 > **get** **tailNode**(): `null` \| [`DoubleLinkedListNode`](DoubleLinkedListNode.md)\<`T`\>
 
-Defined in: [linked-list/double-linked-list.ts:145](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/linked-list/double-linked-list.ts#L145)
+Defined in: [linked-list/double-linked-list.ts:145](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/linked-list/double-linked-list.ts#L145)
 
 Gets the tail (last) node of the double linked list.
 
@@ -128,7 +128,7 @@ The last node in the list, or `null` if the list is empty.
 
 > **push**(`value`): `void`
 
-Defined in: [linked-list/double-linked-list.ts:57](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/linked-list/double-linked-list.ts#L57)
+Defined in: [linked-list/double-linked-list.ts:57](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/linked-list/double-linked-list.ts#L57)
 
 Adds a new element with the specified value to the end of the double linked list.
 
@@ -156,7 +156,7 @@ The length of the list is incremented.
 
 > **pop**(): `undefined` \| `T`
 
-Defined in: [linked-list/double-linked-list.ts:75](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/linked-list/double-linked-list.ts#L75)
+Defined in: [linked-list/double-linked-list.ts:75](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/linked-list/double-linked-list.ts#L75)
 
 Removes and returns the value from the end (tail) of the double linked list.
 If the list is empty, returns `undefined`.
@@ -173,7 +173,7 @@ The value of the removed tail node, or `undefined` if the list is empty.
 
 > **\[iterator\]**(): `IterableIterator`\<`T`\>
 
-Defined in: [linked-list/double-linked-list.ts:100](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/linked-list/double-linked-list.ts#L100)
+Defined in: [linked-list/double-linked-list.ts:100](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/linked-list/double-linked-list.ts#L100)
 
 Returns an iterator that yields each value in the double linked list in order from head to tail.
 
@@ -189,7 +189,7 @@ An iterator over the values in the list.
 
 > **clear**(): `void`
 
-Defined in: [linked-list/double-linked-list.ts:112](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/linked-list/double-linked-list.ts#L112)
+Defined in: [linked-list/double-linked-list.ts:112](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/linked-list/double-linked-list.ts#L112)
 
 Removes all nodes from the linked list, resetting its state.
 After calling this method, the list will be empty and its length will be zero.

@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v1.0.0**](../../README.md)
+[**@ts-standard-library/mathematics v1.0.1**](../../README.md)
 
 ***
 

@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v1.0.0**](../../../README.md)
+[**@ts-standard-library/mathematics v1.0.1**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **normalize3D**(`v`): [`Vector3D`](../type-aliases/Vector3D.md)
 
-Defined in: [vector/vector.ts:216](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/mathematics/src/vector/vector.ts#L216)
+Defined in: [vector/vector.ts:216](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/mathematics/src/vector/vector.ts#L216)
 
 Normalizes a 3D vector, returning a new vector with the same direction but a magnitude of 1.
 

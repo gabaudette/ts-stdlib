@@ -1,7 +1,7 @@
 {
     "name": "@ts-standard-library/algorithms",
     "description": "A collection of algorithms for TypeScript.",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "repository": {
         "type": "git",
         "url": "https://github.com/gabaudette/ts-stdlib/tree/main/packages/algorithms"
@@ -25,6 +25,13 @@
         "README.md",
         "LICENSE"
     ],
+    "exports": {
+        ".": {
+            "import": "./dist/index.js",
+            "require": "./dist/index.js",
+            "types": "./dist/index.d.ts"
+        }
+    },
     "sideEffects": false,
     "scripts": {
         "build": "tsc",

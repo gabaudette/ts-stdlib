@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v1.0.0**](../../../README.md)
+[**@ts-standard-library/mathematics v1.0.1**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **binomialCoefficient**(`n`, `k`): `null` \| `number`
 
-Defined in: [statistics/statistics.ts:436](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/mathematics/src/statistics/statistics.ts#L436)
+Defined in: [statistics/statistics.ts:436](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/mathematics/src/statistics/statistics.ts#L436)
 
 Calculates the binomial coefficient, also known as "n choose k", which represents
 the number of ways to choose `k` elements from a set of `n` elements without regard to order.

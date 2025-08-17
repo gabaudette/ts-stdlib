@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v1.0.0**](../../../README.md)
+[**@ts-standard-library/mathematics v1.0.1**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **rankArray**(`arr`): `number`[]
 
-Defined in: [statistics/statistics.ts:830](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/mathematics/src/statistics/statistics.ts#L830)
+Defined in: [statistics/statistics.ts:830](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/mathematics/src/statistics/statistics.ts#L830)
 
 Returns the ranks of the elements in the input array.
 The smallest value receives rank 1, the next smallest rank 2, and so on.

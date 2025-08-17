@@ -1,4 +1,4 @@
-**@ts-standard-library/algorithms v1.0.4**
+**@ts-standard-library/algorithms v1.0.5**
 
 ***
 

@@ -1,4 +1,4 @@
-[**@ts-standard-library/data-structures v1.0.4**](../../../README.md)
+[**@ts-standard-library/data-structures v1.0.5**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: BoundedStack\<T\>
 
-Defined in: [stack/bounded-stack.ts:52](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/stack/bounded-stack.ts#L52)
+Defined in: [stack/bounded-stack.ts:52](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/stack/bounded-stack.ts#L52)
 
 A stack data structure with a fixed maximum capacity.
 
@@ -77,7 +77,7 @@ The element type stored in the stack.
 
 > **new BoundedStack**\<`T`\>(`maxSize`, `initialValues?`): `BoundedStack`\<`T`\>
 
-Defined in: [stack/bounded-stack.ts:55](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/stack/bounded-stack.ts#L55)
+Defined in: [stack/bounded-stack.ts:55](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/stack/bounded-stack.ts#L55)
 
 #### Parameters
 
@@ -103,7 +103,7 @@ Defined in: [stack/bounded-stack.ts:55](https://github.com/gabaudette/ts-stdlib/
 
 > **push**(`value`): `void`
 
-Defined in: [stack/bounded-stack.ts:76](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/stack/bounded-stack.ts#L76)
+Defined in: [stack/bounded-stack.ts:76](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/stack/bounded-stack.ts#L76)
 
 #### Parameters
 
@@ -131,7 +131,7 @@ If the stack is full or exceeds the maximum size.
 
 > **pop**(): `undefined` \| `T`
 
-Defined in: [stack/stack.ts:47](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/stack/stack.ts#L47)
+Defined in: [stack/stack.ts:47](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/stack/stack.ts#L47)
 
 Removes and returns the top element from the stack.
 
@@ -151,7 +151,7 @@ The element at the top of the stack, or `undefined` if the stack is empty.
 
 > **peek**(): `undefined` \| `T`
 
-Defined in: [stack/stack.ts:57](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/stack/stack.ts#L57)
+Defined in: [stack/stack.ts:57](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/stack/stack.ts#L57)
 
 Returns the top element of the stack without removing it.
 If the stack is empty, returns `undefined`.
@@ -172,7 +172,7 @@ The top element of the stack, or `undefined` if the stack is empty.
 
 > **isEmpty**(): `boolean`
 
-Defined in: [stack/stack.ts:70](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/stack/stack.ts#L70)
+Defined in: [stack/stack.ts:70](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/stack/stack.ts#L70)
 
 Checks whether the stack is empty.
 
@@ -192,7 +192,7 @@ Checks whether the stack is empty.
 
 > **size**(): `number`
 
-Defined in: [stack/stack.ts:79](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/stack/stack.ts#L79)
+Defined in: [stack/stack.ts:79](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/stack/stack.ts#L79)
 
 Returns the number of elements currently in the stack.
 
@@ -212,7 +212,7 @@ The size of the stack.
 
 > **clear**(): `void`
 
-Defined in: [stack/stack.ts:89](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/data-structures/src/stack/stack.ts#L89)
+Defined in: [stack/stack.ts:89](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/stack/stack.ts#L89)
 
 Removes all elements from the stack, resetting it to an empty state.
 

@@ -1,4 +1,4 @@
-[**@ts-standard-library/algorithms v1.0.4**](../../../README.md)
+[**@ts-standard-library/algorithms v1.0.5**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **countingSort**(`array`, `max`): `number`[]
 
-Defined in: [sorting/counting-sort.ts:20](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/algorithms/src/sorting/counting-sort.ts#L20)
+Defined in: [sorting/counting-sort.ts:20](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/algorithms/src/sorting/counting-sort.ts#L20)
 
 Sorts an array of non-negative integers using the counting sort algorithm.
 

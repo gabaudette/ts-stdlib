@@ -1,4 +1,4 @@
-[**@ts-standard-library/core v1.0.0**](../../../README.md)
+[**@ts-standard-library/core v1.0.1**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **clone**\<`T`\>(`obj`): `T`
 
-Defined in: [objects/clone.ts:21](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/core/src/objects/clone.ts#L21)
+Defined in: [objects/clone.ts:21](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/core/src/objects/clone.ts#L21)
 
 Creates a deep clone of the provided object or array.
 

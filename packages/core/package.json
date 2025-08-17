@@ -1,7 +1,7 @@
 {
     "name": "@ts-standard-library/core",
     "description": "A collection of core utilities for TypeScript.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "repository": {
         "type": "git",
         "url": "https://github.com/gabaudette/ts-stdlib/tree/main/packages/core"
@@ -24,6 +24,13 @@
         "README.md",
         "LICENSE"
     ],
+    "exports": {
+        ".": {
+            "import": "./dist/index.js",
+            "require": "./dist/index.js",
+            "types": "./dist/index.d.ts"
+        }
+    },
     "sideEffects": false,
     "scripts": {
         "build": "tsc",

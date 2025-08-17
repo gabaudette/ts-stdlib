@@ -1,4 +1,4 @@
-[**@ts-standard-library/string v1.0.4**](../../../README.md)
+[**@ts-standard-library/string v1.0.5**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **toUpperCase**(`text`): `string`
 
-Defined in: [case-conversion/case-conversion.ts:7](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/string/src/case-conversion/case-conversion.ts#L7)
+Defined in: [case-conversion/case-conversion.ts:7](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/string/src/case-conversion/case-conversion.ts#L7)
 
 Converts all the characters in the given string to uppercase.
 

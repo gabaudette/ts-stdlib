@@ -1,4 +1,4 @@
-[**@ts-standard-library/core v1.0.0**](../../../README.md)
+[**@ts-standard-library/core v1.0.1**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **shallowEqual**\<`T`\>(`a`, `b`): `boolean`
 
-Defined in: [compare/shallow-equal.ts:14](https://github.com/gabaudette/ts-stdlib/blob/ea80ba1db09c741e99f8cb19e94e5a29b81b623b/packages/core/src/compare/shallow-equal.ts#L14)
+Defined in: [compare/shallow-equal.ts:14](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/core/src/compare/shallow-equal.ts#L14)
 
 Performs a shallow equality comparison between two values.
 

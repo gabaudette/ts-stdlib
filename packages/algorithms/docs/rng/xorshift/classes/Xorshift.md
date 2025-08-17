@@ -1,4 +1,4 @@
-[**@ts-standard-library/algorithms v1.0.6**](../../../README.md)
+[**@ts-standard-library/algorithms v1.0.7**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: Xorshift
 
-Defined in: [rng/xorshift.ts:22](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/algorithms/src/rng/xorshift.ts#L22)
+Defined in: [rng/xorshift.ts:22](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/algorithms/src/rng/xorshift.ts#L22)
 
 Implements a simple Xorshift random number generator (RNG).
 
@@ -40,7 +40,7 @@ https://en.wikipedia.org/wiki/Xorshift
 
 > **new Xorshift**(`seed`): `Xorshift`
 
-Defined in: [rng/xorshift.ts:25](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/algorithms/src/rng/xorshift.ts#L25)
+Defined in: [rng/xorshift.ts:25](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/algorithms/src/rng/xorshift.ts#L25)
 
 #### Parameters
 
@@ -58,7 +58,7 @@ Defined in: [rng/xorshift.ts:25](https://github.com/gabaudette/ts-stdlib/blob/4a
 
 > **randomInt**(): `number`
 
-Defined in: [rng/xorshift.ts:29](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/algorithms/src/rng/xorshift.ts#L29)
+Defined in: [rng/xorshift.ts:29](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/algorithms/src/rng/xorshift.ts#L29)
 
 #### Returns
 
@@ -74,7 +74,7 @@ Defined in: [rng/xorshift.ts:29](https://github.com/gabaudette/ts-stdlib/blob/4a
 
 > **random**(): `number`
 
-Defined in: [rng/xorshift.ts:33](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/algorithms/src/rng/xorshift.ts#L33)
+Defined in: [rng/xorshift.ts:33](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/algorithms/src/rng/xorshift.ts#L33)
 
 #### Returns
 
@@ -90,7 +90,7 @@ Defined in: [rng/xorshift.ts:33](https://github.com/gabaudette/ts-stdlib/blob/4a
 
 > **next**(): `number`
 
-Defined in: [rng/xorshift.ts:37](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/algorithms/src/rng/xorshift.ts#L37)
+Defined in: [rng/xorshift.ts:37](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/algorithms/src/rng/xorshift.ts#L37)
 
 #### Returns
 

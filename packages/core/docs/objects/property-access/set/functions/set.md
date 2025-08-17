@@ -1,4 +1,4 @@
-[**@ts-standard-library/core v1.0.2**](../../../../README.md)
+[**@ts-standard-library/core v1.0.3**](../../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **set**\<`T`, `K`\>(`obj`, `key`, `value`): `T`
 
-Defined in: [objects/property-access/set.ts:20](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/core/src/objects/property-access/set.ts#L20)
+Defined in: [objects/property-access/set.ts:20](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/core/src/objects/property-access/set.ts#L20)
 
 Returns a new object with the specified property set to the given value.
 

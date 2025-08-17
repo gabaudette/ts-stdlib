@@ -1,4 +1,4 @@
-[**@ts-standard-library/algorithms v1.0.6**](../../../README.md)
+[**@ts-standard-library/algorithms v1.0.7**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **heapSort**(`array`): `number`[]
 
-Defined in: [sorting/heap-sort.ts:12](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/algorithms/src/sorting/heap-sort.ts#L12)
+Defined in: [sorting/heap-sort.ts:12](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/algorithms/src/sorting/heap-sort.ts#L12)
 
 Sorts an array of numbers in ascending order using the heap sort algorithm.
 

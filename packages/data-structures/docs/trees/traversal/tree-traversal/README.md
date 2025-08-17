@@ -1,4 +1,4 @@
-[**@ts-standard-library/data-structures v1.0.6**](../../../README.md)
+[**@ts-standard-library/data-structures v1.0.7**](../../../README.md)
 
 ***
 

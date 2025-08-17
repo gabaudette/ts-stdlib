@@ -1,4 +1,4 @@
-[**@ts-standard-library/core v1.0.2**](../../../README.md)
+[**@ts-standard-library/core v1.0.3**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **symmetricDifference**\<`T`\>(`array1`, `array2`): `T`[]
 
-Defined in: [arrays/functions.ts:252](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/core/src/arrays/functions.ts#L252)
+Defined in: [arrays/functions.ts:252](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/core/src/arrays/functions.ts#L252)
 
 Returns the symmetric difference between two arrays.
 The symmetric difference consists of elements that are present in either of the arrays, but not in both.

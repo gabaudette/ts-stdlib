@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v1.0.2**](../../../README.md)
+[**@ts-standard-library/mathematics v1.0.3**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **arePolygonsEqual**(`polygon1`, `polygon2`): `boolean`
 
-Defined in: [geometry/polygon.ts:171](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/mathematics/src/geometry/polygon.ts#L171)
+Defined in: [geometry/polygon.ts:171](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/mathematics/src/geometry/polygon.ts#L171)
 
 Determines whether two polygons are equal by comparing their vertices.
 

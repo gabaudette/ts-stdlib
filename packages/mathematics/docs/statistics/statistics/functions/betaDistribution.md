@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v1.0.2**](../../../README.md)
+[**@ts-standard-library/mathematics v1.0.3**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **betaDistribution**(`x`, `alpha`, `beta`): `null` \| `number`
 
-Defined in: [statistics/statistics.ts:653](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/mathematics/src/statistics/statistics.ts#L653)
+Defined in: [statistics/statistics.ts:653](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/mathematics/src/statistics/statistics.ts#L653)
 
 Calculates the probability density function (PDF) of the Beta distribution for a given value `x`
 with shape parameters `alpha` and `beta`.

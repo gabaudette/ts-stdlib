@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v1.0.2**](../../../README.md)
+[**@ts-standard-library/mathematics v1.0.3**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **asec**(`value`): `number`
 
-Defined in: [trigonometry/trigonometry.ts:68](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/mathematics/src/trigonometry/trigonometry.ts#L68)
+Defined in: [trigonometry/trigonometry.ts:68](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/mathematics/src/trigonometry/trigonometry.ts#L68)
 
 Calculates the arcsecant (inverse secant) of a number.
 

@@ -1,4 +1,4 @@
-[**@ts-standard-library/core v1.0.2**](../../../../README.md)
+[**@ts-standard-library/core v1.0.3**](../../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **values**\<`T`\>(`obj`): `T`\[keyof `T`\][]
 
-Defined in: [objects/manipulation/object-manipulation.ts:41](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/core/src/objects/manipulation/object-manipulation.ts#L41)
+Defined in: [objects/manipulation/object-manipulation.ts:41](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/core/src/objects/manipulation/object-manipulation.ts#L41)
 
 Returns an array of the enumerable property values of the given object.
 

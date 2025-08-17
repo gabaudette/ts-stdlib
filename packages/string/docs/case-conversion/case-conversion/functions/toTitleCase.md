@@ -1,4 +1,4 @@
-[**@ts-standard-library/string v1.0.6**](../../../README.md)
+[**@ts-standard-library/string v1.0.7**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **toTitleCase**(`text`): `string`
 
-Defined in: [case-conversion/case-conversion.ts:135](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/string/src/case-conversion/case-conversion.ts#L135)
+Defined in: [case-conversion/case-conversion.ts:135](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/string/src/case-conversion/case-conversion.ts#L135)
 
 Converts a given string to title case, capitalizing the first letter of each word.
 

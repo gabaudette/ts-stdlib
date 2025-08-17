@@ -1,4 +1,4 @@
-[**@ts-standard-library/data-structures v1.0.6**](../../../README.md)
+[**@ts-standard-library/data-structures v1.0.7**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: TreeNode\<T\>
 
-Defined in: [trees/tree-node.ts:47](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/data-structures/src/trees/tree-node.ts#L47)
+Defined in: [trees/tree-node.ts:47](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/data-structures/src/trees/tree-node.ts#L47)
 
 Represents a single node in a (binary) tree structure.
 
@@ -71,7 +71,7 @@ The type of the value stored in the node.
 
 > **new TreeNode**\<`T`\>(`value`, `left`, `right`): `TreeNode`\<`T`\>
 
-Defined in: [trees/tree-node.ts:48](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/data-structures/src/trees/tree-node.ts#L48)
+Defined in: [trees/tree-node.ts:48](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/data-structures/src/trees/tree-node.ts#L48)
 
 #### Parameters
 
@@ -97,7 +97,7 @@ Defined in: [trees/tree-node.ts:48](https://github.com/gabaudette/ts-stdlib/blob
 
 > **value**: `T`
 
-Defined in: [trees/tree-node.ts:49](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/data-structures/src/trees/tree-node.ts#L49)
+Defined in: [trees/tree-node.ts:49](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/data-structures/src/trees/tree-node.ts#L49)
 
 The value stored in the node.
 
@@ -111,7 +111,7 @@ The value stored in the node.
 
 > **left**: `null` \| `TreeNode`\<`T`\> = `null`
 
-Defined in: [trees/tree-node.ts:50](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/data-structures/src/trees/tree-node.ts#L50)
+Defined in: [trees/tree-node.ts:50](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/data-structures/src/trees/tree-node.ts#L50)
 
 Reference to the left child node, or `null` if none.
 
@@ -125,7 +125,7 @@ Reference to the left child node, or `null` if none.
 
 > **right**: `null` \| `TreeNode`\<`T`\> = `null`
 
-Defined in: [trees/tree-node.ts:51](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/data-structures/src/trees/tree-node.ts#L51)
+Defined in: [trees/tree-node.ts:51](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/data-structures/src/trees/tree-node.ts#L51)
 
 Reference to the right child node, or `null` if none.
 

@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v1.0.2**](../../../README.md)
+[**@ts-standard-library/mathematics v1.0.3**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **isBoundingBoxIntersecting**(`box1`, `box2`): `boolean`
 
-Defined in: [geometry/distance.ts:233](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/mathematics/src/geometry/distance.ts#L233)
+Defined in: [geometry/distance.ts:233](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/mathematics/src/geometry/distance.ts#L233)
 
 Determines whether two axis-aligned bounding boxes intersect.
 

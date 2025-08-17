@@ -1,4 +1,4 @@
-[**@ts-standard-library/data-structures v1.0.6**](../../../README.md)
+[**@ts-standard-library/data-structures v1.0.7**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: AVLTree\<T\>
 
-Defined in: [trees/avl-tree.ts:45](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/data-structures/src/trees/avl-tree.ts#L45)
+Defined in: [trees/avl-tree.ts:45](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/data-structures/src/trees/avl-tree.ts#L45)
 
 Represents an AVL (Adelson-Velsky and Landis) self-balancing binary search tree.
 
@@ -57,7 +57,7 @@ The type of values stored in the tree.
 
 > **insert**(`value`, `compare`): `void`
 
-Defined in: [trees/avl-tree.ts:168](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/data-structures/src/trees/avl-tree.ts#L168)
+Defined in: [trees/avl-tree.ts:168](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/data-structures/src/trees/avl-tree.ts#L168)
 
 Inserts a value into the AVL tree.
 
@@ -86,7 +86,7 @@ Optional comparison function to determine the order of elements.
 
 > **contains**(`value`, `compare`): `boolean`
 
-Defined in: [trees/avl-tree.ts:183](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/data-structures/src/trees/avl-tree.ts#L183)
+Defined in: [trees/avl-tree.ts:183](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/data-structures/src/trees/avl-tree.ts#L183)
 
 Determines whether the AVL tree contains a node with the specified value.
 

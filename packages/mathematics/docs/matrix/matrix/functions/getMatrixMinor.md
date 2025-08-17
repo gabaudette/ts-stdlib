@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v1.0.2**](../../../README.md)
+[**@ts-standard-library/mathematics v1.0.3**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **getMatrixMinor**(`matrix`, `row`, `col`): `null` \| [`Matrix`](../type-aliases/Matrix.md)
 
-Defined in: [matrix/matrix.ts:216](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/mathematics/src/matrix/matrix.ts#L216)
+Defined in: [matrix/matrix.ts:216](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/mathematics/src/matrix/matrix.ts#L216)
 
 Returns the minor of a matrix by removing the specified row and column.
 

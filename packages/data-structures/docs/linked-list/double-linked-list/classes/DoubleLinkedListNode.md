@@ -1,4 +1,4 @@
-[**@ts-standard-library/data-structures v1.0.6**](../../../README.md)
+[**@ts-standard-library/data-structures v1.0.7**](../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Class: DoubleLinkedListNode\<T\>
 
-Defined in: [linked-list/double-linked-list.ts:10](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/data-structures/src/linked-list/double-linked-list.ts#L10)
+Defined in: [linked-list/double-linked-list.ts:10](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/data-structures/src/linked-list/double-linked-list.ts#L10)
 
 Represents a node in a double linked list.
 
@@ -28,7 +28,7 @@ The type of the value stored in the node.
 
 > **new DoubleLinkedListNode**\<`T`\>(`value`): `DoubleLinkedListNode`\<`T`\>
 
-Defined in: [linked-list/double-linked-list.ts:15](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/data-structures/src/linked-list/double-linked-list.ts#L15)
+Defined in: [linked-list/double-linked-list.ts:15](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/data-structures/src/linked-list/double-linked-list.ts#L15)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [linked-list/double-linked-list.ts:15](https://github.com/gabaudette
 
 > **value**: `T`
 
-Defined in: [linked-list/double-linked-list.ts:11](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/data-structures/src/linked-list/double-linked-list.ts#L11)
+Defined in: [linked-list/double-linked-list.ts:11](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/data-structures/src/linked-list/double-linked-list.ts#L11)
 
 The value contained in the node.
 
@@ -56,7 +56,7 @@ The value contained in the node.
 
 > **next**: `null` \| `DoubleLinkedListNode`\<`T`\> = `null`
 
-Defined in: [linked-list/double-linked-list.ts:12](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/data-structures/src/linked-list/double-linked-list.ts#L12)
+Defined in: [linked-list/double-linked-list.ts:12](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/data-structures/src/linked-list/double-linked-list.ts#L12)
 
 Reference to the next node in the list, or `null` if this is the last node.
 
@@ -66,6 +66,6 @@ Reference to the next node in the list, or `null` if this is the last node.
 
 > **prev**: `null` \| `DoubleLinkedListNode`\<`T`\> = `null`
 
-Defined in: [linked-list/double-linked-list.ts:13](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/data-structures/src/linked-list/double-linked-list.ts#L13)
+Defined in: [linked-list/double-linked-list.ts:13](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/data-structures/src/linked-list/double-linked-list.ts#L13)
 
 Reference to the previous node in the list, or `null` if this is the first node.

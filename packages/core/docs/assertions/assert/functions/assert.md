@@ -1,4 +1,4 @@
-[**@ts-standard-library/core v1.0.2**](../../../README.md)
+[**@ts-standard-library/core v1.0.3**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **assert**(`condition`, `message?`): `asserts condition`
 
-Defined in: [assertions/assert.ts:12](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/core/src/assertions/assert.ts#L12)
+Defined in: [assertions/assert.ts:12](https://github.com/gabaudette/ts-stdlib/blob/be448e6a9d9c20c6c2f27f6550ce4e65fc8c9b89/packages/core/src/assertions/assert.ts#L12)
 
 Asserts that a given condition is true at runtime.
 

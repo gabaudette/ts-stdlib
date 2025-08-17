@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v1.0.1**](../../../README.md)
+[**@ts-standard-library/mathematics v1.0.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **coefficientOfVariation**(`numbers`): `null` \| `number`
 
-Defined in: [statistics/statistics.ts:109](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/mathematics/src/statistics/statistics.ts#L109)
+Defined in: [statistics/statistics.ts:109](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/mathematics/src/statistics/statistics.ts#L109)
 
 Calculates the coefficient of variation (CV) for a given array of numbers.
 The coefficient of variation is defined as the ratio of the standard deviation

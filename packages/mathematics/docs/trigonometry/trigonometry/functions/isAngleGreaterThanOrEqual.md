@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v1.0.1**](../../../README.md)
+[**@ts-standard-library/mathematics v1.0.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **isAngleGreaterThanOrEqual**(`angle1`, `angle2`): `boolean`
 
-Defined in: [trigonometry/trigonometry.ts:315](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/mathematics/src/trigonometry/trigonometry.ts#L315)
+Defined in: [trigonometry/trigonometry.ts:315](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/mathematics/src/trigonometry/trigonometry.ts#L315)
 
 Determines whether the first angle is greater than or equal to the second angle,
 after normalizing both angles to a standard range (typically [0, 2π) or [0, 360)).

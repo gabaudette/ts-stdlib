@@ -1,4 +1,4 @@
-**@ts-standard-library/string v1.0.5**
+**@ts-standard-library/string v1.0.6**
 
 ***
 

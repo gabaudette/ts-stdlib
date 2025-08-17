@@ -1,4 +1,4 @@
-[**@ts-standard-library/algorithms v1.0.5**](../../../README.md)
+[**@ts-standard-library/algorithms v1.0.6**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **bubbleSort**(`arr`): `number`[]
 
-Defined in: [sorting/bubble-sort.ts:20](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/algorithms/src/sorting/bubble-sort.ts#L20)
+Defined in: [sorting/bubble-sort.ts:20](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/algorithms/src/sorting/bubble-sort.ts#L20)
 
 Sorts an array using the bubble sort algorithm.
 

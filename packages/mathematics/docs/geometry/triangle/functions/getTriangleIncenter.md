@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v1.0.1**](../../../README.md)
+[**@ts-standard-library/mathematics v1.0.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **getTriangleIncenter**(`triangle`): `null` \| \{ `x`: `number`; `y`: `number`; \}
 
-Defined in: [geometry/triangle.ts:350](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/mathematics/src/geometry/triangle.ts#L350)
+Defined in: [geometry/triangle.ts:350](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/mathematics/src/geometry/triangle.ts#L350)
 
 Calculates the incenter (the intersection point of the angle bisectors)
 of a given triangle.

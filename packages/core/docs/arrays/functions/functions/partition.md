@@ -1,4 +1,4 @@
-[**@ts-standard-library/core v1.0.1**](../../../README.md)
+[**@ts-standard-library/core v1.0.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **partition**\<`T`\>(`array`, `predicate`): \[`T`[], `T`[]\]
 
-Defined in: [arrays/functions.ts:66](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/core/src/arrays/functions.ts#L66)
+Defined in: [arrays/functions.ts:66](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/core/src/arrays/functions.ts#L66)
 
 Splits an array into two arrays based on a predicate function.
 

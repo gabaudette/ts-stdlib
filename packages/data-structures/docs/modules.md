@@ -1,8 +1,8 @@
-[**@ts-standard-library/data-structures v1.0.5**](README.md)
+[**@ts-standard-library/data-structures v1.0.6**](README.md)
 
 ***
 
-# @ts-standard-library/data-structures v1.0.5
+# @ts-standard-library/data-structures v1.0.6
 
 ## Modules
 

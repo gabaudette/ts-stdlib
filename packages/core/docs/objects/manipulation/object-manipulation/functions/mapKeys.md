@@ -1,4 +1,4 @@
-[**@ts-standard-library/core v1.0.1**](../../../../README.md)
+[**@ts-standard-library/core v1.0.2**](../../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **mapKeys**\<`T`, `K`\>(`obj`, `fn`): `{ [P in string]: T[keyof T] }`
 
-Defined in: [objects/manipulation/object-manipulation.ts:111](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/core/src/objects/manipulation/object-manipulation.ts#L111)
+Defined in: [objects/manipulation/object-manipulation.ts:111](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/core/src/objects/manipulation/object-manipulation.ts#L111)
 
 Creates a new object with the keys mapped by the provided function.
 

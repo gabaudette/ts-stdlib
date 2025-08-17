@@ -1,4 +1,4 @@
-[**@ts-standard-library/algorithms v1.0.5**](../../../README.md)
+[**@ts-standard-library/algorithms v1.0.6**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **exchangeSort**\<`T`\>(`array`, `compareFn`): `T`[]
 
-Defined in: [sorting/exchange-sort.ts:19](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/algorithms/src/sorting/exchange-sort.ts#L19)
+Defined in: [sorting/exchange-sort.ts:19](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/algorithms/src/sorting/exchange-sort.ts#L19)
 
 Sorts an array in-place using the exchange sort algorithm.
 Exchange sort compares each pair of elements and swaps them if they are out of order,

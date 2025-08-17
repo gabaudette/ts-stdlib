@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v1.0.1**](../../../README.md)
+[**@ts-standard-library/mathematics v1.0.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **solveQuadraticEquation**(`a`, `b`, `c`): `null` \| \[`number`, `number`\]
 
-Defined in: [algebra/equation.ts:29](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/mathematics/src/algebra/equation.ts#L29)
+Defined in: [algebra/equation.ts:29](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/mathematics/src/algebra/equation.ts#L29)
 
 Solves a quadratic equation of the form ax² + bx + c = 0.
 

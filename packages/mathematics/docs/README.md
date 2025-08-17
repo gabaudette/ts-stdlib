@@ -1,8 +1,8 @@
-**@ts-standard-library/mathematics v1.0.1**
+**@ts-standard-library/mathematics v1.0.2**
 
 ***
 
-# @ts-standard-library/mathematics v1.0.1
+# @ts-standard-library/mathematics v1.0.2
 
 ## Modules
 

@@ -1,4 +1,4 @@
-[**@ts-standard-library/mathematics v1.0.1**](../../../README.md)
+[**@ts-standard-library/mathematics v1.0.2**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **generateArithmeticSequence**(`start`, `difference`, `n`): `number`[]
 
-Defined in: [algebra/sequence.ts:103](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/mathematics/src/algebra/sequence.ts#L103)
+Defined in: [algebra/sequence.ts:103](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/mathematics/src/algebra/sequence.ts#L103)
 
 Generates an arithmetic sequence as an array of numbers.
 

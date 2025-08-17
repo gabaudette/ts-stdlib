@@ -1,4 +1,4 @@
-[**@ts-standard-library/core v1.0.1**](../../../../README.md)
+[**@ts-standard-library/core v1.0.2**](../../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **isNumberArray**(`value`): `value is number[]`
 
-Defined in: [types/guards/is-number.ts:27](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/core/src/types/guards/is-number.ts#L27)
+Defined in: [types/guards/is-number.ts:27](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/core/src/types/guards/is-number.ts#L27)
 
 Determines whether the provided value is an array consisting entirely of numbers.
 

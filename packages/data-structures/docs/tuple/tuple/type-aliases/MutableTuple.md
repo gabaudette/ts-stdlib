@@ -1,4 +1,4 @@
-[**@ts-standard-library/data-structures v1.0.5**](../../../README.md)
+[**@ts-standard-library/data-structures v1.0.6**](../../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **MutableTuple**\<`T1`, `T2`\> = \[`T1`, `T2`\]
 
-Defined in: [tuple/tuple.ts:117](https://github.com/gabaudette/ts-stdlib/blob/7333da76bc775fbabd0907ad8519b912cfc2fe26/packages/data-structures/src/tuple/tuple.ts#L117)
+Defined in: [tuple/tuple.ts:117](https://github.com/gabaudette/ts-stdlib/blob/4a412e6fb273dc9fcab54b84c05921f52dac4b3f/packages/data-structures/src/tuple/tuple.ts#L117)
 
 Represents a mutable tuple containing two elements of types `T1` and `T2`.
 
